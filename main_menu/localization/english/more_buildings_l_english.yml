@@ -4,6 +4,8 @@
   beekeepers_hut_desc: "A small hut where beekeepers tend to their hives, producing honey and beeswax."
   shallow_tin_mine: "Shallow Tin Mine"
   shallow_tin_mine_desc: "A mine that extracts tin ore from shallow river deposits."
+  hunting_camp: "Hunting Camp"
+  hunting_camp_desc: "A camp where hunters gather to trap and hunt wild game."
 
   urban_housing_expansion: "Urban Housing"
   urban_housing_expansion_desc: "An expansion of urban housing to accommodate a growing population."

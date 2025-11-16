@@ -52,11 +52,40 @@ beekeepers_hut = {
 		beekeepers_hut_maintenance = {
 			produced = beeswax
 			output = 0.5
-			lumber = 0.2
+			lumber = 0.25
 			tools = 0.05
 			category = building_maintenance
 		}
 	}
 	build_time = rural_build_time
 	construction_demand = farm_constructions
+}
+
+hunting_camp = {
+	is_foreign = no
+	max_levels = rural_building_cap
+	pop_type = laborers
+	employment_size = rural_peasant_produce_employment
+	rural_settlement = yes
+	town = no
+	city = no
+	location_potential = {
+		OR = {
+			vegetation = forest
+			vegetation = woods
+			vegetation = jungle
+		}
+	}
+	category = rgo_building_category
+	unique_production_methods = {
+		hunting_camp_maintenance = {
+			produced = wild_game
+			output = 0.75
+			lumber = 0.3
+			tools = 0.05
+			category = building_maintenance
+		}
+	}
+	build_time = rural_build_time
+	construction_demand = basic_construction_needs
 }
