@@ -59,10 +59,17 @@ urban_sewage_system = {
 	town = yes
 	city = yes
 	unique_production_methods = {
-		urban_sewage_system_maintenance = {
+		urban_sewage_system_maintenance_lead_pipes = {
 			sand = 0.25
 			masonry = 0.5
 			lead = 0.1
+			category = building_maintenance
+		}
+		urban_sewage_system_maintenance_copper_pipes = {
+			sand = 0.25
+			masonry = 0.5
+			copper = 0.09
+			tin = 0.01
 			category = building_maintenance
 		}
 	}

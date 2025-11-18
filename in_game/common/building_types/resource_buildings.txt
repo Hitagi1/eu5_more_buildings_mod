@@ -32,6 +32,56 @@ shallow_tin_mine = {
 	construction_demand = basic_construction_needs
 }
 
+galenite_extraction = {
+	is_foreign = no
+	max_levels = rural_building_cap
+	pop_type = laborers
+	employment_size = rural_peasant_produce_employment
+	rural_settlement = yes
+	town = yes
+	city = yes
+	location_potential = {
+		raw_material = goods:silver
+	}
+	category = rgo_building_category
+	unique_production_methods = {
+		galenite_extraction_maintenance = {
+			produced = lead
+			output = 0.4
+			coal = 0.1
+			tools = 0.05
+			category = building_maintenance
+		}
+	}
+	build_time = rural_build_time
+	construction_demand = basic_construction_needs
+}
+
+cinnabar_refinement = {
+	is_foreign = no
+	max_levels = rural_building_cap
+	pop_type = laborers
+	employment_size = rural_peasant_produce_employment
+	rural_settlement = yes
+	town = yes
+	city = yes
+	location_potential = {
+		has_volcano = yes
+	}
+	category = rgo_building_category
+	unique_production_methods = {
+		cinnabar_refinement_maintenance = {
+			produced = mercury
+			output = 0.5
+			coal = 0.1
+			tools = 0.05
+			category = building_maintenance
+		}
+	}
+	build_time = rural_build_time
+	construction_demand = basic_construction_needs
+}
+
 beekeepers_hut = {
 	is_foreign = no
 	max_levels = rural_building_cap

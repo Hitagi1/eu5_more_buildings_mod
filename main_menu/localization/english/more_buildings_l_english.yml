@@ -1,15 +1,34 @@
 ﻿l_english:
 
   beekeepers_hut: "Beekeepers Hut"
-  beekeepers_hut_desc: "A small hut where beekeepers tend to their hives, producing honey and beeswax."
+  beekeepers_hut_desc: "A small hut where beekeepers tend to their hives, producing honey and beeswax for the local market."
+  beekeepers_hut_maintenance: "Bee Hives"
+
   shallow_tin_mine: "Shallow Tin Mine"
-  shallow_tin_mine_desc: "A mine that extracts tin ore from shallow river deposits."
+  shallow_tin_mine_desc: "A mine that extracts tin ore from shallow river deposits, supplying raw material for metalworking and trade."
+  shallow_tin_mine_maintenance: "Tin Ore extraction"
+
+  galenite_extraction: "Galena Refinement"
+  galenite_extraction_desc: "A facility that processes galena ore to extract additional lead and recover other useful minerals."
+  galenite_extraction_maintenance: "Galena Ore extraction"
+
+  cinnabar_refinement: "Cinnabar Extraction"
+  cinnabar_refinement_desc: "A facility that processes cinnabar ore to extract mercury for use in various crafts and trade."
+  cinnabar_refinement_maintenance: "Mercury Ore extraction"
+
   hunting_camp: "Hunting Camp"
-  hunting_camp_desc: "A camp where hunters gather to trap and hunt wild game."
+  hunting_camp_desc: "A camp where hunters gather to trap and hunt wild game, supplying meat and pelts to nearby settlements."
+  hunting_camp_maintenance: "Hunting Supplies"
 
   urban_housing_expansion: "Urban Housing"
-  urban_housing_expansion_desc: "An expansion of urban housing to accommodate a growing population."
+  urban_housing_expansion_desc: "An expansion of urban housing designed to accommodate a growing population and reduce overcrowding."
+  urban_housing_expansion_maintenance: "Housing Maintenance"
+
   urban_sewage_system: "Urban Sewage System"
-  urban_sewage_system_desc: "A sewage system that improves sanitation and public health in urban areas."
+  urban_sewage_system_desc: "A sewage system that improves sanitation and public health in urban areas by diverting waste away from living quarters."
+  urban_sewage_system_maintenance_lead_pipes: "Lead Pipes"
+  urban_sewage_system_maintenance_copper_pipes: "Copper Pipes"
+
   urban_infrastucture_expansion: "Urban Infrastructure Expansion"
-  urban_infrastucture_expansion_desc: "An expansion of urban infrastructure to support increased economic activity."
+  urban_infrastucture_expansion_desc: "An expansion of urban infrastructure to support increased economic activity, including roads, marketplaces, and public services."
+  urban_infrastucture_expansion_maintenance: "Infrastructure Maintenance"
