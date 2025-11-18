@@ -7,6 +7,9 @@ urban_housing_expansion = {
 	rural_settlement = no
 	town = yes
 	city = yes
+	allow = {
+		has_game_rule = more_buildings_urban_buildings_enabled
+	}
 	unique_production_methods = {
 		urban_housing_expansion_maintenance = {
 			lumber = 0.25
@@ -33,6 +36,9 @@ urban_infrastucture_expansion = {
 	rural_settlement = no
 	town = yes
 	city = yes
+	allow = {
+		has_game_rule = more_buildings_urban_buildings_enabled
+	}
 	unique_production_methods = {
 		urban_infrastucture_expansion_maintenance = {
 			tools = 0.05
@@ -59,6 +65,9 @@ urban_sewage_system = {
 	rural_settlement = no
 	town = yes
 	city = yes
+	allow = {
+		has_game_rule = more_buildings_urban_buildings_enabled
+	}
 	unique_production_methods = {
 		urban_sewage_system_maintenance_lead_pipes = {
 			sand = 0.5

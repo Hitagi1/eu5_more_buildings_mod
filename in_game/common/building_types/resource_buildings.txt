@@ -6,13 +6,14 @@ shallow_tin_mine = {
 	rural_settlement = yes
 	town = yes
 	city = yes
+	allow = {
+		has_game_rule = more_buildings_resource_buildings_enabled
+	}
 	location_potential = {
-		AND = {
-			has_river = yes
-			OR = {
-				topography = hills
-				topography = mountains
-			}
+		has_river = yes
+		OR = {
+			topography = hills
+			topography = mountains
 		}
 		NOT = {
 			raw_material = goods:tin
@@ -40,6 +41,9 @@ galenite_extraction = {
 	rural_settlement = yes
 	town = yes
 	city = yes
+	allow = {
+		has_game_rule = more_buildings_resource_buildings_enabled
+	}
 	location_potential = {
 		raw_material = goods:silver
 	}
@@ -68,6 +72,9 @@ cinnabar_refinement = {
 	location_potential = {
 		has_volcano = yes
 	}
+	allow = {
+		has_game_rule = more_buildings_resource_buildings_enabled
+	}
 	category = rgo_building_category
 	unique_production_methods = {
 		cinnabar_refinement_maintenance = {
@@ -91,7 +98,10 @@ potash_works = {
 	town = yes
 	city = yes
 	location_potential = {
-		has_resource = clay
+		raw_material = goods:clay
+	}
+	allow = {
+		has_game_rule = more_buildings_resource_buildings_enabled
 	}
 	category = rgo_building_category
 	unique_production_methods = {
@@ -115,6 +125,9 @@ beekeepers_hut = {
 	rural_settlement = yes
 	town = yes
 	city = yes
+	allow = {
+		has_game_rule = more_buildings_resource_buildings_enabled
+	}
 	location_potential = {
 		OR = {
 			vegetation = farmland
@@ -144,6 +157,9 @@ hunting_camp = {
 	rural_settlement = yes
 	town = no
 	city = no
+	allow = {
+		has_game_rule = more_buildings_resource_buildings_enabled
+	}
 	location_potential = {
 		OR = {
 			vegetation = forest
