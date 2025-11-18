@@ -82,6 +82,31 @@ cinnabar_refinement = {
 	construction_demand = basic_construction_needs
 }
 
+potash_works = {
+	is_foreign = no
+	max_levels = rural_building_cap
+	pop_type = laborers
+	employment_size = rural_peasant_produce_employment
+	rural_settlement = yes
+	town = yes
+	city = yes
+	location_potential = {
+		has_resource = clay
+	}
+	category = rgo_building_category
+	unique_production_methods = {
+		potash_works_maintenance = {
+			produced = alum
+			output = 0.5
+			lumber = 0.75
+			clay = 0.25
+			category = building_maintenance
+		}
+	}
+	build_time = rural_build_time
+	construction_demand = basic_construction_needs
+}
+
 beekeepers_hut = {
 	is_foreign = no
 	max_levels = rural_building_cap

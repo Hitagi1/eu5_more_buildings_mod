@@ -16,6 +16,10 @@
   cinnabar_refinement_desc: "A facility that processes cinnabar ore to extract mercury for use in various crafts and trade."
   cinnabar_refinement_maintenance: "Mercury Ore extraction"
 
+  potash_works: "Potash Works"
+  potash_works_desc: "A facility that produces potash from wood ash, and clay"
+  potash_works_maintenance: "Potash Production"
+
   hunting_camp: "Hunting Camp"
   hunting_camp_desc: "A camp where hunters gather to trap and hunt wild game, supplying meat and pelts to nearby settlements."
   hunting_camp_maintenance: "Hunting Supplies"
