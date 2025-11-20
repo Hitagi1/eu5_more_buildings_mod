@@ -7,9 +7,7 @@
 	town = yes
 	city = yes
 	allow = {
-		limit = {
-			has_game_rule = resource_buildings_enabled_true
-		}
+		has_game_rule = resource_buildings_enabled_true
 	}
 	location_potential = {
 		has_river = yes
@@ -44,9 +42,7 @@ galenite_extraction = {
 	town = yes
 	city = yes
 	allow = {
-		limit = {
-			has_game_rule = resource_buildings_enabled_true
-		}
+		has_game_rule = resource_buildings_enabled_true
 	}
 	location_potential = {
 		raw_material = goods:silver
@@ -77,9 +73,7 @@ cinnabar_refinement = {
 		has_volcano = yes
 	}
 	allow = {
-		limit = {
-			has_game_rule = resource_buildings_enabled_true
-		}
+		has_game_rule = resource_buildings_enabled_true
 	}
 	category = rgo_building_category
 	unique_production_methods = {
@@ -108,9 +102,7 @@ potash_works = {
 		raw_material = goods:clay
 	}
 	allow = {
-		limit = {
-			has_game_rule = resource_buildings_enabled_true
-		}
+		has_game_rule = resource_buildings_enabled_true
 	}
 	category = rgo_building_category
 	unique_production_methods = {
@@ -135,9 +127,7 @@ beekeepers_hut = {
 	town = yes
 	city = yes
 	allow = {
-		limit = {
-			has_game_rule = resource_buildings_enabled_true
-		}
+		has_game_rule = resource_buildings_enabled_true
 	}
 	location_potential = {
 		OR = {
@@ -169,9 +159,7 @@ hunting_camp = {
 	town = no
 	city = no
 	allow = {
-		limit = {
-			has_game_rule = resource_buildings_enabled_true
-		}
+		has_game_rule = resource_buildings_enabled_true
 	}
 	location_potential = {
 		OR = {
