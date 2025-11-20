@@ -1,34 +1,3 @@
-settlers_land_clearing = {
-	in_empty = empty
-	is_foreign = yes
-	max_levels = 1
-	pop_type = clergy
-	graphical_tags = {
-		small_religious
-	}
-	category = colonial_category
-	employment_size = religious_building_employment
-	pop_size_created = religious_building_employment
-	rural_settlement = yes
-	town = no
-	city = no
-	allow = {
-		has_game_rule = colonial_buildings_enabled_true
-		OR = {
-			is_coastal_within_range = yes
-			is_adjacent_to_owned_or_subject_owns = yes
-		}
-	}
-	possible_production_methods = {
-		colony_maintenance
-	}
-	construction_demand = simple_colony_construction
-	build_time = colonise_build_time
-	modifier = {
-		local_population_capacity = 500
-	}
-}
-
 native_extermination = {
 	in_empty = empty
 	is_foreign = yes
@@ -44,7 +13,9 @@ native_extermination = {
 	town = no
 	city = no
 	allow = {
-		has_game_rule = colonial_buildings_enabled_true
+		limit = {
+			has_game_rule = colonial_buildings_enabled_true
+		}
 		OR = {
 			is_coastal_within_range = yes
 			is_adjacent_to_owned_or_subject_owns = yes
