@@ -1,4 +1,4 @@
-﻿native_extermination = {
+native_extermination = {
 	in_empty = empty
 	is_foreign = yes
 	max_levels = 1
@@ -13,7 +13,9 @@
 	town = no
 	city = no
 	allow = {
-		has_game_rule = colonial_buildings_enabled_true
+		limit = {
+			has_game_rule = colonial_buildings_enabled_true
+		}
 		OR = {
 			is_coastal_within_range = yes
 			is_adjacent_to_owned_or_subject_owns = yes

@@ -8,7 +8,9 @@
 	town = yes
 	city = yes
 	allow = {
-		has_game_rule = urban_buildings_enabled_true
+		limit = {
+			has_game_rule = urban_buildings_enabled_true
+		}
 	}
 	unique_production_methods = {
 		urban_housing_expansion_maintenance = {
@@ -37,7 +39,9 @@ urban_infrastucture_expansion = {
 	town = yes
 	city = yes
 	allow = {
-		has_game_rule = urban_buildings_enabled_true
+		limit = {
+			has_game_rule = urban_buildings_enabled_true
+		}
 	}
 	unique_production_methods = {
 		urban_infrastucture_expansion_maintenance = {
@@ -66,7 +70,9 @@ urban_sewage_system = {
 	town = yes
 	city = yes
 	allow = {
-		has_game_rule = urban_buildings_enabled_true
+		limit = {
+			has_game_rule = urban_buildings_enabled_true
+		}
 	}
 	unique_production_methods = {
 		urban_sewage_system_maintenance_lead_pipes = {
