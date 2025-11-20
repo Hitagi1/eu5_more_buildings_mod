@@ -1,5 +1,5 @@
 resource_buildings_enabled = {
-	defult = resource_buildings_enabled_true
+	default = resource_buildings_enabled_true
 	resource_buildings_enabled_true = {
 		flag = general_rule
 	}
@@ -9,7 +9,7 @@ resource_buildings_enabled = {
 }
 
 urban_buildings_enabled = {
-	defult = urban_buildings_enabled_true
+	default = urban_buildings_enabled_true
 	urban_buildings_enabled_true = {
 		flag = general_rule
 	}
@@ -19,7 +19,7 @@ urban_buildings_enabled = {
 }
 
 colonial_buildings_enabled = {
-	defult = colonial_buildings_enabled_false
+	default = colonial_buildings_enabled_false
 	colonial_buildings_enabled_true = {
 		flag = general_rule
 	}
