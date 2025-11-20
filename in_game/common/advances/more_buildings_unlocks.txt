@@ -1,0 +1,89 @@
+shallow_tin_mine_advance = {
+	age = age_1_traditions
+	potential = {
+		has_game_rule = resource_buildings_enabled_true
+	}
+	unlock_building = shallow_tin_mine
+	requires = bronze_working
+}
+
+galenite_extraction_advance = {
+	age = age_1_traditions
+	potential = {
+		has_game_rule = resource_buildings_enabled_true
+	}
+	unlock_building = galenite_extraction
+	requires = fine_metals_mining
+}
+
+cinnabar_refinement_advance = {
+	age = age_1_traditions
+	potential = {
+		has_game_rule = resource_buildings_enabled_true
+	}
+	unlock_building = cinnabar_refinement
+	requires = fine_metals_mining
+}
+
+potash_works_advance = {
+	age = age_3_discovery
+	potential = {
+		has_game_rule = resource_buildings_enabled_true
+	}
+	unlock_building = potash_works
+	requires = lumber_improvements_discovery
+}
+
+beekeepers_hut_advance = {
+	age = age_1_traditions
+	potential = {
+		has_game_rule = resource_buildings_enabled_true
+	}
+	unlock_building = beekeepers_hut
+	requires = apothecary_advance
+}
+
+hunting_camp_advance = {
+	age = age_1_traditions
+	potential = {
+		has_game_rule = resource_buildings_enabled_true
+	}
+	unlock_building = hunting_camp
+	requires = feudalism_advance
+}
+
+native_extermination_advance = {
+	age = age_3_discovery
+	potential = {
+		has_game_rule = colonial_buildings_enabled_true
+	}
+	unlock_building = native_extermination
+	requires = send_people_to_the_colonies_advance
+}
+
+urban_housing_expansion_advance = {
+	age = age_2_renaissance
+	potential = {
+		has_game_rule = urban_buildings_enabled_true
+	}
+	unlock_building = urban_housing_expansion
+	requires = counting_house_advance
+}
+
+urban_infrastucture_expansion_advance = {
+	age = age_2_renaissance
+	potential = {
+		has_game_rule = urban_buildings_enabled_true
+	}
+	unlock_building = urban_infrastucture_expansion
+	requires = bureaucracy_law_advance
+}
+
+urban_sewage_system_advance = {
+	age = age_3_discovery
+	potential = {
+		has_game_rule = urban_buildings_enabled_true
+	}
+	unlock_building = urban_sewage_system
+	requires = construction_speed_discovery
+}

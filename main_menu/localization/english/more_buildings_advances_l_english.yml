@@ -1,0 +1,31 @@
+﻿l_english:
+
+  shallow_tin_mine_advance: "Shallow Tin Mining Techniques"
+  shallow_tin_mine_advance_desc: "Early metalworkers learned to gather cassiterite directly from riverbeds, where currents naturally concentrated the heavy tin-bearing grains. Simple digging and panning techniques provided enough ore to support the first bronze tools and ornaments."
+
+  galenite_extraction_advance: "Improved Galena Processing"
+  galenite_extraction_advance_desc: "Ancient smelters discovered that galena, a common lead ore, often carried valuable traces of silver. By heating the ore and separating its molten layers, metallurgists could draw off lead as a useful byproduct while concentrating the precious metal for further refinement. This technique helped expand early silver production and introduced some of the first specialized ore-processing methods."
+
+  cinnabar_refinement_advance: "Cinnabar Mercury Extraction"
+  cinnabar_refinement_advance_desc: "Early metallurgists learned that heating cinnabar in closed vessels vaporized its mercury, which could then be condensed into liquid form. This volatile metal became essential for gilding and amalgamating precious metals, making its extraction a valuable—if hazardous—craft."
+
+  potash_works_advance: "Potash Production Techniques"
+  potash_works_advance_desc: "Craftworkers discovered that controlled burning and leaching of mineral-rich earths could yield potash and alunite, key mordants for fixing dyes and preparing hides. These compounds stabilized colors and softened leather, making them indispensable to early textile and tanning industries."
+
+  beekeepers_hut_advance: "Beekeeping Practices"
+  beekeepers_hut_advance_desc: "Early agriculturalists learned to domesticate wild bees by providing them with simple hives made from hollowed logs or woven straw. By managing these colonies, they could harvest honey and beeswax, essential commodities for food, medicine, and candle-making."
+
+  hunting_camp_advance: "Organized Hunting Techniques"
+  hunting_camp_advance_desc: "As communities refined tracking methods and seasonal knowledge of wildlife, they began establishing semi-permanent hunting camps at key migration routes. These sites supported coordinated hunts, providing meat, hides, and bone tools vital to early settlement survival."
+
+  native_extermination_advance: "Native Displacement"
+  native_extermination_advance_desc: "Colonial powers developed systematic methods for the displacement and extermination of indigenous populations. These brutal tactics included forced relocations, violent confrontations, and the spread of diseases, all aimed at clearing land for settlers and resource exploitation."
+
+  urban_housing_expansion_advance: "Urban Housing Development"
+  urban_housing_expansion_advance_desc: "As towns swelled with merchants, artisans, and migrant laborers, city planners began experimenting with denser housing blocks, standardized street fronts, and multi-story dwellings. These new building practices reflected the growing pressures of commerce and population, marking the transition from medieval townscapes to more deliberately organized urban neighborhoods."
+
+  urban_infrastucture_expansion_advance: "Urban Infrastructure Improvements"
+  urban_infrastucture_expansion_advance_desc: "The growth of trade hubs pushed cities to upgrade their physical frameworks with broader streets, reinforced bridges, standardized signage, and improved night lighting. These enhancements supported smoother movement of goods and people, reflecting a maturing approach to civic planning and urban coordination."
+
+  urban_sewage_system_advance: "Urban Sewage System Development"
+  urban_sewage_system_advance_desc: "As urban populations grew denser, the need for effective waste management became critical. Early engineers designed rudimentary sewage systems using lead or bronze pipes and stone channels to divert waste away from living areas, significantly improving public health and sanitation in burgeoning cities."

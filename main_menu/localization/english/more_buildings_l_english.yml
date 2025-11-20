@@ -38,3 +38,6 @@
   urban_infrastucture_expansion_maintenance: "Infrastructure Maintenance"
 
 
+  native_extermination: "Native Extermination" 
+  native_extermination_desc: "A brutal campaign aimed at exterminating indigenous populations to make way for colonial expansion and settlement."
+  native_extermination_maintenance: "Military Supplies"
