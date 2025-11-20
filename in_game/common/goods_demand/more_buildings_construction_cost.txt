@@ -3,4 +3,5 @@
 	lumber = 0.5
 	glass = 0.25
 	tools = 0.25
+	category = building_construction
 }
