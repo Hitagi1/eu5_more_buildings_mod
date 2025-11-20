@@ -1,4 +1,4 @@
-urban_housing_expansion = {
+﻿urban_housing_expansion = {
 	is_foreign = no
 	max_levels = market_max_level
 	pop_type = burghers

@@ -1,4 +1,4 @@
-native_extermination = {
+﻿native_extermination = {
 	in_empty = empty
 	is_foreign = yes
 	max_levels = 1

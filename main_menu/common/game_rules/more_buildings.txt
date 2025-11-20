@@ -1,4 +1,4 @@
-resource_buildings_enabled = {
+﻿resource_buildings_enabled = {
 	default = resource_buildings_enabled_true
 	resource_buildings_enabled_true = {
 		flag = general_rule

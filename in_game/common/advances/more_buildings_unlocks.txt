@@ -1,4 +1,4 @@
-shallow_tin_mine_advance = {
+﻿shallow_tin_mine_advance = {
 	age = age_1_traditions
 	potential = {
 		has_game_rule = resource_buildings_enabled_true

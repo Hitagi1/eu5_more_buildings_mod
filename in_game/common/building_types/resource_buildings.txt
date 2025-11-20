@@ -1,4 +1,4 @@
-shallow_tin_mine = {
+﻿shallow_tin_mine = {
 	is_foreign = no
 	max_levels = rural_building_cap
 	pop_type = laborers
@@ -52,7 +52,7 @@ galenite_extraction = {
 		galenite_extraction_maintenance = {
 			produced = lead
 			output = 0.4
-			coal = 0.1
+			coal = 0.25
 			tools = 0.05
 			category = building_maintenance
 		}
@@ -80,7 +80,8 @@ cinnabar_refinement = {
 		cinnabar_refinement_maintenance = {
 			produced = mercury
 			output = 0.5
-			coal = 0.1
+			glass = 0.01
+			coal = 0.25
 			tools = 0.05
 			category = building_maintenance
 		}
@@ -139,8 +140,8 @@ beekeepers_hut = {
 	unique_production_methods = {
 		beekeepers_hut_maintenance = {
 			produced = beeswax
-			output = 0.5
-			lumber = 0.25
+			output = 0.4
+			lumber = 0.3
 			tools = 0.05
 			category = building_maintenance
 		}
