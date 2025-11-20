@@ -132,7 +132,6 @@ beekeepers_hut = {
 	location_potential = {
 		OR = {
 			vegetation = farmland
-			vegetation = woods
 			vegetation = grasslands
 		}
 	}
