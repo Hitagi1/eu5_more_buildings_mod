@@ -1,4 +1,4 @@
-beekeepers_hut = {
+﻿beekeepers_hut = {
 	is_foreign = no
 	max_levels = rural_building_cap
 	pop_type = laborers
@@ -117,7 +117,7 @@ rice_paddy = {
 	is_foreign = no
 	max_levels = rural_farming_cap
 	pop_type = laborers
-	employment_size = rural_peasant_produce_employment
+	employment_size = rice_paddy_employment_size
 	rural_settlement = yes
 	town = yes
 	city = yes
@@ -144,11 +144,11 @@ rice_paddy = {
 	category = rgo_building_category
 	unique_production_methods = {
 		rice_paddy_maintenance = {
-			produced = rice			# 1.25 - 0.75
-			output = 1.25
+			produced = rice			# 1.2 - 0.8
+			output = 1.2
 			lumber = 0.3
 			tools = 0.05
-			masonry = 0.1
+			masonry = 0.15
 			category = building_maintenance
 		}
 	}
@@ -179,10 +179,10 @@ corn_plantation = {
 	}
 	category = rgo_building_category
 	unique_production_methods = {
-		maize_field_maintenance = {
-			produced = maize			# 1.2 - 0.7
+		corn_plantation_maintenance = {
+			produced = maize			# 1.2 - 0.85
 			output = 1.2
-			lumber = 0.3
+			lumber = 0.4
 			tools = 0.05
 			masonry = 0.05
 			clay = 0.1

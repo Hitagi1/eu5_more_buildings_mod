@@ -1,4 +1,4 @@
-rural_farming_cap = {
+﻿rural_farming_cap = {
 	add = {
 		desc = "BUILDING_LEVEL_BASE"
 		value = 1
@@ -12,9 +12,9 @@ rural_farming_cap = {
 		# Open vegetation bonus
 		limit = {
 			OR = {
-				has_vegetation = grasslands
-				has_vegetation = farmland
-				has_vegetation = sparse
+				vegetation = grasslands
+				vegetation = farmland
+				vegetation = sparse
 			}
 		}
 		add = {
@@ -48,7 +48,7 @@ rural_farming_cap = {
 		limit = {
 			OR = {
 				has_river = yes
-				has_lake = yes
+				is_adjacent_to_lake = yes
 			}
 		}
 		multiply = {
@@ -57,3 +57,5 @@ rural_farming_cap = {
 		}
 	}
 }
+
+rice_paddy_employment_size = 1.25
