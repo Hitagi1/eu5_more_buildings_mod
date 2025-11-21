@@ -39,7 +39,26 @@
   urban_infrastucture_expansion_desc: "An expansion of urban infrastructure to support increased economic activity, including roads, marketplaces, and public services."
   urban_infrastucture_expansion_maintenance: "Infrastructure Maintenance"
 
-
   native_extermination: "Native Extermination" 
   native_extermination_desc: "A brutal campaign aimed at exterminating indigenous populations to make way for colonial expansion and settlement."
   native_extermination_maintenance: "Military Supplies"
+
+  wheat_enclosure: "Wheat Enclosure"
+  wheat_enclosure_maintenance: "Wheat Enclosures"
+  wheat_enclosure_desc: "A fenced area dedicated to the cultivation of wheat, providing a controlled environment for optimal growth and yield."
+
+  potato_patch: "Potato Patch"
+  potato_patch_maintenance: "Potato Patches"
+  potato_patch_desc: "A small plot of land used for growing potatoes"
+
+  sturdy_grains_field: "Sturdy Grains Field"
+  sturdy_grains_field_maintenance: "Sturdy Grains Fields"
+  sturdy_grains_field_desc: "A field dedicated to the cultivation of hardy grains such as millet and sorghum, which thrive in challenging climates."
+
+  rice_paddy: "Rice Paddy"
+  rice_paddy_maintenance: "Rice Paddies"
+  rice_paddy_desc: "A flooded field used for growing rice, providing the necessary water conditions for optimal growth and yield."
+
+  corn_plantation: "Corn Plantation"
+  corn_plantation_maintenance: "Corn Plantations"
+  corn_plantation_desc: "A large farm dedicated to the cultivation of corn"

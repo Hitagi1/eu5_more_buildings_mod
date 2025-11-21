@@ -89,11 +89,11 @@ wheat_enclosure = {
 			AND = {
 				OR = {
 					climate = cold_arid
-					climate = hot_arid
+					climate = arid
 				}
 				OR = {
 					has_river = yes
-					has_lake = yes
+					is_adjacent_to_lake = yes
 				}
 			}
 		}
@@ -133,10 +133,10 @@ rice_paddy = {
 			climate = tropical
 			climate = mediterranean
 			AND = {
-				climate = hot_arid
+				climate = arid
 				OR = {
 					has_river = yes
-					has_lake = yes
+					is_adjacent_to_lake = yes
 				}
 			}
 		}
@@ -215,7 +215,7 @@ potato_patch = {
 				climate = cold_arid
 				OR = {
 					has_river = yes
-					has_lake = yes
+					is_adjacent_to_lake = yes
 				}
 			}
 			AND = {
@@ -231,7 +231,7 @@ potato_patch = {
 	category = rgo_building_category
 	unique_production_methods = {
 		potato_patch_maintenance = {
-			produced = potatoes			# 1 - 0.75
+			produced = potato			# 1 - 0.75
 			output = 1
 			lumber = 0.4
 			tools = 0.05
@@ -261,10 +261,10 @@ sturdy_grains_field = {
 			climate = cold_arid
 			climate = subtropical
 			AND = {
-				climate = hot_arid
+				climate = arid
 				OR = {
 					has_river = yes
-					has_lake = yes
+					is_adjacent_to_lake = yes
 				}
 			}
 			AND = {
@@ -278,7 +278,7 @@ sturdy_grains_field = {
 	category = rgo_building_category
 	unique_production_methods = {
 		sturdy_grains_field_maintenance = {
-			produced = sturdy_grains			# 1 - 0.75
+			produced = millet			# 1 - 0.75
 			output = 1
 			lumber = 0.3
 			tools = 0.05
