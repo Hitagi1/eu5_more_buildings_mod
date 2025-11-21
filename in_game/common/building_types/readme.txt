@@ -38,3 +38,21 @@
 # - custom_tags = { <strings> } #A list of custom strings to use to identify that building type
 # - AI_ignore_available_worker_flag = <yes/no> AI will build this building even if it is lacking the required pop type
 # - important_for_AI = <yes/no> When set it makes the AI use more performance trying to find a suitable place to build this
+# NOTES
+# Vegetation types:
+# - desert
+# - sparse
+# - grasslands
+# - farmland
+# - woods
+# - forest
+# - jungle
+# Climate types:
+# - arctic
+# - cold arid
+# - continental
+# - oceanic
+# - mediterranean
+# - hot arid
+# - subtropical
+# - tropical

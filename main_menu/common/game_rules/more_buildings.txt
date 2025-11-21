@@ -27,3 +27,13 @@ colonial_buildings_enabled = {
 		flag = general_rule
 	}
 }
+
+food_buildings_enabled = {
+	default = food_buildings_enabled_true
+	food_buildings_enabled_true = {
+		flag = general_rule
+	}
+	food_buildings_enabled_false = {
+		flag = general_rule
+	}
+}

@@ -1,0 +1,59 @@
+rural_farming_cap = {
+	add = {
+		desc = "BUILDING_LEVEL_BASE"
+		value = 1
+	}
+	add = {
+		desc = "BUILDING_LEVEL_DEVELOPMENT"
+		value = development
+		multiply = 0.1
+	}
+	if = {
+		# Open vegetation bonus
+		limit = {
+			OR = {
+				has_vegetation = grasslands
+				has_vegetation = farmland
+				has_vegetation = sparse
+			}
+		}
+		add = {
+			desc = "BUILDING_LEVEL_RGO_MAX"
+			value = max_rgo_workers
+			multiply = 0.4
+		}
+	}
+	else = {
+		add = {
+			desc = "BUILDING_LEVEL_RGO_MAX"
+			value = max_rgo_workers
+			multiply = 0.2
+		}
+	}
+	if = {
+		limit = {
+			OR = {
+				climate = mediterranean
+				climate = oceanic
+				climate = continental
+				climate = subtropical
+			}
+		}
+		multiply = {
+			desc = "BUILDING_LEVEL_FAVORABLE_CLIMATE"
+			value = 1.5
+		}
+	}
+	if = {
+		limit = {
+			OR = {
+				has_river = yes
+				has_lake = yes
+			}
+		}
+		multiply = {
+			desc = "BUILDING_LEVEL_HAS_IRRIGATION"
+			value = 1.5
+		}
+	}
+}
