@@ -103,6 +103,7 @@ wheat_enclosure = {
 			output = 1
 			lumber = 0.3
 			tools = 0.05
+			livestock = 0.05
 			category = building_maintenance
 		}
 	}
@@ -140,9 +141,10 @@ rice_paddy = {
 	unique_production_methods = {
 		rice_paddy_maintenance = {
 			produced = rice
-			output = 1
+			output = 1.25
 			lumber = 0.3
 			tools = 0.05
+			masonry = 0.05
 			category = building_maintenance
 		}
 	}
@@ -173,9 +175,11 @@ corn_plantation = {
 	unique_production_methods = {
 		maize_field_maintenance = {
 			produced = maize
-			output = 1
+			output = 1.4
 			lumber = 0.3
 			tools = 0.05
+			masonry = 0.05
+			clay = 0.05
 			category = building_maintenance
 		}
 	}
@@ -221,7 +225,7 @@ potato_patch = {
 		potato_patch_maintenance = {
 			produced = potatoes
 			output = 1
-			lumber = 0.3
+			lumber = 0.4
 			tools = 0.05
 			category = building_maintenance
 		}
@@ -270,6 +274,7 @@ sturdy_grains_field = {
 			output = 1
 			lumber = 0.3
 			tools = 0.05
+			livestock = 0.05
 			category = building_maintenance
 		}
 	}
