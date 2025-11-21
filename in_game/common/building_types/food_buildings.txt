@@ -77,6 +77,8 @@ wheat_enclosure = {
 	city = yes
 	allow = {
 		has_game_rule = food_buildings_enabled_true
+	}
+	country_potential = {
 		old_world_crops_building_trigger = yes
 	}
 	location_potential = {
@@ -121,6 +123,8 @@ rice_paddy = {
 	city = yes
 	allow = {
 		has_game_rule = food_buildings_enabled_true
+	}
+	country_potential = {
 		old_world_crops_building_trigger = yes
 	}
 	location_potential = {
@@ -162,6 +166,8 @@ corn_plantation = {
 	city = yes
 	allow = {
 		has_game_rule = food_buildings_enabled_true
+	}
+	country_potential = {
 		new_world_crops_building_trigger = yes
 	}
 	location_potential = {
@@ -197,6 +203,8 @@ potato_patch = {
 	city = yes
 	allow = {
 		has_game_rule = food_buildings_enabled_true
+	}
+	country_potential = {
 		new_world_crops_building_trigger = yes
 	}
 	location_potential = {
