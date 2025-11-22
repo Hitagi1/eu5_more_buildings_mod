@@ -16,6 +16,7 @@
 		OR = {
 			vegetation = farmland
 			vegetation = grasslands
+			vegetation = woods
 		}
 	}
 	category = rgo_building_category
