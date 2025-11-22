@@ -33,6 +33,38 @@
 	construction_demand = basic_construction_needs
 }
 
+hydrothermal_copper_mine = {
+	is_foreign = no
+	max_levels = rural_building_cap
+	pop_type = laborers
+	employment_size = rural_peasant_produce_employment
+	rural_settlement = yes
+	town = yes
+	city = yes
+	allow = {
+		has_game_rule = resource_buildings_enabled_true
+	}
+	location_potential = {
+		has_earthquakes = yes
+		NOT = {
+			raw_material = goods:copper
+		}
+	}
+	category = rgo_building_category
+	unique_production_methods = {
+		hydrothermal_copper_mine_maintenance = {
+			produced = copper			# 1.55 - 1.2
+			output = 0.55
+			lumber = 0.5
+			tools = 0.1
+			coal = 0.2
+			category = building_maintenance
+		}
+	}
+	build_time = rural_build_time
+	construction_demand = basic_construction_needs
+}
+
 galenite_extraction = {
 	is_foreign = no
 	max_levels = rural_building_cap
