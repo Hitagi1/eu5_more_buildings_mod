@@ -2,7 +2,7 @@
 
   urban_expansion_construction: "Urban Expansion Construction"
   BUILDING_LEVEL_FAVORABLE_CLIMATE: "Favorable Climate"
-  BUILDING_LEVEL_HAS_IRRIGATION: "Has Irrigation"
+  BUILDING_LEVEL_HAS_IRRIGATION: "Has Irrigation Source"
 
   beekeepers_hut: "Beekeepers Hut"
   beekeepers_hut_desc: "A small hut where beekeepers tend to their hives, producing honey and beeswax for the local market."
@@ -19,6 +19,14 @@
   cinnabar_refinement: "Cinnabar Extraction"
   cinnabar_refinement_desc: "A facility that processes cinnabar ore to extract mercury for use in various crafts and trade."
   cinnabar_refinement_maintenance: "Mercury Ore extraction"
+
+  hydrothermal_copper_mine: "Hydrothermal Copper Mine"
+  hydrothermal_copper_mine_desc: "A mine that extracts copper ore from hydrothermal vein deposits, found in areas with geothermal activity."
+  hydrothermal_copper_mine_maintenance: "Copper Ore extraction"
+
+  hydrothermal_copper_shaft_mine: "Hydrothermal Copper Shaft Mine"
+  hydrothermal_copper_shaft_mine_desc: "An advanced mine that uses shaft mining techniques to access deeper hydrothermal copper veins, increasing ore yield."
+  hydrothermal_copper_shaft_mine_maintenance: "Copper Ore extraction"
 
   potash_works: "Potash Works"
   potash_works_desc: "A facility that produces potash from wood ash, and clay"

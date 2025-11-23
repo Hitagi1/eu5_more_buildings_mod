@@ -7,6 +7,24 @@
 	requires = bronze_working
 }
 
+hydrothermal_copper_mine_advance = {
+	age = age_1_traditions
+	potential = {
+		has_game_rule = resource_buildings_enabled_true
+	}
+	unlock_building = hydrothermal_copper_mine
+	requires = bronze_working
+}
+
+hydrothermal_copper_shaft_mine_advance = {
+	age = age_5_absolutism
+	potential = {
+		has_game_rule = resource_buildings_enabled_true
+	}
+	unlock_building = hydrothermal_copper_shaft_mine
+	requires = mint_advance
+}
+
 galenite_extraction_advance = {
 	age = age_1_traditions
 	potential = {
