@@ -3,6 +3,12 @@
   shallow_tin_mine_advance: "Shallow Tin Mining Techniques"
   shallow_tin_mine_advance_desc: "Early metalworkers learned to gather cassiterite directly from riverbeds, where currents naturally concentrated the heavy tin-bearing grains. Simple digging and panning techniques provided enough ore to support the first bronze tools and ornaments."
 
+  hydrothermal_copper_mine_advance: "Hydrothermal Copper Mining"
+  hydrothermal_copper_mine_advance_desc: "Ancient miners discovered that copper ore could be found in veins formed by hot, mineral-rich waters circulating through fractured rock. By following these veins and extracting the ore, early metallurgists gained access to higher-quality copper deposits essential for toolmaking and trade."
+
+  hydrothermal_copper_shaft_mine_advance: "Advanced Hydrothermal Copper Mining"
+  hydrothermal_copper_shaft_mine_advance_desc: "With advancements in mining technology, workers developed shaft mining techniques to access deeper hydrothermal copper veins. This allowed for more efficient extraction of high-grade copper ore."
+
   galenite_extraction_advance: "Improved Galena Processing"
   galenite_extraction_advance_desc: "Ancient smelters discovered that galena, a common lead ore, often carried valuable traces of silver. By heating the ore and separating its molten layers, metallurgists could draw off lead as a useful byproduct while concentrating the precious metal for further refinement. This technique helped expand early silver production and introduced some of the first specialized ore-processing methods."
 

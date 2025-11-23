@@ -20,7 +20,7 @@
 		add = {
 			desc = "BUILDING_LEVEL_RGO_MAX"
 			value = max_rgo_workers
-			multiply = 0.4
+			multiply = 0.35
 		}
 	}
 	else = {
@@ -41,7 +41,7 @@
 		}
 		multiply = {
 			desc = "BUILDING_LEVEL_FAVORABLE_CLIMATE"
-			value = 1.5
+			value = 1.4
 		}
 	}
 	if = {
@@ -53,7 +53,7 @@
 		}
 		multiply = {
 			desc = "BUILDING_LEVEL_HAS_IRRIGATION"
-			value = 1.5
+			value = 1.4
 		}
 	}
 }

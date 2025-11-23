@@ -16,6 +16,7 @@
 		OR = {
 			vegetation = farmland
 			vegetation = grasslands
+			vegetation = woods
 		}
 	}
 	category = rgo_building_category
@@ -144,11 +145,11 @@ rice_paddy = {
 	category = rgo_building_category
 	unique_production_methods = {
 		rice_paddy_maintenance = {
-			produced = rice			# 1.2 - 0.8
-			output = 1.2
+			produced = rice			# 1- 0.7
+			output = 1
 			lumber = 0.3
 			tools = 0.05
-			masonry = 0.15
+			masonry = 0.1
 			category = building_maintenance
 		}
 	}
