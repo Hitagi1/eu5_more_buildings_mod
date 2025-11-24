@@ -1,0 +1,74 @@
+﻿l_english:
+
+  urban_expansion_construction: "Städtische Expansion und Bauwesen"
+  BUILDING_LEVEL_FAVORABLE_CLIMATE: "Günstiges Klima"
+  BUILDING_LEVEL_HAS_IRRIGATION: "Verfügt über Bewässerungsquelle"
+
+  beekeepers_hut: "Imkerhütte"
+  beekeepers_hut_desc: "Eine kleine Hütte, in der Imker ihre Bienenstöcke pflegen und Honig und Bienenwachs für den lokalen Markt produzieren."
+  beekeepers_hut_maintenance: "Bienenstöcke"
+
+  shallow_tin_mine: "Flache Zinnmine"
+  shallow_tin_mine_desc: "Ein Bergwerk, in dem Zinnerz aus flachen Flussablagerungen gewonnen wird, das Rohmaterial für die Metallverarbeitung und den Handel liefert."
+  shallow_tin_mine_maintenance: "Zinnerzgewinnung"
+
+  galenite_extraction: "Galenitveredelung"
+  galenite_extraction_desc: "Eine Anlage, in der Galeniterz verarbeitet wird, um zusätzliches Blei zu gewinnen und andere nützliche Mineralien zurückzugewinnen."
+  galenite_extraction_maintenance: "Galenit-Erzgewinnung"
+
+  cinnabar_refinement: "Zinnobergewinnung"
+  cinnabar_refinement_desc: "Eine Anlage, in der Zinnobererz verarbeitet wird, um Quecksilber für verschiedene Handwerks- und Handelszwecke zu gewinnen."
+  cinnabar_refinement_maintenance: "Quecksilbererzgewinnung"
+
+  hydrothermal_copper_mine: "Hydrothermale Kupfermine"
+  hydrothermal_copper_mine_desc: "Eine Mine, die Kupfererz aus hydrothermalen Adervorkommen gewinnt, die in Gebieten mit geothermischer Aktivität zu finden sind."
+  hydrothermal_copper_mine_maintenance: "Kupfererzgewinnung"
+
+  hydrothermal_copper_shaft_mine: "Hydrothermale Kupfer-Schachtmine"
+  hydrothermal_copper_shaft_mine_desc: "Eine fortschrittliche Mine, die Schachtabbauverfahren einsetzt, um Zugang zu tieferen hydrothermalen Kupferadern zu erhalten und so die Erzausbeute zu steigern."
+  hydrothermal_copper_shaft_mine_maintenance: "Kupfererzgewinnung"
+
+  potash_works: "Kaligrube"
+  potash_works_desc: "Eine Anlage, die aus Holzasche und Ton Kaliumkarbonat herstellt."
+  potash_works_maintenance: "Kaliumkarbonatproduktion"
+
+  hunting_camp: "Jagdlager"
+  hunting_camp_desc: "Ein Camp, in dem sich Jäger versammeln, um Wild zu fangen und zu jagen und die umliegenden Siedlungen mit Fleisch und Fellen zu versorgen."
+  hunting_camp_maintenance: "Jagdausrüstung"
+
+  urban_housing_expansion: "Städtischer Wohnungsbau"
+  urban_housing_expansion_desc: "Eine Erweiterung des städtischen Wohnungsbaus, um der wachsenden Bevölkerung gerecht zu werden und die Überbelegung zu verringern."
+  urban_housing_expansion_maintenance: "Wohnungsinstandhaltung"
+
+  urban_sewage_system: "Städtisches Abwassersystem"
+  urban_sewage_system_desc: "Ein Abwassersystem, das die Hygiene und öffentliche Gesundheit in städtischen Gebieten verbessert, indem es Abfälle aus den Wohnvierteln ableitet."
+  urban_sewage_system_maintenance_lead_pipes: "Bleirohre"
+  urban_sewage_system_maintenance_copper_pipes: "Kupferrohre"
+
+  urban_infrastucture_expansion: "Ausbau der städtischen Infrastruktur"
+  urban_infrastucture_expansion_desc: "Ausbau der städtischen Infrastruktur zur Unterstützung der zunehmenden Wirtschaftstätigkeit, einschließlich Straßen, Marktplätzen und öffentlichen Dienstleistungen."
+  urban_infrastucture_expansion_maintenance: "Infrastrukturaufrechterhaltung"
+
+  native_extermination: "Vertreibung der Ureinwohner" 
+  native_extermination_desc: "Eine Kampagne, die darauf abzielt, die indigene Bevölkerung zu vertreiben, um Platz für koloniale Siedlungen und die Ausbeutung von Ressourcen zu schaffen."
+  native_extermination_maintenance: "Militärische Versorgung"
+
+  wheat_enclosure: "Weizenumzäunung"
+  wheat_enclosure_maintenance: "Weizenumzäunungen"
+  wheat_enclosure_desc: "Ein umzäuntes Gebiet, das für den Anbau von Weizen bestimmt ist und eine kontrollierte Umgebung für optimales Wachstum und Ertrag bietet."
+
+  potato_patch: "Kartoffelacker"
+  potato_patch_maintenance: "Kartoffelacker"
+  potato_patch_desc: "Ein kleines Stück Land, das für den Anbau von Kartoffeln genutzt wird."
+
+  sturdy_grains_field: "Feld für robuste Getreidesorten"
+  sturdy_grains_field_maintenance: "Felder für robuste Getreidesorten"
+  sturdy_grains_field_desc: "Ein Feld, das für den Anbau von robusten Getreidesorten wie Hirse und Sorghum genutzt wird, die auch unter schwierigen klimatischen Bedingungen gut gedeihen."
+
+  rice_paddy: "Reisfeld"
+  rice_paddy_maintenance: "Reisfelder"
+  rice_paddy_desc: "Ein überflutetes Feld, das für den Reisanbau genutzt wird und die notwendigen Wasserbedingungen für optimales Wachstum und Ertrag bietet."
+
+  corn_plantation: "Maisplantage"
+  corn_plantation_maintenance: "Maisplantagen"
+  corn_plantation_desc: "Ein großer Bauernhof, der sich dem Anbau von Mais widmet"

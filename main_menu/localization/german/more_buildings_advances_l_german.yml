@@ -1,0 +1,37 @@
+﻿l_english:
+
+  shallow_tin_mine_advance: "Techniken des oberflächlichen Zinnabbaus"
+  shallow_tin_mine_advance_desc: "Frühe Metallarbeiter lernten, Kassiterit direkt aus Flussbetten zu gewinnen, wo die Strömung die schweren zinnhaltigen Körner auf natürliche Weise konzentrierte. Einfache Grab- und Waschtechniken lieferten genügend Erz, um die ersten Bronzewerkzeuge und -schmuckstücke herzustellen."
+
+  hydrothermal_copper_mine_advance: "Hydrothermaler Kupferabbau"
+  hydrothermal_copper_mine_advance_desc: "Die Bergleute der Antike entdeckten, dass Kupfererz in Adern zu finden war, die durch heißes, mineralreiches Wasser entstanden waren, das durch zerklüftetes Gestein zirkulierte. Indem sie diesen Adern folgten und das Erz abbauten, erhielten die frühen Metallurgen Zugang zu hochwertigeren Kupfervorkommen, die für die Werkzeugherstellung und den Handel unerlässlich waren."
+
+  hydrothermal_copper_shaft_mine_advance: "Fortgeschrittener hydrothermaler Kupferabbau"
+  hydrothermal_copper_shaft_mine_advance_desc: "Mit den Fortschritten in der Bergbautechnologie entwickelten die Arbeiter Schachtabbau-Techniken, um Zugang zu tieferen hydrothermalen Kupferadern zu erhalten. Dies ermöglichte eine effizientere Gewinnung von hochwertigem Kupfererz."
+
+  galenite_extraction_advance: "Verbesserte Galenitverarbeitung"
+  galenite_extraction_advance_desc: "Alte Schmelzer entdeckten, dass Galenit, ein häufig vorkommendes Bleierz, oft wertvolle Spuren von Silber enthielt. Durch Erhitzen des Erzes und Trennen seiner geschmolzenen Schichten konnten Metallurgen Blei als nützliches Nebenprodukt abziehen und gleichzeitig das Edelmetall für die weitere Veredelung konzentrieren. Diese Technik trug zur Ausweitung der frühen Silberproduktion bei und führte zu einigen der ersten spezialisierten Erzverarbeitungsmethoden."
+
+  cinnabar_refinement_advance: "Quecksilbergewinnung aus Zinnober"
+  cinnabar_refinement_advance_desc: "Frühe Metallurgen erkannten, dass durch Erhitzen von Zinnober in geschlossenen Gefäßen dessen Quecksilber verdampfte, das dann zu Flüssigkeit kondensiert werden konnte. Dieses flüchtige Metall wurde für die Vergoldung und Amalgamierung von Edelmetallen unverzichtbar, was seine Gewinnung zu einem wertvollen, wenn auch gefährlichen Handwerk machte."
+
+  potash_works_advance: "Techniken zur Kaliumkarbonatgewinnung"
+  potash_works_advance_desc: "Handwerker entdeckten, dass durch kontrolliertes Verbrennen und Auslaugen mineralreicher Erden Kaliumkarbonat und Alunit gewonnen werden konnten, wichtige Beizmittel zum Fixieren von Farbstoffen und zur Vorbereitung von Häuten. Diese Verbindungen stabilisierten Farben und machten Leder weich, wodurch sie für die frühe Textil- und Gerbereiindustrie unverzichtbar wurden."
+
+  beekeepers_hut_advance: "Imkerei"
+  beekeepers_hut_advance_desc: "Frühe Landwirte lernten, wilde Bienen zu domestizieren, indem sie ihnen einfache Bienenstöcke aus ausgehöhlten Baumstämmen oder geflochtenem Stroh zur Verfügung stellten. Durch die Bewirtschaftung dieser Kolonien konnten sie Honig und Bienenwachs ernten, wichtige Rohstoffe für Lebensmittel, Medizin und Kerzenherstellung."
+
+  hunting_camp_advance: "Organisierte Jagdtechniken"
+  hunting_camp_advance_desc: "Als die Gemeinschaften ihre Methoden zur Wildverfolgung und ihr saisonales Wissen über Wildtiere verfeinerten, begannen sie, semipermanente Jagdcamps an wichtigen Migrationsrouten zu errichten. Diese Standorte ermöglichten koordinierte Jagden und lieferten Fleisch, Felle und Knochenwerkzeuge, die für das Überleben der frühen Siedlungen unerlässlich waren."
+
+  native_extermination_advance: "Vertreibung der Ureinwohner"
+  native_extermination_advance_desc: "Die Kolonialmächte entwickelten systematische Methoden zur Vertreibung und Ausrottung der indigenen Bevölkerung. Zu diesen brutalen Taktiken gehörten Zwangsumsiedlungen, gewaltsame Auseinandersetzungen und die Verbreitung von Krankheiten, die alle darauf abzielten, Land für Siedler und die Ausbeutung von Ressourcen freizumachen."
+
+  urban_housing_expansion_advance: "Städtische Wohnbebauung"
+  urban_housing_expansion_advance_desc: "Als die Städte mit Händlern, Handwerkern und Wanderarbeitern überquollen, begannen Stadtplaner mit dichteren Wohnblocks, standardisierten Straßenfronten und mehrstöckigen Wohnhäusern zu experimentieren. Diese neuen Baupraktiken spiegelten den wachsenden Druck durch Handel und Bevölkerung wider und markierten den Übergang von mittelalterlichen Stadtbildern zu bewusst organisierten Stadtvierteln."
+
+  urban_infrastucture_expansion_advance: "Verbesserungen der städtischen Infrastruktur"
+  urban_infrastucture_expansion_advance_desc: "Das Wachstum der Handelszentren veranlasste die Städte, ihre physische Infrastruktur durch breitere Straßen, verstärkte Brücken, standardisierte Beschilderung und verbesserte Nachtbeleuchtung zu modernisieren. Diese Verbesserungen unterstützten einen reibungsloseren Waren- und Personenverkehr und spiegelten einen ausgereiften Ansatz für Stadtplanung und städtische Koordination wider."
+
+  urban_sewage_system_advance: "Entwicklung städtischer Abwassersysteme"
+  urban_sewage_system_advance_desc: "Mit zunehmender Bevölkerungsdichte in den Städten wurde eine effektive Abfallentsorgung immer wichtiger. Frühe Ingenieure entwarfen rudimentäre Abwassersysteme aus Blei- oder Bronzerohren und Steinrinnen, um Abfälle aus den Wohngebieten abzuleiten, was die öffentliche Gesundheit und Hygiene in den boomenden Städten erheblich verbesserte."
