@@ -25,6 +25,15 @@ hydrothermal_copper_shaft_mine_advance = {
 	requires = mint_advance
 }
 
+brine_well_advance = {
+	age = age_1_traditions
+	potential = {
+		has_game_rule = resource_buildings_enabled_true
+	}
+	unlock_building = brine_well
+	requires = hydrothermal_copper_mine_advance
+}
+
 galenite_extraction_advance = {
 	age = age_1_traditions
 	potential = {

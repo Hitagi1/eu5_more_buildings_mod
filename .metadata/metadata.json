@@ -1,7 +1,7 @@
 ﻿{
 	"name": "More Buildings",
 	"id": "hitagi.more_buildings",
-	"version": "1.0.1",
+	"version": "1.0.4",
 	"supported_game_version": "1.0.*",
 	"short_description": "adds more buildings",
 	"tags": [

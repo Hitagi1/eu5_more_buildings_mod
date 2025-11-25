@@ -157,6 +157,47 @@ cinnabar_refinement = {
 	construction_demand = basic_construction_needs
 }
 
+brine_well = {
+	is_foreign = no
+	max_levels = rural_building_cap
+	pop_type = laborers
+	employment_size = rural_peasant_produce_employment
+	rural_settlement = yes
+	town = yes
+	city = yes
+	location_potential = {
+		OR = {
+			topography = hills
+			topography = mountains
+		}
+		OR = {
+			climate = arid
+			climate = subtropical
+			climate = mediterranean
+		}
+		NOT = {
+			vegetation = desert
+		}
+		is_coastal = no
+	}
+	allow = {
+		has_game_rule = resource_buildings_enabled_true
+	}
+	category = rgo_building_category
+	unique_production_methods = {
+		brine_well_maintenance = {
+			produced = salt
+			output = 0.4			#1.6
+			coal = 0.3			#0.6
+			lumber = 0.1			#0.15
+			tools = 0.15			#0.45
+			category = building_maintenance
+		}
+	}
+	build_time = rural_build_time
+	construction_demand = basic_construction_needs
+}
+
 potash_works = {
 	is_foreign = no
 	max_levels = rural_building_cap

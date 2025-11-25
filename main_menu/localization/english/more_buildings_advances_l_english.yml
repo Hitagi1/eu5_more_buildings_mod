@@ -9,6 +9,9 @@
   hydrothermal_copper_shaft_mine_advance: "Advanced Hydrothermal Copper Mining"
   hydrothermal_copper_shaft_mine_advance_desc: "With advancements in mining technology, workers developed shaft mining techniques to access deeper hydrothermal copper veins. This allowed for more efficient extraction of high-grade copper ore."
 
+  brine_well_advance: "Brine Extraction Techniques"
+  brine_well_advance_desc: "Early salt producers discovered that underground brine deposits could be tapped using wells. By drawing up the salty water and boiling it down, they were able to efficiently extract salt, a vital preservative and seasoning."
+
   galenite_extraction_advance: "Improved Galena Processing"
   galenite_extraction_advance_desc: "Ancient smelters discovered that galena, a common lead ore, often carried valuable traces of silver. By heating the ore and separating its molten layers, metallurgists could draw off lead as a useful byproduct while concentrating the precious metal for further refinement. This technique helped expand early silver production and introduced some of the first specialized ore-processing methods."
 

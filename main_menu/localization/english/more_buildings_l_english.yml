@@ -28,6 +28,10 @@
   hydrothermal_copper_shaft_mine_desc: "An advanced mine that uses shaft mining techniques to access deeper hydrothermal copper veins, increasing ore yield."
   hydrothermal_copper_shaft_mine_maintenance: "Copper Ore extraction"
 
+  brine_well: "Brine Boilery"
+  brine_well_desc: "A facility that extracts salt from brine water, found in underground deposits, through boiling."
+  brine_well_maintenance: "Salt Extraction"
+
   potash_works: "Potash Works"
   potash_works_desc: "A facility that produces potash from wood ash, and clay"
   potash_works_maintenance: "Potash Production"
@@ -38,7 +42,8 @@
 
   urban_housing_expansion: "Urban Housing"
   urban_housing_expansion_desc: "An expansion of urban housing designed to accommodate a growing population and reduce overcrowding."
-  urban_housing_expansion_maintenance: "Housing Maintenance"
+  urban_housing_expansion_maintenance: "Standard Homes"
+  urban_housing_expansion_maintenance_brick_homes: "Brick Homes"
 
   urban_sewage_system: "Urban Sewage System"
   urban_sewage_system_desc: "A sewage system that improves sanitation and public health in urban areas by diverting waste away from living quarters."
