@@ -28,6 +28,10 @@
   hydrothermal_copper_shaft_mine_desc: "Eine fortschrittliche Mine, die Schachtabbauverfahren einsetzt, um Zugang zu tieferen hydrothermalen Kupferadern zu erhalten und so die Erzausbeute zu steigern."
   hydrothermal_copper_shaft_mine_maintenance: "Kupfererzgewinnung"
 
+  brine_well: "Solekessel"
+  brine_well_desc: "Eine Anlage, in der durch Kochen Salz aus Solewasser gewonnen wird, das in unterirdischen Lagerstätten vorkommt."
+  brine_well_maintenance: "Salzgewinnung"
+
   potash_works: "Kaligrube"
   potash_works_desc: "Eine Anlage, die aus Holzasche und Ton Kaliumkarbonat herstellt."
   potash_works_maintenance: "Kaliumkarbonatproduktion"

@@ -1,6 +1,6 @@
 ﻿l_german:
 
-  shallow_tin_mine_advance: "Techniken des oberflächlichen Zinnabbaus"
+  shallow_tin_mine_advance: "Oberflächlicher Zinnabbau"
   shallow_tin_mine_advance_desc: "Frühe Metallarbeiter lernten, Kassiterit direkt aus Flussbetten zu gewinnen, wo die Strömung die schweren zinnhaltigen Körner auf natürliche Weise konzentrierte. Einfache Grab- und Waschtechniken lieferten genügend Erz, um die ersten Bronzewerkzeuge und -schmuckstücke herzustellen."
 
   hydrothermal_copper_mine_advance: "Hydrothermaler Kupferabbau"
@@ -8,6 +8,9 @@
 
   hydrothermal_copper_shaft_mine_advance: "Fortgeschrittener hydrothermaler Kupferabbau"
   hydrothermal_copper_shaft_mine_advance_desc: "Mit den Fortschritten in der Bergbautechnologie entwickelten die Arbeiter Schachtabbau-Techniken, um Zugang zu tieferen hydrothermalen Kupferadern zu erhalten. Dies ermöglichte eine effizientere Gewinnung von hochwertigem Kupfererz."
+
+  brine_well_advance: "Techniken zur Gewinnung von Sole"
+  brine_well_advance_desc: "Frühe Salzproduzenten entdeckten, dass unterirdische Sole-Vorkommen mithilfe von Brunnen angezapft werden konnten. Indem sie das salzhaltige Wasser förderten und es einkochten, konnten sie auf effiziente Weise Salz gewinnen, ein wichtiges Konservierungsmittel und Gewürz."
 
   galenite_extraction_advance: "Verbesserte Galenitverarbeitung"
   galenite_extraction_advance_desc: "Alte Schmelzer entdeckten, dass Galenit, ein häufig vorkommendes Bleierz, oft wertvolle Spuren von Silber enthielt. Durch Erhitzen des Erzes und Trennen seiner geschmolzenen Schichten konnten Metallurgen Blei als nützliches Nebenprodukt abziehen und gleichzeitig das Edelmetall für die weitere Veredelung konzentrieren. Diese Technik trug zur Ausweitung der frühen Silberproduktion bei und führte zu einigen der ersten spezialisierten Erzverarbeitungsmethoden."

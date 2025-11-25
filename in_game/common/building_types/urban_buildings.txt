@@ -13,7 +13,15 @@
 	unique_production_methods = {
 		urban_housing_expansion_maintenance = {
 			lumber = 0.25
+			masonry = 0.4
+			glass = 0.1
+			category = building_maintenance
+		}
+		urban_housing_expansion_maintenance_brick_homes = {
 			masonry = 0.5
+			clay = 0.2
+			sand = 0.3
+			glass = 0.1
 			category = building_maintenance
 		}
 	}
@@ -71,15 +79,15 @@ urban_sewage_system = {
 	unique_production_methods = {
 		urban_sewage_system_maintenance_lead_pipes = {
 			sand = 0.5
-			masonry = 0.75
-			lead = 0.1
+			masonry = 0.6
+			lead = 0.15
 			category = building_maintenance
 		}
 		urban_sewage_system_maintenance_copper_pipes = {
 			sand = 0.5
-			masonry = 0.75
-			copper = 0.09
-			tin = 0.01
+			masonry = 0.6
+			copper = 0.18
+			tin = 0.02
 			category = building_maintenance
 		}
 	}
@@ -87,6 +95,7 @@ urban_sewage_system = {
 	build_time = infrastructure_build_time
 	modifier = {
 		local_disease_resistance = 0.075
-		local_population_growth = 0.0001
+		local_population_growth = 0.00015
+		local_migration_attraction = -0.01
 	}
 }
