@@ -225,3 +225,40 @@ potash_works = {
 	build_time = rural_build_time
 	construction_demand = basic_construction_needs
 }
+
+laterite_bloomery = {
+	is_foreign = no
+	max_levels = rural_building_cap
+	pop_type = laborers
+	employment_size = rural_peasant_produce_employment
+	rural_settlement = yes
+	town = yes
+	city = yes
+	location_potential = {
+		climate = tropical
+	}
+	allow = {
+		has_game_rule = resource_buildings_enabled_true
+	}
+	category = rgo_building_category
+	unique_production_methods = {
+		laterite_bloomery_maintenance = {
+			produced = iron
+			output = 0.66
+			coal = 0.5
+			tools = 0.1
+			lumber = 0.2
+			category = building_maintenance
+		}
+		laterite_bloomery_african_soils = {
+			produced = iron
+			output = 0.75
+			coal = 0.5
+			tools = 0.1
+			lumber = 0.2
+			category = building_maintenance
+		}
+	}
+	build_time = rural_build_time
+	construction_demand = basic_construction_needs
+}

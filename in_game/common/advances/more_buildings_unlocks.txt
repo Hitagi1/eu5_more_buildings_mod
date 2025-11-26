@@ -61,6 +61,27 @@ potash_works_advance = {
 	requires = lumber_improvements_discovery
 }
 
+laterite_bloomery_advance = {
+	age = age_1_traditions
+	potential = {
+		has_game_rule = resource_buildings_enabled_true
+	}
+	unlock_building = laterite_bloomery
+	requires = local_smelters_advance
+}
+
+laterite_bloomery_african_soils_advance = {
+	age = age_1_traditions
+	potential = {
+		has_game_rule = resource_buildings_enabled_true
+		capital ?= {
+			continent = continent:africa
+		}
+	}
+	unlock_building = laterite_bloomery_african_soils
+	requires = laterite_bloomery_advance
+}
+
 beekeepers_hut_advance = {
 	age = age_1_traditions
 	potential = {

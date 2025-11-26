@@ -36,6 +36,11 @@
   potash_works_desc: "A facility that produces potash from wood ash, and clay"
   potash_works_maintenance: "Potash Production"
 
+  laterite_bloomery: "Laterite Bloomery"
+  laterite_bloomery_desc: "A bloomery that processes laterite ore commonly found in tropical regions to produce iron blooms for blacksmithing."
+  laterite_bloomery_maintenance: "Laterite Ore extraction"
+  laterite_bloomery_african_soils: "African Laterite Extraction"
+
   hunting_camp: "Hunting Camp"
   hunting_camp_desc: "A camp where hunters gather to trap and hunt wild game, supplying meat and pelts to nearby settlements."
   hunting_camp_maintenance: "Hunting Supplies"
