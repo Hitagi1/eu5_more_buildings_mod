@@ -78,7 +78,7 @@ laterite_bloomery_african_soils_advance = {
 			continent = continent:africa
 		}
 	}
-	unlock_building = laterite_bloomery_african_soils
+	unlock_proction_method = laterite_bloomery_african_soils
 	requires = laterite_bloomery_advance
 }
 

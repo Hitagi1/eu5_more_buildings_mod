@@ -236,6 +236,9 @@ laterite_bloomery = {
 	city = yes
 	location_potential = {
 		climate = tropical
+		NOT = {
+			raw_material = goods:iron
+		}
 	}
 	allow = {
 		has_game_rule = resource_buildings_enabled_true
@@ -244,7 +247,7 @@ laterite_bloomery = {
 	unique_production_methods = {
 		laterite_bloomery_maintenance = {
 			produced = iron
-			output = 0.66
+			output = 0.6
 			coal = 0.5
 			tools = 0.1
 			lumber = 0.2
@@ -252,8 +255,8 @@ laterite_bloomery = {
 		}
 		laterite_bloomery_african_soils = {
 			produced = iron
-			output = 0.75
-			coal = 0.5
+			output = 0.7
+			coal = 0.4
 			tools = 0.1
 			lumber = 0.2
 			category = building_maintenance
