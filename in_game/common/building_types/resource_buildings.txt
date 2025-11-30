@@ -247,7 +247,7 @@ laterite_bloomery = {
 	unique_production_methods = {
 		laterite_bloomery_maintenance = {
 			produced = iron
-			output = 0.6
+			output = 0.66
 			coal = 0.5
 			tools = 0.1
 			lumber = 0.2
@@ -260,6 +260,7 @@ laterite_bloomery = {
 			tools = 0.1
 			lumber = 0.2
 			category = building_maintenance
+			debug_max_profit = 0.5
 		}
 	}
 	build_time = rural_build_time
