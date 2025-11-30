@@ -34,36 +34,88 @@
 }
 
 slave_auction_house = {
-	in_empty = empty
 	is_foreign = no
 	max_levels = 3
-	pop_type = nobility
+	pop_type = nobles
 	category = colonial_category
-	employment_size = 50
+	employment_size = 0.01
 	rural_settlement = yes
 	town = yes
 	city = yes
 	allow = {
 		has_game_rule = colonial_buildings_enabled_true
-		scope:actor = {
-			has_slavery = yes
-		}
+	}
+	country_potential = {
+		has_slavery = yes
 	}
 	unique_production_methods = {
 		slave_auction_house_maintenance = {
 			weaponry = 0.1
 			firearms = 0.05
 			slaves_goods = 1
-			category = building_maintenance
+			category = special_demands
 		}
 	}
 	construction_demand = simple_colony_construction
 	build_time = colonise_build_time
+	capital_country_modifier = {
+		slavery_blocked = no
+		ban_exports_of_slaves_goods = no
+		ban_imports_of_slaves_goods = no
+	}
 	modifier = {
 		local_slaves_desired_pop = 0.25
-		local_slaves_migration_allowed = yes
-		local_slaves_assimilation_blocked = no
-		allow_slave_conversion = yes
-		allow_rgo_slave_demand = yes
+	}
+}
+
+REPLACE:slave_center = {
+	in_empty = any
+	is_foreign = yes
+	stronger_power_projection = yes
+	max_levels = 1
+	pop_type = burghers
+	category = colonial_category
+	employment_size = foreign_trade_employment
+	pop_size_created = foreign_trade_employment
+	rural_settlement = yes
+	town = yes
+	city = yes
+	location_potential = {
+		NOT = {
+			dominant_religion.group = scope:actor.religion.group
+		}
+		owner ?= {
+			religion != scope:actor.religion
+		}
+	}
+	allow = {
+		OR = {
+			sub_continent = sub_continent:west_africa
+			sub_continent = sub_continent:central_africa
+			has_game_rule = colonial_buildings_enabled_true
+		}
+		OR = {
+			is_coastal_within_range = yes
+			is_adjacent_to_owned_or_subject_owns = yes
+		}
+		scope:actor = {
+			has_slavery = yes
+		}
+	}
+	build_time = colonise_build_time
+	unique_production_methods = {
+		slave_center_maintenance_more_buildings = {
+			stone = 0.3
+			tools = 0.3
+			firearms = 0.33
+			paper = 0.1
+			produced = slaves_goods
+			output = 1
+			category = building_maintenance
+		}
+	}
+	construction_demand = simple_colony_construction
+	modifier = {
+		building_enslavement_power = 0.05
 	}
 }
