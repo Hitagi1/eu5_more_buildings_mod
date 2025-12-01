@@ -53,16 +53,11 @@ slave_auction_house = {
 			weaponry = 0.1
 			firearms = 0.05
 			slaves_goods = 1
-			category = special_demands
+			category = building_maintenance
 		}
 	}
 	construction_demand = simple_colony_construction
 	build_time = colonise_build_time
-	capital_country_modifier = {
-		slavery_blocked = no
-		ban_exports_of_slaves_goods = no
-		ban_imports_of_slaves_goods = no
-	}
 	modifier = {
 		local_slaves_desired_pop = 0.25
 	}
@@ -103,16 +98,8 @@ REPLACE:slave_center = {
 		}
 	}
 	build_time = colonise_build_time
-	unique_production_methods = {
-		slave_center_maintenance_more_buildings = {
-			stone = 0.3
-			tools = 0.3
-			firearms = 0.33
-			paper = 0.1
-			produced = slaves_goods
-			output = 1
-			category = building_maintenance
-		}
+	possible_production_methods = {
+		slave_center_maintenance
 	}
 	construction_demand = simple_colony_construction
 	modifier = {
