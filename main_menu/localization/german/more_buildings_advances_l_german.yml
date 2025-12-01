@@ -21,6 +21,15 @@
   potash_works_advance: "Techniken zur Kaliumkarbonatgewinnung"
   potash_works_advance_desc: "Handwerker entdeckten, dass durch kontrolliertes Verbrennen und Auslaugen mineralreicher Erden Kaliumkarbonat und Alunit gewonnen werden konnten, wichtige Beizmittel zum Fixieren von Farbstoffen und zur Vorbereitung von Häuten. Diese Verbindungen stabilisierten Farben und machten Leder weich, wodurch sie für die frühe Textil- und Gerbereiindustrie unverzichtbar wurden."
 
+  laterite_bloomery_advance: "Laterit-Eisenschmelze"
+  laterite_bloomery_advance_desc: "In tropischen Regionen lernten die frühen Schmiede, die an Eisenoxide reichen Lateritböden zu nutzen. Durch das Rösten des Erzes und den Bau von Hochöfen, die mit Holzkohle befeuert wurden, konnten sie das Eisenerz zu verarbeitbaren Blöcken reduzieren und so eine lokale Eisenquelle für Werkzeuge und Waffen schaffen."
+
+  laterite_bloomery_african_soils_advance: "Afrikanische Laterit-Eisenschmelze"
+  laterite_bloomery_african_soils_advance_desc: "Einheimische Metallurgen in Afrika entwickelten spezielle Techniken zum Schmelzen von Lateriterzen, die in ihren Regionen reichlich vorhanden waren. Durch die Anpassung der Konstruktion von Hochöfen an die örtlichen Gegebenheiten und die Verwendung einheimischer Holzkohlequellen produzierten sie effizient Eisenblöcke, die das Wachstum der frühen afrikanischen Zivilisationen vorantrieben."
+
+  agricultural_residue_collector_advance: "Nutzung landwirtschaftlicher Rückstände"
+  agricultural_residue_collector_advance_desc: "Angesichts der zunehmenden Knappheit der Brennstoffressourcen entwickelten Agrargesellschaften innovative Lösungen, indem sie landwirtschaftliche Rückstände wie Stroh, Spelzen und Stängel sammelten und wiederverwerteten. Diese Materialien wurden zu einer nachhaltigen Brennstoffquelle verarbeitet und ergänzten die traditionellen Holz- und Holzkohlevorräte für Heizzwecke und die Metallverarbeitung."
+
   beekeepers_hut_advance: "Imkerei"
   beekeepers_hut_advance_desc: "Frühe Landwirte lernten, wilde Bienen zu domestizieren, indem sie ihnen einfache Bienenstöcke aus ausgehöhlten Baumstämmen oder geflochtenem Stroh zur Verfügung stellten. Durch die Bewirtschaftung dieser Kolonien konnten sie Honig und Bienenwachs ernten, wichtige Rohstoffe für Lebensmittel, Medizin und Kerzenherstellung."
 
