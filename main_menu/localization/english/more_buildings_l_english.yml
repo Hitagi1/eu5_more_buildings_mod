@@ -41,6 +41,10 @@
   laterite_bloomery_maintenance: "Laterite Ore extraction"
   laterite_bloomery_african_soils: "African Laterite Extraction"
 
+  agricultural_residue_collector: "Agricultural Residue Collector"
+  agricultural_residue_collector_desc: "A facility that collects and processes agricultural residues such as straw, husks and animal waste to produce fuel for heating and metalworking."
+  agricultural_residue_collector_maintenance: "Agricultural Residue Fuel"
+
   hunting_camp: "Hunting Camp"
   hunting_camp_desc: "A camp where hunters gather to trap and hunt wild game, supplying meat and pelts to nearby settlements."
   hunting_camp_maintenance: "Hunting Supplies"
@@ -62,6 +66,10 @@
   native_extermination: "Native Displacement" 
   native_extermination_desc: "A campaign aimed at displacing indigenous populations to make way for colonial settlements and resource extraction."
   native_extermination_maintenance: "Military Supplies"
+
+  slave_auction_house: "Slave Auction House"
+  slave_auction_house_desc: "A marketplace where enslaved individuals are bought and sold, fueling the labor demands of colonial enterprises."
+  slave_auction_house_maintenance: "Slave Trade Operations"
 
   wheat_enclosure: "Wheat Enclosure"
   wheat_enclosure_maintenance: "Wheat Enclosures"

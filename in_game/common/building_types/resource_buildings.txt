@@ -23,7 +23,7 @@
 	unique_production_methods = {
 		shallow_tin_mine_maintenance = {
 			produced = tin
-			output = 0.4
+			output = 0.35
 			lumber = 0.3
 			tools = 0.05
 			category = building_maintenance
@@ -118,7 +118,7 @@ galenite_extraction = {
 	unique_production_methods = {
 		galenite_extraction_maintenance = {
 			produced = lead
-			output = 0.5
+			output = 0.4
 			coal = 0.25
 			tools = 0.05
 			category = building_maintenance
@@ -150,6 +150,7 @@ cinnabar_refinement = {
 			glass = 0.01
 			coal = 0.25
 			tools = 0.05
+			debug_max_profit = 1.25
 			category = building_maintenance
 		}
 	}
@@ -192,6 +193,7 @@ brine_well = {
 			lumber = 0.1			#0.15
 			tools = 0.15			#0.45
 			category = building_maintenance
+			debug_max_profit = 0.35
 		}
 	}
 	build_time = rural_build_time
@@ -252,6 +254,7 @@ laterite_bloomery = {
 			tools = 0.05
 			lumber = 0.1
 			category = building_maintenance
+			debug_max_profit = 0.35
 		}
 		laterite_bloomery_african_soils = {
 			produced = iron
@@ -276,7 +279,14 @@ agricultural_residue_collector = {
 	town = yes
 	city = yes
 	location_potential = {
-		raw_material.method = farming
+		raw_material = {
+			goods_method = farming
+		}
+		OR = {
+			climate = arid
+			climate = mediterranean
+			climate = subtropical
+		}
 	}
 	allow = {
 		has_game_rule = resource_buildings_enabled_true
@@ -284,9 +294,9 @@ agricultural_residue_collector = {
 	category = rgo_building_category
 	unique_production_methods = {
 		agricultural_residue_collector_maintenance = {
-			produced = biomass
-			output = 0.4
-			livestock = 0.4
+			produced = coal
+			output = 0.45
+			livestock = 0.5
 			category = building_maintenance
 		}
 	}
