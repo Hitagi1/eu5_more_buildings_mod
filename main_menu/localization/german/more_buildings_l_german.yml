@@ -52,6 +52,7 @@
   urban_housing_expansion: "Städtischer Wohnungsbau"
   urban_housing_expansion_desc: "Eine Erweiterung des städtischen Wohnungsbaus, um der wachsenden Bevölkerung gerecht zu werden und die Überbelegung zu verringern."
   urban_housing_expansion_maintenance: "Wohnungsinstandhaltung"
+  urban_housing_expansion_maintenance_brick_homes: "Ziegelhäuser"
 
   urban_sewage_system: "Städtisches Abwassersystem"
   urban_sewage_system_desc: "Ein Abwassersystem, das die Hygiene und öffentliche Gesundheit in städtischen Gebieten verbessert, indem es Abfälle aus den Wohnvierteln ableitet."

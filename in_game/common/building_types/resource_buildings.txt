@@ -166,6 +166,9 @@ brine_well = {
 	rural_settlement = yes
 	town = yes
 	city = yes
+	allow = {
+		has_game_rule = resource_buildings_enabled_true
+	}
 	location_potential = {
 		OR = {
 			topography = hills
@@ -181,17 +184,14 @@ brine_well = {
 		}
 		is_coastal = no
 	}
-	allow = {
-		has_game_rule = resource_buildings_enabled_true
-	}
 	category = rgo_building_category
 	unique_production_methods = {
 		brine_well_maintenance = {
 			produced = salt
-			output = 0.4			#1.6
-			coal = 0.3			#0.6
-			lumber = 0.1			#0.15
-			tools = 0.15			#0.45
+			output = 0.4
+			coal = 0.3
+			lumber = 0.1
+			tools = 0.15
 			category = building_maintenance
 			debug_max_profit = 0.35
 		}
@@ -214,7 +214,7 @@ potash_works = {
 	allow = {
 		has_game_rule = resource_buildings_enabled_true
 	}
-	category = rgo_building_category
+	category = basic_industry_category
 	unique_production_methods = {
 		potash_works_maintenance = {
 			produced = alum
@@ -283,15 +283,15 @@ agricultural_residue_collector = {
 			goods_method = farming
 		}
 		OR = {
-			climate = arid
-			climate = mediterranean
-			climate = subtropical
+			vegetation = grasslands
+			vegetation = sparse
+			vegetation = farmland
 		}
 	}
 	allow = {
 		has_game_rule = resource_buildings_enabled_true
 	}
-	category = rgo_building_category
+	category = basic_industry_category
 	unique_production_methods = {
 		agricultural_residue_collector_maintenance = {
 			produced = coal
