@@ -52,8 +52,9 @@ slave_auction_house = {
 		slave_auction_house_maintenance = {
 			weaponry = 0.1
 			firearms = 0.05
-			slaves_goods = 1
+			slaves_goods = 1.5
 			category = building_maintenance
+			no_upkeep = yes
 		}
 	}
 	construction_demand = simple_colony_construction

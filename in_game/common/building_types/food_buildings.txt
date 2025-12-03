@@ -300,3 +300,35 @@ sturdy_grains_field = {
 	build_time = rural_build_time
 	construction_demand = farm_constructions
 }
+
+livestock_ranch = {
+	is_foreign = no
+	max_levels = rural_farming_cap
+	pop_type = laborers
+	employment_size = rural_peasant_produce_employment
+	rural_settlement = yes
+	town = yes
+	city = yes
+	allow = {
+		has_game_rule = food_buildings_enabled_true
+	}
+	location_potential = {
+		#currently technically possible to build without any valid production methods. This alleviates this maybe?
+		NOR = {
+			cliamte = arctic
+			vegetation = desert
+		}
+	}
+	category = rgo_building_category
+	possible_production_methods = {
+		livestock_ranch_maintenance_cattle
+		livestock_ranch_maintenance_chicken
+		livestock_ranch_maintenance_pig
+		livestock_ranch_maintenance_ducks
+		livestock_ranch_maintenance_yak
+		livestock_ranch_maintenance_alpaca
+		livestock_ranch_maintenance_turkey
+	}
+	build_time = rural_build_time
+	construction_demand = farm_constructions
+}

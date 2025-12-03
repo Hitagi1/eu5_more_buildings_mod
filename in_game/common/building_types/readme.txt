@@ -49,10 +49,10 @@
 # - jungle
 # Climate types:
 # - arctic
-# - cold arid
+# - cold_arid
 # - continental
 # - oceanic
 # - mediterranean
-# - hot arid
+# - arid
 # - subtropical
 # - tropical
