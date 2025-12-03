@@ -2,7 +2,7 @@
 	is_foreign = no
 	max_levels = rural_building_cap
 	pop_type = laborers
-	employment_size = rural_peasant_produce_employment
+	employment_size = rural_raw_goods_production_employment_size
 	rural_settlement = yes
 	town = yes
 	city = yes
@@ -23,7 +23,7 @@
 	unique_production_methods = {
 		shallow_tin_mine_maintenance = {
 			produced = tin
-			output = 0.4
+			output = 0.35
 			lumber = 0.3
 			tools = 0.05
 			category = building_maintenance
@@ -37,7 +37,7 @@ hydrothermal_copper_mine = {
 	is_foreign = no
 	max_levels = rural_building_cap
 	pop_type = laborers
-	employment_size = rural_peasant_produce_employment
+	employment_size = rural_raw_goods_production_employment_size
 	rural_settlement = yes
 	town = yes
 	city = yes
@@ -69,7 +69,7 @@ hydrothermal_copper_shaft_mine = {
 	is_foreign = no
 	max_levels = rural_building_cap
 	pop_type = laborers
-	employment_size = rural_peasant_produce_employment
+	employment_size = rural_raw_goods_production_employment_size
 	rural_settlement = yes
 	town = yes
 	city = yes
@@ -104,7 +104,7 @@ galenite_extraction = {
 	is_foreign = no
 	max_levels = rural_building_cap
 	pop_type = laborers
-	employment_size = rural_peasant_produce_employment
+	employment_size = rural_raw_goods_production_employment_size
 	rural_settlement = yes
 	town = yes
 	city = yes
@@ -118,7 +118,7 @@ galenite_extraction = {
 	unique_production_methods = {
 		galenite_extraction_maintenance = {
 			produced = lead
-			output = 0.5
+			output = 0.4
 			coal = 0.25
 			tools = 0.05
 			category = building_maintenance
@@ -132,7 +132,7 @@ cinnabar_refinement = {
 	is_foreign = no
 	max_levels = rural_building_cap
 	pop_type = laborers
-	employment_size = rural_peasant_produce_employment
+	employment_size = rural_raw_goods_production_employment_size
 	rural_settlement = yes
 	town = yes
 	city = yes
@@ -150,6 +150,7 @@ cinnabar_refinement = {
 			glass = 0.01
 			coal = 0.25
 			tools = 0.05
+			debug_max_profit = 1.25
 			category = building_maintenance
 		}
 	}
@@ -161,10 +162,13 @@ brine_well = {
 	is_foreign = no
 	max_levels = rural_building_cap
 	pop_type = laborers
-	employment_size = rural_peasant_produce_employment
+	employment_size = rural_raw_goods_production_employment_size
 	rural_settlement = yes
 	town = yes
 	city = yes
+	allow = {
+		has_game_rule = resource_buildings_enabled_true
+	}
 	location_potential = {
 		OR = {
 			topography = hills
@@ -180,18 +184,16 @@ brine_well = {
 		}
 		is_coastal = no
 	}
-	allow = {
-		has_game_rule = resource_buildings_enabled_true
-	}
 	category = rgo_building_category
 	unique_production_methods = {
 		brine_well_maintenance = {
 			produced = salt
-			output = 0.4			#1.6
-			coal = 0.3			#0.6
-			lumber = 0.1			#0.15
-			tools = 0.15			#0.45
+			output = 0.4
+			coal = 0.3
+			lumber = 0.1
+			tools = 0.15
 			category = building_maintenance
+			debug_max_profit = 0.35
 		}
 	}
 	build_time = rural_build_time
@@ -202,7 +204,7 @@ potash_works = {
 	is_foreign = no
 	max_levels = rural_building_cap
 	pop_type = laborers
-	employment_size = rural_peasant_produce_employment
+	employment_size = rural_raw_goods_production_employment_size
 	rural_settlement = yes
 	town = yes
 	city = yes
@@ -212,13 +214,89 @@ potash_works = {
 	allow = {
 		has_game_rule = resource_buildings_enabled_true
 	}
-	category = rgo_building_category
+	category = basic_industry_category
 	unique_production_methods = {
 		potash_works_maintenance = {
 			produced = alum
 			output = 0.5
 			lumber = 0.75
 			clay = 0.25
+			category = building_maintenance
+		}
+	}
+	build_time = rural_build_time
+	construction_demand = basic_construction_needs
+}
+
+laterite_bloomery = {
+	is_foreign = no
+	max_levels = rural_building_cap
+	pop_type = laborers
+	employment_size = rural_raw_goods_production_employment_size
+	rural_settlement = yes
+	town = yes
+	city = yes
+	location_potential = {
+		climate = tropical
+		NOT = {
+			raw_material = goods:iron
+		}
+	}
+	allow = {
+		has_game_rule = resource_buildings_enabled_true
+	}
+	category = rgo_building_category
+	unique_production_methods = {
+		laterite_bloomery_maintenance = {
+			produced = iron
+			output = 0.4
+			coal = 0.3
+			tools = 0.05
+			lumber = 0.1
+			category = building_maintenance
+			debug_max_profit = 0.35
+		}
+		laterite_bloomery_african_soils = {
+			produced = iron
+			output = 0.4
+			coal = 0.3
+			tools = 0.05
+			lumber = 0.1
+			category = building_maintenance
+			debug_max_profit = 0.5
+		}
+	}
+	build_time = rural_build_time
+	construction_demand = basic_construction_needs
+}
+
+agricultural_residue_collector = {
+	is_foreign = no
+	max_levels = rural_building_cap
+	pop_type = laborers
+	employment_size = rural_raw_goods_production_employment_size
+	rural_settlement = yes
+	town = yes
+	city = yes
+	location_potential = {
+		raw_material = {
+			goods_method = farming
+		}
+		OR = {
+			vegetation = grasslands
+			vegetation = sparse
+			vegetation = farmland
+		}
+	}
+	allow = {
+		has_game_rule = resource_buildings_enabled_true
+	}
+	category = basic_industry_category
+	unique_production_methods = {
+		agricultural_residue_collector_maintenance = {
+			produced = coal
+			output = 0.45
+			livestock = 0.5
 			category = building_maintenance
 		}
 	}

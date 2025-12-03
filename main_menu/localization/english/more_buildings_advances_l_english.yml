@@ -21,6 +21,15 @@
   potash_works_advance: "Potash Production Techniques"
   potash_works_advance_desc: "Craftworkers discovered that controlled burning and leaching of mineral-rich earths could yield potash and alunite, key mordants for fixing dyes and preparing hides. These compounds stabilized colors and softened leather, making them indispensable to early textile and tanning industries."
 
+  laterite_bloomery_advance: "Laterite Iron Smelting"
+  laterite_bloomery_advance_desc: "In tropical regions, early blacksmiths learned to exploit laterite soils rich in iron oxides. By roasting the ore and constructing bloomery furnaces using charcoal as fuel, they could reduce the iron ore to workable blooms, providing a local source of iron for tools and weapons."
+
+  laterite_bloomery_african_soils_advance: "African Laterite Iron Smelting"
+  laterite_bloomery_african_soils_advance_desc: "Indigenous metallurgists in Africa developed specialized techniques for smelting laterite ores abundant in their regions. By adapting bloomery furnace designs to local conditions and utilizing native charcoal sources, they efficiently produced iron blooms that fueled the growth of early African civilizations."
+
+  agricultural_residue_collector_advance: "Agricultural Residue Utilization"
+  agricultural_residue_collector_advance_desc: "With fuel resources becoming scarcer, agrarian societies innovated by collecting and repurposing agricultural residues such as straw, husks, and stalks. These materials were processed into a sustainable fuel source, supplementing traditional wood and charcoal supplies for heating and metalworking."
+
   beekeepers_hut_advance: "Beekeeping Practices"
   beekeepers_hut_advance_desc: "Early agriculturalists learned to domesticate wild bees by providing them with simple hives made from hollowed logs or woven straw. By managing these colonies, they could harvest honey and beeswax, essential commodities for food, medicine, and candle-making."
 

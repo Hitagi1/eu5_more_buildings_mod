@@ -32,3 +32,77 @@
 		local_population_growth = -0.075
 	}
 }
+
+slave_auction_house = {
+	is_foreign = no
+	max_levels = 3
+	pop_type = nobles
+	category = colonial_category
+	employment_size = 0.01
+	rural_settlement = yes
+	town = yes
+	city = yes
+	allow = {
+		has_game_rule = colonial_buildings_enabled_true
+	}
+	country_potential = {
+		has_slavery = yes
+	}
+	unique_production_methods = {
+		slave_auction_house_maintenance = {
+			weaponry = 0.1
+			firearms = 0.05
+			slaves_goods = 1
+			category = building_maintenance
+		}
+	}
+	construction_demand = simple_colony_construction
+	build_time = colonise_build_time
+	modifier = {
+		local_slaves_desired_pop = 0.25
+	}
+}
+
+REPLACE:slave_center = {
+	in_empty = any
+	is_foreign = yes
+	stronger_power_projection = yes
+	max_levels = 1
+	pop_type = burghers
+	category = colonial_category
+	employment_size = foreign_trade_employment
+	pop_size_created = foreign_trade_employment
+	rural_settlement = yes
+	town = yes
+	city = yes
+	location_potential = {
+		NOT = {
+			dominant_religion.group = scope:actor.religion.group
+		}
+		owner ?= {
+			religion != scope:actor.religion
+		}
+	}
+	allow = {
+		OR = {
+			sub_continent = sub_continent:west_africa
+			sub_continent = sub_continent:central_africa
+			has_game_rule = colonial_buildings_enabled_true
+		}
+		OR = {
+			is_coastal_within_range = yes
+			is_adjacent_to_owned_or_subject_owns = yes
+		}
+		scope:actor = {
+			has_slavery = yes
+		}
+	}
+	build_time = colonise_build_time
+	possible_production_methods = {
+		slave_center_maintenance
+	}
+	construction_demand = simple_colony_construction
+	modifier = {
+		building_enslavement_power = 0.05
+	}
+}

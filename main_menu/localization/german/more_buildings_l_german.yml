@@ -36,6 +36,15 @@
   potash_works_desc: "Eine Anlage, die aus Holzasche und Ton Kaliumkarbonat herstellt."
   potash_works_maintenance: "Kaliumkarbonatproduktion"
 
+  laterite_bloomery: "Laterit-Hochofen"
+  laterite_bloomery_desc: "Ein Hochofen, der Lateriterz verarbeitet, das in tropischen Regionen häufig vorkommt, um Eisenblöcke für die Schmiedekunst herzustellen."
+  laterite_bloomery_maintenance: "Laterit-Erzgewinnung"
+  laterite_bloomery_african_soils: "Afrikanische Lateritgewinnung"
+
+  agricultural_residue_collector: "Sammler landwirtschaftlicher Rückstände"
+  agricultural_residue_collector_desc: "Eine Anlage, die landwirtschaftliche Rückstände wie Stroh, Spelzen und Tierabfälle sammelt und verarbeitet, um Brennstoff für Heizzwecke und die Metallverarbeitung herzustellen."
+  agricultural_residue_collector_maintenance: "Brennstoff aus landwirtschaftlichen Rückständen"
+
   hunting_camp: "Jagdlager"
   hunting_camp_desc: "Ein Camp, in dem sich Jäger versammeln, um Wild zu fangen und zu jagen und die umliegenden Siedlungen mit Fleisch und Fellen zu versorgen."
   hunting_camp_maintenance: "Jagdausrüstung"
@@ -43,6 +52,7 @@
   urban_housing_expansion: "Städtischer Wohnungsbau"
   urban_housing_expansion_desc: "Eine Erweiterung des städtischen Wohnungsbaus, um der wachsenden Bevölkerung gerecht zu werden und die Überbelegung zu verringern."
   urban_housing_expansion_maintenance: "Wohnungsinstandhaltung"
+  urban_housing_expansion_maintenance_brick_homes: "Ziegelhäuser"
 
   urban_sewage_system: "Städtisches Abwassersystem"
   urban_sewage_system_desc: "Ein Abwassersystem, das die Hygiene und öffentliche Gesundheit in städtischen Gebieten verbessert, indem es Abfälle aus den Wohnvierteln ableitet."
@@ -56,6 +66,10 @@
   native_extermination: "Vertreibung der Ureinwohner" 
   native_extermination_desc: "Eine Kampagne, die darauf abzielt, die indigene Bevölkerung zu vertreiben, um Platz für koloniale Siedlungen und die Ausbeutung von Ressourcen zu schaffen."
   native_extermination_maintenance: "Militärische Versorgung"
+
+  slave_auction_house: "Sklaven-Auktionshaus"
+  slave_auction_house_desc: "Ein Marktplatz, auf dem versklavte Personen gekauft und verkauft werden, um den Arbeitskräftebedarf kolonialer Unternehmen zu decken."
+  slave_auction_house_maintenance: "Sklavenhandelsoperationen"
 
   wheat_enclosure: "Weizenumzäunung"
   wheat_enclosure_maintenance: "Weizenumzäunungen"
