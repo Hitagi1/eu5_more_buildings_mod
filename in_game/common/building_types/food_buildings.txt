@@ -315,7 +315,7 @@ livestock_ranch = {
 	location_potential = {
 		#currently technically possible to build without any valid production methods. This alleviates this maybe?
 		NOR = {
-			cliamte = arctic
+			climate = arctic
 			vegetation = desert
 		}
 	}

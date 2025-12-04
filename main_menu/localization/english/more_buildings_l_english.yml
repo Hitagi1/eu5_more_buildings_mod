@@ -90,3 +90,13 @@
   corn_plantation: "Corn Plantation"
   corn_plantation_maintenance: "Corn Plantations"
   corn_plantation_desc: "A large farm dedicated to the cultivation of corn"
+
+  livestock_ranch: "Livestock Ranch"
+  livestock_ranch_desc: "A ranch where various types of livestock can be raised, providing meat, milk or other animal products."
+  livestock_ranch_maintenance_cattle: "Cattle"
+  livestock_ranch_maintenance_chicken: "Chicken"
+  livestock_ranch_maintenance_pig: "Pig"
+  livestock_ranch_maintenance_ducks: "Ducks"
+  livestock_ranch_maintenance_yak: "Yak"
+  livestock_ranch_maintenance_alpaca: "Alpaca"
+  livestock_ranch_maintenance_turkey: "Turkey"
