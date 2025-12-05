@@ -1,0 +1,36 @@
+﻿urban_housing_expansion_maintenance = {
+	lumber = 0.25
+	masonry = 0.3
+	glass = 0.15
+	category = building_maintenance
+}
+
+urban_housing_expansion_maintenance_brick_homes = {
+	masonry = 0.4
+	clay = 0.2
+	sand = 0.3
+	glass = 0.15
+	category = building_maintenance
+}
+
+urban_infrastucture_expansion_maintenance = {
+	tools = 0.05
+	masonry = 0.35
+	glass = 0.3
+	category = building_maintenance
+}
+
+urban_sewage_system_maintenance_lead_pipes = {
+	sand = 0.5
+	masonry = 0.4
+	lead = 0.15
+	category = building_maintenance
+}
+
+urban_sewage_system_maintenance_copper_pipes = {
+	sand = 0.5
+	masonry = 0.4
+	copper = 0.18
+	tin = 0.02
+	category = building_maintenance
+}
