@@ -1,4 +1,4 @@
-shallow_tin_mine_maintenance = {
+﻿shallow_tin_mine_maintenance = {
 	produced = tin
 	output = 0.35
 	lumber = 0.3
