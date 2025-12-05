@@ -20,14 +20,8 @@
 		}
 	}
 	category = rgo_building_category
-	unique_production_methods = {
-		shallow_tin_mine_maintenance = {
-			produced = tin
-			output = 0.35
-			lumber = 0.3
-			tools = 0.05
-			category = building_maintenance
-		}
+	possible_production_methods = {
+		shallow_tin_mine_maintenance
 	}
 	build_time = rural_build_time
 	construction_demand = basic_construction_needs
@@ -51,15 +45,8 @@ hydrothermal_copper_mine = {
 		}
 	}
 	category = rgo_building_category
-	unique_production_methods = {
-		hydrothermal_copper_mine_maintenance = {
-			produced = copper			# 1.55 - 1.2
-			output = 0.55
-			lumber = 0.4
-			tools = 0.1
-			coal = 0.2
-			category = building_maintenance
-		}
+	possible_production_methods = {
+		hydrothermal_copper_mine_maintenance
 	}
 	build_time = rural_build_time
 	construction_demand = basic_construction_needs
@@ -84,17 +71,8 @@ hydrothermal_copper_shaft_mine = {
 		}
 	}
 	category = rgo_building_category
-	unique_production_methods = {
-		hydrothermal_copper_shaft_mine_maintenance = {
-			produced = copper			# 4.5 - 2.65
-			output = 1.5
-			lumber = 0.4
-			saltpeter = 0.35
-			tools = 0.25
-			coal = 0.3
-			category = building_maintenance
-			debug_max_profit = 1
-		}
+	possible_production_methods = {
+		hydrothermal_copper_shaft_mine_maintenance
 	}
 	build_time = rural_build_time
 	construction_demand = basic_construction_needs
@@ -115,14 +93,8 @@ galenite_extraction = {
 		raw_material = goods:silver
 	}
 	category = rgo_building_category
-	unique_production_methods = {
-		galenite_extraction_maintenance = {
-			produced = lead
-			output = 0.4
-			coal = 0.25
-			tools = 0.05
-			category = building_maintenance
-		}
+	possible_production_methods = {
+		galenite_extraction_maintenance
 	}
 	build_time = rural_build_time
 	construction_demand = basic_construction_needs
@@ -143,16 +115,8 @@ cinnabar_refinement = {
 		has_game_rule = resource_buildings_enabled_true
 	}
 	category = rgo_building_category
-	unique_production_methods = {
-		cinnabar_refinement_maintenance = {
-			produced = mercury
-			output = 0.5
-			glass = 0.01
-			coal = 0.25
-			tools = 0.05
-			debug_max_profit = 1.25
-			category = building_maintenance
-		}
+	possible_production_methods = {
+		cinnabar_refinement_maintenance
 	}
 	build_time = rural_build_time
 	construction_demand = basic_construction_needs
@@ -185,16 +149,8 @@ brine_well = {
 		is_coastal = no
 	}
 	category = rgo_building_category
-	unique_production_methods = {
-		brine_well_maintenance = {
-			produced = salt
-			output = 0.4
-			coal = 0.3
-			lumber = 0.1
-			tools = 0.15
-			category = building_maintenance
-			debug_max_profit = 0.35
-		}
+	possible_production_methods = {
+		brine_well_maintenance
 	}
 	build_time = rural_build_time
 	construction_demand = basic_construction_needs
@@ -215,14 +171,8 @@ potash_works = {
 		has_game_rule = resource_buildings_enabled_true
 	}
 	category = basic_industry_category
-	unique_production_methods = {
-		potash_works_maintenance = {
-			produced = alum
-			output = 0.5
-			lumber = 0.75
-			clay = 0.25
-			category = building_maintenance
-		}
+	possible_production_methods = {
+		potash_works_maintenance
 	}
 	build_time = rural_build_time
 	construction_demand = basic_construction_needs
@@ -246,25 +196,9 @@ laterite_bloomery = {
 		has_game_rule = resource_buildings_enabled_true
 	}
 	category = rgo_building_category
-	unique_production_methods = {
-		laterite_bloomery_maintenance = {
-			produced = iron
-			output = 0.4
-			coal = 0.3
-			tools = 0.05
-			lumber = 0.1
-			category = building_maintenance
-			debug_max_profit = 0.35
-		}
-		laterite_bloomery_african_soils = {
-			produced = iron
-			output = 0.4
-			coal = 0.3
-			tools = 0.05
-			lumber = 0.1
-			category = building_maintenance
-			debug_max_profit = 0.5
-		}
+	possible_production_methods = {
+		laterite_bloomery_maintenance
+		laterite_bloomery_african_soils
 	}
 	build_time = rural_build_time
 	construction_demand = basic_construction_needs
@@ -292,13 +226,8 @@ agricultural_residue_collector = {
 		has_game_rule = resource_buildings_enabled_true
 	}
 	category = basic_industry_category
-	unique_production_methods = {
-		agricultural_residue_collector_maintenance = {
-			produced = coal
-			output = 0.45
-			livestock = 0.5
-			category = building_maintenance
-		}
+	possible_production_methods = {
+		agricultural_residue_collector_maintenance
 	}
 	build_time = rural_build_time
 	construction_demand = basic_construction_needs

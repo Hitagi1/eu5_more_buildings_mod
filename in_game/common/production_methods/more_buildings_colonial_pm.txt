@@ -1,4 +1,10 @@
-﻿slave_auction_house_maintenance = {
+﻿native_extermination_maintenance = {
+	weaponry = 0.5
+	firearms = 0.25
+	category = building_maintenance
+}
+
+slave_auction_house_maintenance = {
 	weaponry = 0.1
 	firearms = 0.05
 	slaves_goods = 1.5

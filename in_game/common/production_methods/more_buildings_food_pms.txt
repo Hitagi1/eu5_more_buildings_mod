@@ -1,0 +1,67 @@
+﻿beekeepers_hut_maintenance = {
+	produced = beeswax
+	output = 0.35
+	lumber = 0.25
+	tools = 0.05
+	category = building_maintenance
+	debug_max_profit = 0.34
+}
+
+hunting_camp_maintenance = {
+	produced = wild_game
+	output = 0.75
+	cloth = 0.15
+	tools = 0.05
+	category = building_maintenance
+	debug_max_profit = 0.34
+}
+
+wheat_enclosure_maintenance = {
+	produced = wheat	# 1 - 0.65
+	output = 1
+	lumber = 0.3
+	tools = 0.05
+	livestock = 0.1
+	category = building_maintenance
+	debug_max_profit = 0.34
+}
+
+rice_paddy_maintenance = {
+	produced = rice	# 1- 0.7
+	output = 1
+	lumber = 0.3
+	tools = 0.05
+	masonry = 0.1
+	category = building_maintenance
+	debug_max_profit = 0.45
+}
+
+corn_plantation_maintenance = {
+	produced = maize	# 1.2 - 0.85
+	output = 1.2
+	lumber = 0.4
+	tools = 0.05
+	masonry = 0.05
+	clay = 0.1
+	category = building_maintenance
+	debug_max_profit = 0.45
+}
+
+potato_patch_maintenance = {
+	produced = potato	# 1 - 0.75
+	output = 1
+	lumber = 0.4
+	tools = 0.05
+	category = building_maintenance
+	debug_max_profit = 0.34
+}
+
+sturdy_grains_field_maintenance = {
+	produced = millet	# 1 - 0.75
+	output = 1
+	lumber = 0.25
+	tools = 0.05
+	livestock = 0.15
+	category = building_maintenance
+	debug_max_profit = 0.34
+}
