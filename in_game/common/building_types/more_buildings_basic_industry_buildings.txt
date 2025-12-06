@@ -1,6 +1,6 @@
-improved_mason = {
+﻿improved_mason = {
 	is_foreign = no
-	max_levels = guild_max_levels
+	max_levels = guild_max_level
 	pop_type = laborers
 	obsolete = mason
 	category = basic_industry_category
@@ -9,7 +9,7 @@ improved_mason = {
 	town = yes
 	city = yes
 	allow = {
-		has_game_rule = basic_industry_buildings_enabled_true
+		has_game_rule = resource_buildings_enabled_true
 	}
 	possible_production_methods = {
 		improved_stone_bricks

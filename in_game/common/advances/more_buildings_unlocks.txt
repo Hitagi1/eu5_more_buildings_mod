@@ -94,7 +94,7 @@ agricultural_residue_collector_advance = {
 improved_masonry_advance = {
 	age = age_4_reformation
 	potential = {
-		has_game_rule = basic_industry_buildings_enabled_true
+		has_game_rule = resource_buildings_enabled_true
 	}
 	unlock_building = improved_mason
 	requires = foreign_mining_techniques

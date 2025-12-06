@@ -1,4 +1,4 @@
-improved_stone_bricks = {
+﻿improved_stone_bricks = {
 	category = building_maintenance
 	produced = masonry
 	output = 1
