@@ -1,0 +1,17 @@
+﻿improved_stone_bricks = {
+	category = building_maintenance
+	produced = masonry
+	output = 1.5
+	stone = 0.6
+	tools = 0.1
+	debug_max_profit = 0.75
+}
+
+improved_clay_bricks = {
+	category = building_maintenance
+	produced = masonry
+	output = 1.5
+	clay = 1.2
+	tools = 0.1
+	debug_max_profit = 0.75
+}

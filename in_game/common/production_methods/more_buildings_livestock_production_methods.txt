@@ -1,0 +1,232 @@
+﻿livestock_ranch_maintenance_cattle = {
+	produced = livestock
+	output = 1
+	allow = {
+		scope:target ?= {
+			NOT = {
+				climate = arctic
+			}
+			OR = {
+				vegetation = grasslands
+				vegetation = farmland
+				vegetation = woods
+			}
+			topography = flatland
+		}
+	}
+	potential = {
+		old_world_crops_building_trigger = yes
+	}
+	wheat = 0.55
+	lumber = 0.25
+	tools = 0.05
+	category = building_maintenance
+	debug_max_profit = 0.45
+}
+
+livestock_ranch_maintenance_chicken = {
+	produced = livestock
+	output = 0.8
+	allow = {
+		scope:target ?= {
+			OR = {
+				climate = subtropical
+				climate = tropical
+				climate = mediterranean
+				climate = continental
+				climate = oceanic
+			}
+			NOT = {
+				vegetation = desert
+			}
+			NOR = {
+				topography = hills
+				topography = mountains
+			}
+		}
+	}
+	potential = {
+		old_world_crops_building_trigger = yes
+	}
+	millet = 0.5
+	lumber = 0.25
+	tools = 0.05
+	category = building_maintenance
+}
+
+livestock_ranch_maintenance_pig = {
+	produced = livestock
+	output = 0.8
+	allow = {
+		scope:target ?= {
+			OR = {
+				climate = continental
+				climate = oceanic
+				climate = mediterranean
+				climate = subtropical
+				climate = tropical
+			}
+			NOT = {
+				vegetation = desert
+			}
+		}
+	}
+	potential = {
+		old_world_crops_building_trigger = yes
+		NOT = {
+			religion.group = religion_group:muslim
+		}
+	}
+	legumes = 0.4
+	lumber = 0.25
+	tools = 0.05
+	category = building_maintenance
+}
+
+livestock_ranch_maintenance_goat = {
+	produced = livestock
+	output = 0.7
+	allow = {
+		scope:target ?= {
+			OR = {
+				climate = arid
+				climate = cold_arid
+				climate = continental
+				climate = mediterranean
+				climate = oceanic
+			}
+			OR = {
+				vegetation = sparse
+				vegetation = grasslands
+				vegetation = farmland
+				vegetation = woods
+			}
+			OR = {
+				topography = hills
+				topography = mountains
+				topography = plateau
+			}
+		}
+	}
+	potential = {
+		old_world_crops_building_trigger = yes
+	}
+	millet = 0.4
+	lumber = 0.2
+	tools = 0.05
+	category = building_maintenance
+}
+
+livestock_ranch_maintenance_ducks = {
+	produced = livestock
+	output = 0.7
+	allow = {
+		scope:target ?= {
+			OR = {
+				climate = continental
+				climate = oceanic
+				climate = mediterranean
+				climate = subtropical
+				climate = tropical
+			}
+			OR = {
+				topography = wetlands
+				has_river = yes
+				is_adjacent_to_lake = yes
+			}
+			NOT = {
+				vegetation = desert
+			}
+		}
+	}
+	potential = {
+		old_world_crops_building_trigger = yes
+	}
+	rice = 0.4
+	lumber = 0.2
+	tools = 0.05
+	category = building_maintenance
+}
+
+livestock_ranch_maintenance_yak = {
+	produced = livestock
+	output = 0.6
+	allow = {
+		scope:target ?= {
+			OR = {
+				climate = cold_arid
+				climate = continental
+			}
+			OR = {
+				vegetation = sparse
+				vegetation = grasslands
+			}
+			OR = {
+				topography = plateau
+				topography = mountains
+				topography = hills
+			}
+		}
+	}
+	potential = {
+		old_world_crops_building_trigger = yes
+	}
+	millet = 0.4
+	lumber = 0.1
+	tools = 0.05
+	category = building_maintenance
+}
+
+livestock_ranch_maintenance_alpaca = {
+	produced = livestock
+	output = 0.65
+	allow = {
+		scope:target ?= {
+			OR = {
+				climate = arid
+				climate = cold_arid
+				climate = continental
+			}
+			OR = {
+				topography = plateau
+				topography = mountains
+			}
+			NOT = {
+				vegetation = desert
+			}
+		}
+	}
+	potential = {
+		new_world_crops_building_trigger = yes
+	}
+	millet = 0.45
+	lumber = 0.15
+	tools = 0.05
+	category = building_maintenance
+}
+
+livestock_ranch_maintenance_turkey = {
+	produced = livestock
+	output = 0.75
+	allow = {
+		scope:target ?= {
+			OR = {
+				climate = continental
+				climate = oceanic
+				climate = mediterranean
+				climate = subtropical
+				climate = tropical
+			}
+			NOT = {
+				vegetation = desert
+			}
+		}
+	}
+	potential = {
+		new_world_crops_building_trigger = yes
+	}
+	maize = 0.5
+	lumber = 0.15
+	tools = 0.05
+	category = building_maintenance
+}

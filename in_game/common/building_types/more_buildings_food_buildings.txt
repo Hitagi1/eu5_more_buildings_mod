@@ -20,15 +20,8 @@
 		}
 	}
 	category = rgo_building_category
-	unique_production_methods = {
-		beekeepers_hut_maintenance = {
-			produced = beeswax
-			output = 0.35
-			lumber = 0.25
-			tools = 0.05
-			category = building_maintenance
-			debug_max_profit = 0.34
-		}
+	possible_production_methods = {
+		beekeepers_hut_maintenance
 	}
 	modifier = {
 		local_monthly_food_modifier = 0.01
@@ -59,15 +52,8 @@ hunting_camp = {
 		}
 	}
 	category = rgo_building_category
-	unique_production_methods = {
-		hunting_camp_maintenance = {
-			produced = wild_game
-			output = 0.75
-			cloth = 0.15
-			tools = 0.05
-			category = building_maintenance
-			debug_max_profit = 0.34
-		}
+	possible_production_methods = {
+		hunting_camp_maintenance
 	}
 	build_time = rural_build_time
 	construction_demand = basic_construction_needs
@@ -105,16 +91,8 @@ wheat_enclosure = {
 		}
 	}
 	category = rgo_building_category
-	unique_production_methods = {
-		wheat_enclosure_maintenance = {
-			produced = wheat			# 1 - 0.65
-			output = 1
-			lumber = 0.3
-			tools = 0.05
-			livestock = 0.1
-			category = building_maintenance
-			debug_max_profit = 0.34
-		}
+	possible_production_methods = {
+		wheat_enclosure_maintenance
 	}
 	build_time = rural_build_time
 	construction_demand = farm_constructions
@@ -149,16 +127,8 @@ rice_paddy = {
 		}
 	}
 	category = rgo_building_category
-	unique_production_methods = {
-		rice_paddy_maintenance = {
-			produced = rice			# 1- 0.7
-			output = 1
-			lumber = 0.3
-			tools = 0.05
-			masonry = 0.1
-			category = building_maintenance
-			debug_max_profit = 0.45
-		}
+	possible_production_methods = {
+		rice_paddy_maintenance
 	}
 	build_time = rural_build_time
 	construction_demand = farm_constructions
@@ -186,17 +156,8 @@ corn_plantation = {
 		}
 	}
 	category = rgo_building_category
-	unique_production_methods = {
-		corn_plantation_maintenance = {
-			produced = maize			# 1.2 - 0.85
-			output = 1.2
-			lumber = 0.4
-			tools = 0.05
-			masonry = 0.05
-			clay = 0.1
-			category = building_maintenance
-			debug_max_profit = 0.45
-		}
+	possible_production_methods = {
+		corn_plantation_maintenance
 	}
 	build_time = rural_build_time
 	construction_demand = farm_constructions
@@ -238,15 +199,8 @@ potato_patch = {
 		}
 	}
 	category = rgo_building_category
-	unique_production_methods = {
-		potato_patch_maintenance = {
-			produced = potato			# 1 - 0.75
-			output = 1
-			lumber = 0.4
-			tools = 0.05
-			category = building_maintenance
-			debug_max_profit = 0.34
-		}
+	possible_production_methods = {
+		potato_patch_maintenance
 	}
 	build_time = rural_build_time
 	construction_demand = farm_constructions
@@ -286,16 +240,40 @@ sturdy_grains_field = {
 		}
 	}
 	category = rgo_building_category
-	unique_production_methods = {
-		sturdy_grains_field_maintenance = {
-			produced = millet			# 1 - 0.75
-			output = 1
-			lumber = 0.25
-			tools = 0.05
-			livestock = 0.15
-			category = building_maintenance
-			debug_max_profit = 0.34
+	possible_production_methods = {
+		sturdy_grains_field_maintenance
+	}
+	build_time = rural_build_time
+	construction_demand = farm_constructions
+}
+
+livestock_ranch = {
+	is_foreign = no
+	max_levels = rural_farming_cap
+	pop_type = laborers
+	employment_size = rural_peasant_produce_employment
+	rural_settlement = yes
+	town = yes
+	city = yes
+	allow = {
+		has_game_rule = food_buildings_enabled_true
+	}
+	location_potential = {
+		#currently technically possible to build without any valid production methods. This alleviates this maybe?
+		NOR = {
+			climate = arctic
+			vegetation = desert
 		}
+	}
+	category = rgo_building_category
+	possible_production_methods = {
+		livestock_ranch_maintenance_cattle
+		livestock_ranch_maintenance_chicken
+		livestock_ranch_maintenance_pig
+		livestock_ranch_maintenance_ducks
+		livestock_ranch_maintenance_yak
+		livestock_ranch_maintenance_alpaca
+		livestock_ranch_maintenance_turkey
 	}
 	build_time = rural_build_time
 	construction_demand = farm_constructions

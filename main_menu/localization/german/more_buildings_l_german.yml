@@ -3,6 +3,7 @@
   urban_expansion_construction: "Städtische Expansion und Bauwesen"
   BUILDING_LEVEL_FAVORABLE_CLIMATE: "Günstiges Klima"
   BUILDING_LEVEL_HAS_IRRIGATION: "Verfügt über Bewässerungsquelle"
+  advanced_construction_needs: "Fortgeschrittene Baukosten"
 
   beekeepers_hut: "Imkerhütte"
   beekeepers_hut_desc: "Eine kleine Hütte, in der Imker ihre Bienenstöcke pflegen und Honig und Bienenwachs für den lokalen Markt produzieren."
@@ -44,6 +45,11 @@
   agricultural_residue_collector: "Sammler landwirtschaftlicher Rückstände"
   agricultural_residue_collector_desc: "Eine Anlage, die landwirtschaftliche Rückstände wie Stroh, Spelzen und Tierabfälle sammelt und verarbeitet, um Brennstoff für Heizzwecke und die Metallverarbeitung herzustellen."
   agricultural_residue_collector_maintenance: "Brennstoff aus landwirtschaftlichen Rückständen"
+
+  improved_mason: "Verbesserte Maurerarbeit"
+  improved_mason_desc: "Eine fortschrittliche Maurerwerkstatt, die mit verbesserten Techniken und Materialien Ziegel von höherer Qualität herstellt."
+  improved_stone_bricks: "Verbesserte Steinziegel"
+  improved_clay_bricks: "Verbesserte Lehmziegel"
 
   hunting_camp: "Jagdlager"
   hunting_camp_desc: "Ein Camp, in dem sich Jäger versammeln, um Wild zu fangen und zu jagen und die umliegenden Siedlungen mit Fleisch und Fellen zu versorgen."
@@ -90,3 +96,14 @@
   corn_plantation: "Maisplantage"
   corn_plantation_maintenance: "Maisplantagen"
   corn_plantation_desc: "Ein großer Bauernhof, der sich dem Anbau von Mais widmet"
+
+  livestock_ranch: "Viehzucht"
+  livestock_ranch_desc: "Eine Ranch, auf der verschiedene Arten von Vieh gehalten werden können, um Fleisch, Milch oder andere tierische Produkte zu liefern."
+  livestock_ranch_maintenance_cattle: "Rinder"
+  livestock_ranch_maintenance_chicken: "Hühner"
+  livestock_ranch_maintenance_pig: "Schweine"
+  livestock_ranch_maintenance_goat: "Ziegen"
+  livestock_ranch_maintenance_ducks: "Enten"
+  livestock_ranch_maintenance_yak: "Yaks"
+  livestock_ranch_maintenance_alpaca: "Alpakas"
+  livestock_ranch_maintenance_turkey: "Truthähne"

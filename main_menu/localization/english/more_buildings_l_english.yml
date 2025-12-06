@@ -3,6 +3,8 @@
   urban_expansion_construction: "Urban Expansion Construction"
   BUILDING_LEVEL_FAVORABLE_CLIMATE: "Favorable Climate"
   BUILDING_LEVEL_HAS_IRRIGATION: "Has Irrigation Source"
+  advanced_construction_needs: "Advanced Construction Needs"
+
 
   beekeepers_hut: "Beekeepers Hut"
   beekeepers_hut_desc: "A small hut where beekeepers tend to their hives, producing honey and beeswax for the local market."
@@ -44,6 +46,11 @@
   agricultural_residue_collector: "Agricultural Residue Collector"
   agricultural_residue_collector_desc: "A facility that collects and processes agricultural residues such as straw, husks and animal waste to produce fuel for heating and metalworking."
   agricultural_residue_collector_maintenance: "Agricultural Residue Fuel"
+
+  improved_mason: "Improved Masonry"
+  improved_mason_desc: "An advanced masonry workshop that produces higher quality bricks using improved techniques and materials."
+  improved_stone_bricks: "Stone Bricks"
+  improved_clay_bricks: "Clay Bricks"
 
   hunting_camp: "Hunting Camp"
   hunting_camp_desc: "A camp where hunters gather to trap and hunt wild game, supplying meat and pelts to nearby settlements."
@@ -90,3 +97,14 @@
   corn_plantation: "Corn Plantation"
   corn_plantation_maintenance: "Corn Plantations"
   corn_plantation_desc: "A large farm dedicated to the cultivation of corn"
+
+  livestock_ranch: "Livestock Ranch"
+  livestock_ranch_desc: "A ranch where various types of livestock can be raised, providing meat, milk or other animal products."
+  livestock_ranch_maintenance_cattle: "Cattle"
+  livestock_ranch_maintenance_chicken: "Chicken"
+  livestock_ranch_maintenance_pig: "Pig"
+  livestock_ranch_maintenance_goat: "Goat"
+  livestock_ranch_maintenance_ducks: "Ducks"
+  livestock_ranch_maintenance_yak: "Yak"
+  livestock_ranch_maintenance_alpaca: "Alpaca"
+  livestock_ranch_maintenance_turkey: "Turkey"
