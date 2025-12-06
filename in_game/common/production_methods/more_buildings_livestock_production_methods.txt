@@ -83,6 +83,40 @@ livestock_ranch_maintenance_pig = {
 	category = building_maintenance
 }
 
+livestock_ranch_maintenance_goat = {
+	produced = livestock
+	output = 0.7
+	allow = {
+		scope:target ?= {
+			OR = {
+				climate = arid
+				climate = cold_arid
+				climate = continental
+				climate = mediterranean
+				climate = oceanic
+			}
+			OR = {
+				vegetation = sparse
+				vegetation = grasslands
+				vegetation = farmland
+				vegetation = woods
+			}
+			OR = {
+				topography = hills
+				topography = mountains
+				topography = plateau
+			}
+		}
+	}
+	potential = {
+		old_world_crops_building_trigger = yes
+	}
+	millet = 0.4
+	lumber = 0.2
+	tools = 0.05
+	category = building_maintenance
+}
+
 livestock_ranch_maintenance_ducks = {
 	produced = livestock
 	output = 0.7

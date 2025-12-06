@@ -96,7 +96,7 @@ improved_masonry_advance = {
 	potential = {
 		has_game_rule = basic_industry_buildings_enabled_true
 	}
-	unlock_building = improved_masonry
+	unlock_building = improved_mason
 	requires = foreign_mining_techniques
 }
 
