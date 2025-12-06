@@ -3,6 +3,7 @@
   urban_expansion_construction: "Städtische Expansion und Bauwesen"
   BUILDING_LEVEL_FAVORABLE_CLIMATE: "Günstiges Klima"
   BUILDING_LEVEL_HAS_IRRIGATION: "Verfügt über Bewässerungsquelle"
+  advanced_construction_needs: "Fortgeschrittene Baukosten"
 
   beekeepers_hut: "Imkerhütte"
   beekeepers_hut_desc: "Eine kleine Hütte, in der Imker ihre Bienenstöcke pflegen und Honig und Bienenwachs für den lokalen Markt produzieren."

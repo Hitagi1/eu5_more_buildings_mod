@@ -3,6 +3,8 @@
   urban_expansion_construction: "Urban Expansion Construction"
   BUILDING_LEVEL_FAVORABLE_CLIMATE: "Favorable Climate"
   BUILDING_LEVEL_HAS_IRRIGATION: "Has Irrigation Source"
+  advanced_construction_needs: "Advanced Construction Needs"
+
 
   beekeepers_hut: "Beekeepers Hut"
   beekeepers_hut_desc: "A small hut where beekeepers tend to their hives, producing honey and beeswax for the local market."

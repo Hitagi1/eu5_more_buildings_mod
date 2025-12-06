@@ -1,7 +1,9 @@
 ﻿shallow_tin_mine_advance = {
 	age = age_1_traditions
 	potential = {
-		has_game_rule = resource_buildings_enabled_true
+		hidden_trigger = {
+			has_game_rule = resource_buildings_enabled_true
+		}
 	}
 	unlock_building = shallow_tin_mine
 	requires = bronze_working
@@ -10,7 +12,9 @@
 hydrothermal_copper_mine_advance = {
 	age = age_1_traditions
 	potential = {
-		has_game_rule = resource_buildings_enabled_true
+		hidden_trigger = {
+			has_game_rule = resource_buildings_enabled_true
+		}
 	}
 	unlock_building = hydrothermal_copper_mine
 	requires = bronze_working
@@ -19,7 +23,9 @@ hydrothermal_copper_mine_advance = {
 hydrothermal_copper_shaft_mine_advance = {
 	age = age_5_absolutism
 	potential = {
-		has_game_rule = resource_buildings_enabled_true
+		hidden_trigger = {
+			has_game_rule = resource_buildings_enabled_true
+		}
 	}
 	unlock_building = hydrothermal_copper_shaft_mine
 	requires = mint_advance
@@ -28,7 +34,9 @@ hydrothermal_copper_shaft_mine_advance = {
 brine_well_advance = {
 	age = age_1_traditions
 	potential = {
-		has_game_rule = resource_buildings_enabled_true
+		hidden_trigger = {
+			has_game_rule = resource_buildings_enabled_true
+		}
 	}
 	unlock_building = brine_well
 	requires = hydrothermal_copper_mine_advance
@@ -37,7 +45,9 @@ brine_well_advance = {
 galenite_extraction_advance = {
 	age = age_1_traditions
 	potential = {
-		has_game_rule = resource_buildings_enabled_true
+		hidden_trigger = {
+			has_game_rule = resource_buildings_enabled_true
+		}
 	}
 	unlock_building = galenite_extraction
 	requires = fine_metals_mining
@@ -46,7 +56,9 @@ galenite_extraction_advance = {
 cinnabar_refinement_advance = {
 	age = age_1_traditions
 	potential = {
-		has_game_rule = resource_buildings_enabled_true
+		hidden_trigger = {
+			has_game_rule = resource_buildings_enabled_true
+		}
 	}
 	unlock_building = cinnabar_refinement
 	requires = fine_metals_mining
@@ -55,7 +67,9 @@ cinnabar_refinement_advance = {
 potash_works_advance = {
 	age = age_3_discovery
 	potential = {
-		has_game_rule = resource_buildings_enabled_true
+		hidden_trigger = {
+			has_game_rule = resource_buildings_enabled_true
+		}
 	}
 	unlock_building = potash_works
 	requires = lumber_improvements_discovery
@@ -64,7 +78,9 @@ potash_works_advance = {
 laterite_bloomery_advance = {
 	age = age_1_traditions
 	potential = {
-		has_game_rule = resource_buildings_enabled_true
+		hidden_trigger = {
+			has_game_rule = resource_buildings_enabled_true
+		}
 	}
 	unlock_building = laterite_bloomery
 	requires = local_smelters_advance
@@ -73,7 +89,9 @@ laterite_bloomery_advance = {
 laterite_bloomery_african_soils_advance = {
 	age = age_1_traditions
 	potential = {
-		has_game_rule = resource_buildings_enabled_true
+		hidden_trigger = {
+			has_game_rule = resource_buildings_enabled_true
+		}
 		capital ?= {
 			continent = continent:africa
 		}
@@ -85,7 +103,9 @@ laterite_bloomery_african_soils_advance = {
 agricultural_residue_collector_advance = {
 	age = age_2_renaissance
 	potential = {
-		has_game_rule = resource_buildings_enabled_true
+		hidden_trigger = {
+			has_game_rule = resource_buildings_enabled_true
+		}
 	}
 	unlock_building = agricultural_residue_collector
 	requires = food_advance_renaissance
@@ -94,7 +114,9 @@ agricultural_residue_collector_advance = {
 improved_masonry_advance = {
 	age = age_4_reformation
 	potential = {
-		has_game_rule = resource_buildings_enabled_true
+		hidden_trigger = {
+			has_game_rule = resource_buildings_enabled_true
+		}
 	}
 	unlock_building = improved_mason
 	requires = foreign_mining_techniques
@@ -103,7 +125,12 @@ improved_masonry_advance = {
 beekeepers_hut_advance = {
 	age = age_1_traditions
 	potential = {
-		has_game_rule = resource_buildings_enabled_true
+		hidden_trigger = {
+			OR = {
+				has_game_rule = resource_buildings_enabled_true
+				has_game_rule = food_buildings_enabled_true
+			}
+		}
 	}
 	unlock_building = beekeepers_hut
 	requires = apothecary_advance
@@ -112,7 +139,12 @@ beekeepers_hut_advance = {
 hunting_camp_advance = {
 	age = age_1_traditions
 	potential = {
-		has_game_rule = resource_buildings_enabled_true
+		hidden_trigger = {
+			OR = {
+				has_game_rule = resource_buildings_enabled_true
+				has_game_rule = food_buildings_enabled_true
+			}
+		}
 	}
 	unlock_building = hunting_camp
 	requires = feudalism_advance
@@ -121,7 +153,9 @@ hunting_camp_advance = {
 native_extermination_advance = {
 	age = age_3_discovery
 	potential = {
-		has_game_rule = colonial_buildings_enabled_true
+		hidden_trigger = {
+			has_game_rule = colonial_buildings_enabled_true
+		}
 	}
 	unlock_building = native_extermination
 	requires = send_people_to_the_colonies_advance
@@ -130,7 +164,9 @@ native_extermination_advance = {
 urban_housing_expansion_advance = {
 	age = age_2_renaissance
 	potential = {
-		has_game_rule = urban_buildings_enabled_true
+		hidden_trigger = {
+			has_game_rule = urban_buildings_enabled_true
+		}
 	}
 	unlock_building = urban_housing_expansion
 	requires = counting_house_advance
@@ -139,7 +175,9 @@ urban_housing_expansion_advance = {
 urban_infrastucture_expansion_advance = {
 	age = age_2_renaissance
 	potential = {
-		has_game_rule = urban_buildings_enabled_true
+		hidden_trigger = {
+			has_game_rule = urban_buildings_enabled_true
+		}
 	}
 	unlock_building = urban_infrastucture_expansion
 	requires = bureaucracy_law_advance
@@ -148,7 +186,9 @@ urban_infrastucture_expansion_advance = {
 urban_sewage_system_advance = {
 	age = age_3_discovery
 	potential = {
-		has_game_rule = urban_buildings_enabled_true
+		hidden_trigger = {
+			has_game_rule = urban_buildings_enabled_true
+		}
 	}
 	unlock_building = urban_sewage_system
 	requires = construction_speed_discovery

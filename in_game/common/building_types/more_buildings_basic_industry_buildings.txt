@@ -4,7 +4,7 @@
 	pop_type = laborers
 	obsolete = mason
 	category = basic_industry_category
-	employment_size = advanced_industry_employment_size
+	employment_size = advanced_peasant_building_employment
 	rural_settlement = yes
 	town = yes
 	city = yes
