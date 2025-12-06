@@ -1,0 +1,20 @@
+improved_mason = {
+	is_foreign = no
+	max_levels = guild_max_levels
+	pop_type = laborers
+	obsolete = mason
+	category = basic_industry_category
+	employment_size = advanced_industry_employment_size
+	rural_settlement = yes
+	town = yes
+	city = yes
+	allow = {
+		has_game_rule = basic_industry_buildings_enabled_true
+	}
+	possible_production_methods = {
+		improved_stone_bricks
+		improved_clay_bricks
+	}
+	build_time = guild_build_time
+	construction_demand = advanced_construction_needs
+}
