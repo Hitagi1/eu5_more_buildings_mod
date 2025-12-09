@@ -19,7 +19,7 @@
 			vegetation = woods
 		}
 	}
-	category = rgo_building_category
+	category = farming_building_category
 	possible_production_methods = {
 		beekeepers_hut_maintenance
 	}
@@ -74,23 +74,9 @@ wheat_enclosure = {
 		old_world_crops_building_trigger = yes
 	}
 	location_potential = {
-		OR = {
-			climate = continental
-			climate = oceanic
-			climate = mediterranean
-			AND = {
-				OR = {
-					climate = cold_arid
-					climate = arid
-				}
-				OR = {
-					has_river = yes
-					is_adjacent_to_lake = yes
-				}
-			}
-		}
+		mb_wheat_trigger = yes
 	}
-	category = rgo_building_category
+	category = farming_building_category
 	possible_production_methods = {
 		wheat_enclosure_maintenance
 	}
@@ -113,20 +99,9 @@ rice_paddy = {
 		old_world_crops_building_trigger = yes
 	}
 	location_potential = {
-		OR = {
-			climate = subtropical
-			climate = tropical
-			climate = mediterranean
-			AND = {
-				climate = arid
-				OR = {
-					has_river = yes
-					is_adjacent_to_lake = yes
-				}
-			}
-		}
+		mb_rice_trigger = yes
 	}
-	category = rgo_building_category
+	category = farming_building_category
 	possible_production_methods = {
 		rice_paddy_maintenance
 	}
@@ -149,13 +124,9 @@ corn_plantation = {
 		new_world_crops_building_trigger = yes
 	}
 	location_potential = {
-		OR = {
-			climate = subtropical
-			climate = tropical
-			climate = mediterranean
-		}
+		mb_maize_trigger = yes
 	}
-	category = rgo_building_category
+	category = farming_building_category
 	possible_production_methods = {
 		corn_plantation_maintenance
 	}
@@ -178,27 +149,9 @@ potato_patch = {
 		new_world_crops_building_trigger = yes
 	}
 	location_potential = {
-		OR = {
-			climate = continental
-			climate = oceanic
-			AND = {
-				climate = cold_arid
-				OR = {
-					has_river = yes
-					is_adjacent_to_lake = yes
-				}
-			}
-			AND = {
-				climate = subtropical
-				OR = {
-					topography = mountains
-					topography = plateau
-					topography = hills
-				}
-			}
-		}
+		mb_potato_trigger = yes
 	}
-	category = rgo_building_category
+	category = farming_building_category
 	possible_production_methods = {
 		potato_patch_maintenance
 	}
@@ -218,28 +171,9 @@ sturdy_grains_field = {
 		has_game_rule = food_buildings_enabled_true
 	}
 	location_potential = {
-		OR = {
-			climate = continental
-			climate = oceanic
-			climate = mediterranean
-			climate = cold_arid
-			climate = subtropical
-			AND = {
-				climate = arid
-				OR = {
-					has_river = yes
-					is_adjacent_to_lake = yes
-				}
-			}
-			AND = {
-				climate = tropical
-				NOT = {
-					vegetation = jungle
-				}
-			}
-		}
+		mb_millet_trigger = yes
 	}
-	category = rgo_building_category
+	category = farming_building_category
 	possible_production_methods = {
 		sturdy_grains_field_maintenance
 	}
@@ -265,7 +199,7 @@ livestock_ranch = {
 			vegetation = desert
 		}
 	}
-	category = rgo_building_category
+	category = farming_building_category
 	possible_production_methods = {
 		livestock_ranch_maintenance_cattle
 		livestock_ranch_maintenance_chicken

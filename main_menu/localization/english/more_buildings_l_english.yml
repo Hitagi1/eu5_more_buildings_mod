@@ -5,6 +5,8 @@
   BUILDING_LEVEL_HAS_IRRIGATION: "Has Irrigation Source"
   advanced_construction_needs: "Advanced Construction Needs"
 
+  farming_building_category: "Agricultural Buildings"
+  farming_building_category_desc: "These buildings are dedicated to growing crops and raising livestock, helping to sustain the population and provide raw materials for trade and industry."
 
   beekeepers_hut: "Beekeepers Hut"
   beekeepers_hut_desc: "A small hut where beekeepers tend to their hives, producing honey and beeswax for the local market."

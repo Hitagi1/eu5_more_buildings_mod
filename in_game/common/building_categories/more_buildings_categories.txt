@@ -1,0 +1,2 @@
+﻿farming_building_category = {
+}
