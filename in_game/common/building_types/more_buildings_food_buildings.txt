@@ -132,7 +132,7 @@ corn_plantation = {
 	location_potential = {
 		mb_maize_trigger = yes
 		market_has_good = {
-			good = goods:corn
+			good = goods:maize
 		}
 	}
 	category = farming_building_category
@@ -160,7 +160,7 @@ potato_patch = {
 	location_potential = {
 		mb_potato_trigger = yes
 		market_has_good = {
-			good = goods:potatoes
+			good = goods:potato
 		}
 	}
 	category = farming_building_category

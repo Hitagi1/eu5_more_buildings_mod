@@ -1,8 +1,8 @@
 ﻿tobacco_farmstead_maintenance = {
 	produced = tobacco	# 3
-	output = 0.7
+	output = 0.6
 	tools = 0.15
-	lumber = 0.2
+	lumber = 0.3
 	leather = 0.1
 	category = building_maintenance
 	debug_max_profit = 0.6
@@ -11,38 +11,39 @@
 cocoa_plantation_maintenance = {
 	produced = cocoa	# 4
 	output = 0.5
-	tools = 0.1
-	lumber = 0.25
-	pottery = 0.25
+	tools = 0.15
+	lumber = 0.3
+	pottery = 0.5
 	category = building_maintenance
 	debug_max_profit = 0.6
 }
 
 cotton_estate_maintenance = {
 	produced = cotton	# 3
-	output = 0.8
-	tools = 0.05
+	output = 0.6
+	tools = 0.1
 	lumber = 0.3
-	weaponry = 0.05
+	weaponry = 0.15
 	category = building_maintenance
 	debug_max_profit = 0.6
 }
 
 coffee_plantation_maintenance = {
 	produced = coffee	# 3
-	output = 0.65
-	tools = 0.1
+	output = 0.6
+	tools = 0.15
 	lumber = 0.2
-	glass = 0.1
+	glass = 0.2
 	category = building_maintenance
 	debug_max_profit = 0.6
 }
 
 sugar_mill_maintenance = {
 	produced = sugar	# 3
-	output = 0.75
+	output = 0.6
 	tools = 0.15
 	lumber = 0.3
+	glass = 0.2
 	category = building_maintenance
 	debug_max_profit = 0.6
 }
@@ -52,14 +53,14 @@ vineyard_maintenance = {
 	output = 1
 	tools = 0.1
 	lumber = 0.2
-	furniture = 0.2
+	furniture = 0.25
 	category = building_maintenance
 	debug_max_profit = 0.6
 }
 
 olive_grove_maintenance = {
 	produced = olives	# 1
-	output = 1
+	output = 1.25
 	tools = 0.1
 	lumber = 0.2
 	furniture = 0.1
@@ -69,10 +70,10 @@ olive_grove_maintenance = {
 
 saffron_farm_maintenance = {
 	produced = saffron	# 5
-	output = 0.3
+	output = 0.4
 	tools = 0.15
 	lumber = 0.3
-	pottery = 0.1
+	pottery = 0.4
 	category = building_maintenance
 	debug_max_profit = 0.6
 }
@@ -80,28 +81,28 @@ saffron_farm_maintenance = {
 pepper_plantation_maintenance = {
 	produced = pepper	# 5
 	output = 0.3
-	tools = 0.1
+	tools = 0.15
 	lumber = 0.1
-	pottery = 0.1
+	pottery = 0.4
 	category = building_maintenance
 	debug_max_profit = 0.6
 }
 
 clove_plantation_maintenance = {
 	produced = cloves	# 5
-	output = 0.3
-	tools = 0.1
-	lumber = 0.2
+	output = 0.4
+	tools = 0.15
+	lumber = 0.6
 	category = building_maintenance
 	debug_max_profit = 0.6
 }
 
 chili_farm_maintenance = {
 	produced = chili	# 5
-	output = 0.3
-	tools = 0.1
-	lumber = 0.1
-	pottery = 0.1
+	output = 0.4
+	tools = 0.15
+	lumber = 0.3
+	pottery = 0.4
 	category = building_maintenance
 	debug_max_profit = 0.6
 }
