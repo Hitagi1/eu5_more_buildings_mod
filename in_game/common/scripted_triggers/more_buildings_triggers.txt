@@ -26,7 +26,9 @@ new_world_crops_building_trigger = {
 
 market_has_good = {
 	market ?= {
-		is_produced_in_market = $good$
-		is_traded_in_market = $good$
+		OR = {
+			is_produced_in_market = $good$
+			is_traded_in_market = $good$
+		}
 	}
 }
