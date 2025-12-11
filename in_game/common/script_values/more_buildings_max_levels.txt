@@ -56,6 +56,13 @@
 			value = 1.4
 		}
 	}
+	add = {
+		any_building_in_location = {
+			building_category = farming_building_category
+			add = 1
+		}
+		multiply = -1
+	}
 }
 
 rice_paddy_employment_size = 1.25

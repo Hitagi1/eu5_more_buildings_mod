@@ -183,7 +183,7 @@ sturdy_grains_field = {
 
 livestock_ranch = {
 	is_foreign = no
-	max_levels = rural_farming_cap
+	max_levels = rural_building_cap
 	pop_type = laborers
 	employment_size = rural_peasant_produce_employment
 	rural_settlement = yes
@@ -204,6 +204,7 @@ livestock_ranch = {
 		livestock_ranch_maintenance_cattle
 		livestock_ranch_maintenance_chicken
 		livestock_ranch_maintenance_pig
+		livestock_ranch_maintenance_goat
 		livestock_ranch_maintenance_ducks
 		livestock_ranch_maintenance_yak
 		livestock_ranch_maintenance_alpaca
