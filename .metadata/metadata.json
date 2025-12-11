@@ -9,5 +9,9 @@
 		"Trade and Economics"
 	],
 	"relationships": [],
-	"game_custom_data": {}
+	"game_custom_data": {
+		"replace_paths": [
+			"common/building_categories"
+		]
+	}
 }

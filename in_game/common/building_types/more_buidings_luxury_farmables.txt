@@ -184,6 +184,9 @@ saffron_farm = {
 	location_potential = {
 		mb_saffron_trigger = yes
 	}
+	country_potential = {
+		old_world_crops_building_trigger = yes
+	}
 	category = farming_building_category
 	possible_production_methods = {
 		saffron_farm_maintenance
@@ -205,6 +208,9 @@ pepper_plantation = {
 	}
 	location_potential = {
 		mb_pepper_trigger = yes
+	}
+	country_potential = {
+		old_world_crops_building_trigger = yes
 	}
 	category = farming_building_category
 	possible_production_methods = {
@@ -228,6 +234,9 @@ clove_plantation = {
 	location_potential = {
 		mb_cloves_trigger = yes
 	}
+	country_potential = {
+		old_world_crops_building_trigger = yes
+	}
 	category = farming_building_category
 	possible_production_methods = {
 		clove_plantation_maintenance
@@ -249,6 +258,9 @@ chili_farm = {
 	}
 	location_potential = {
 		mb_chili_trigger = yes
+	}
+	country_potential = {
+		new_world_crops_building_trigger = yes
 	}
 	category = farming_building_category
 	possible_production_methods = {

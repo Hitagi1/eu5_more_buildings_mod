@@ -3,6 +3,7 @@
   urban_expansion_construction: "Urban Expansion Construction"
   BUILDING_LEVEL_FAVORABLE_CLIMATE: "Favorable Climate"
   BUILDING_LEVEL_HAS_IRRIGATION: "Has Irrigation Source"
+  BUILDING_LEVEL_NO_OF_FARMING_BUILDINGS: "Number of Farming Buildings"
   advanced_construction_needs: "Advanced Construction Needs"
 
   farming_building_category: "Agricultural Buildings"
