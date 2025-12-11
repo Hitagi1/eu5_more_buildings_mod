@@ -23,3 +23,10 @@ new_world_crops_building_trigger = {
 		}
 	}
 }
+
+market_has_good = {
+	market ?= {
+		is_produced_in_market = goods:$good$
+		is_traded_in_market = goods:$good$
+	}
+}

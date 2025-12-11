@@ -14,6 +14,7 @@
 	}
 	location_potential = {
 		mb_tobacco_trigger = yes
+		market_has_good = goods:tobacco
 	}
 	category = farming_building_category
 	possible_production_methods = {
@@ -39,6 +40,7 @@ cocoa_plantation = {
 	}
 	location_potential = {
 		mb_cocoa_trigger = yes
+		market_has_good = goods:cocoa
 	}
 	category = farming_building_category
 	possible_production_methods = {
@@ -61,6 +63,7 @@ cotton_estate = {
 	}
 	location_potential = {
 		mb_cotton_trigger = yes
+		market_has_good = goods:cotton
 	}
 	category = farming_building_category
 	possible_production_methods = {
@@ -86,6 +89,7 @@ coffee_plantation = {
 	}
 	location_potential = {
 		mb_coffee_trigger = yes
+		market_has_good = goods:coffee
 	}
 	category = farming_building_category
 	possible_production_methods = {
@@ -111,6 +115,7 @@ sugar_mill = {
 	}
 	location_potential = {
 		mb_sugar_trigger = yes
+		market_has_good = goods:sugar
 	}
 	category = farming_building_category
 	possible_production_methods = {
@@ -136,6 +141,7 @@ vineyard = {
 	}
 	location_potential = {
 		mb_wine_trigger = yes
+		market_has_good = goods:wine
 	}
 	category = farming_building_category
 	possible_production_methods = {
@@ -161,6 +167,7 @@ olive_grove = {
 	}
 	location_potential = {
 		mb_olives_trigger = yes
+		market_has_good = goods:olives
 	}
 	category = farming_building_category
 	possible_production_methods = {
@@ -183,6 +190,7 @@ saffron_farm = {
 	}
 	location_potential = {
 		mb_saffron_trigger = yes
+		market_has_good = goods:saffron
 	}
 	country_potential = {
 		old_world_crops_building_trigger = yes
@@ -208,6 +216,7 @@ pepper_plantation = {
 	}
 	location_potential = {
 		mb_pepper_trigger = yes
+		market_has_good = goods:pepper
 	}
 	country_potential = {
 		old_world_crops_building_trigger = yes
@@ -233,6 +242,7 @@ clove_plantation = {
 	}
 	location_potential = {
 		mb_cloves_trigger = yes
+		market_has_good = goods:cloves
 	}
 	country_potential = {
 		old_world_crops_building_trigger = yes
@@ -258,6 +268,7 @@ chili_farm = {
 	}
 	location_potential = {
 		mb_chili_trigger = yes
+		market_has_good = goods:chili
 	}
 	country_potential = {
 		new_world_crops_building_trigger = yes

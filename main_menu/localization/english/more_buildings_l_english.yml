@@ -111,3 +111,47 @@
   livestock_ranch_maintenance_yak: "Yak"
   livestock_ranch_maintenance_alpaca: "Alpaca"
   livestock_ranch_maintenance_turkey: "Turkey"
+
+  tobacco_farmstead: "Tobacco Farmstead"
+  tobacco_farmstead_desc: "A farm dedicated to the cultivation of tobacco, providing raw material for smoking and trade."
+  tobacco_farmstead_maintenance: "Tobacco Cultivation"
+
+  cocoa_plantation: "Cocoa Plantation"
+  cocoa_plantation_desc: "A plantation where cocoa trees are cultivated to produce cocoa beans for chocolate and trade."
+  cocoa_plantation_maintenance: "Cocoa Cultivation"
+
+  cotton_estate: "Cotton Estate"
+  cotton_estate_desc: "A large estate dedicated to growing cotton, supplying raw material for textile production."
+  cotton_estate_maintenance: "Cotton Cultivation"
+
+  coffee_plantation: "Coffee Plantation"
+  coffee_plantation_desc: "A plantation where coffee plants are grown, producing coffee beans for local consumption and export."
+  coffee_plantation_maintenance: "Coffee Cultivation"
+
+  sugar_mill: "Sugar Mill"
+  sugar_mill_desc: "A facility that grows and processes sugar cane into refined sugar for trade and consumption."
+  sugar_mill_maintenance: "Sugar Production"
+
+  vineyard: "Vineyard"
+  vineyard_desc: "A farm where grapevines are cultivated to produce grapes for wine making and trade."
+  vineyard_maintenance: "Vineyard Cultivation"
+
+  olive_grove: "Olive Grove"
+  olive_grove_desc: "A grove where olive trees are grown to produce olives and olive oil for cooking and trade."
+  olive_grove_maintenance: "Olive Cultivation"
+
+  saffron_farm: "Saffron Farm"
+  saffron_farm_desc: "A specialized farm dedicated to growing saffron, one of the world's most valuable spices."
+  saffron_farm_maintenance: "Saffron Cultivation"
+
+  pepper_plantation: "Pepper Plantation"
+  pepper_plantation_desc: "A plantation where pepper plants are cultivated, producing one of the most sought-after spices for trade."
+  pepper_plantation_maintenance: "Pepper Cultivation"
+
+  clove_plantation: "Clove Plantation"
+  clove_plantation_desc: "A plantation dedicated to growing clove trees, producing aromatic flower buds used as spice."
+  clove_plantation_maintenance: "Clove Cultivation"
+
+  chili_farm: "Chili Farm"
+  chili_farm_desc: "A farm where chili peppers are grown, providing spicy ingredients for cooking and trade."
+  chili_farm_maintenance: "Chili Cultivation"
