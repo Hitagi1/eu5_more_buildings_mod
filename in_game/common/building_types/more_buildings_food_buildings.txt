@@ -75,6 +75,7 @@ wheat_enclosure = {
 	}
 	location_potential = {
 		mb_wheat_trigger = yes
+		market_has_good = goods:wheat
 	}
 	category = farming_building_category
 	possible_production_methods = {
@@ -100,6 +101,7 @@ rice_paddy = {
 	}
 	location_potential = {
 		mb_rice_trigger = yes
+		market_has_good = goods:rice
 	}
 	category = farming_building_category
 	possible_production_methods = {
@@ -125,6 +127,7 @@ corn_plantation = {
 	}
 	location_potential = {
 		mb_maize_trigger = yes
+		market_has_good = goods:corn
 	}
 	category = farming_building_category
 	possible_production_methods = {
@@ -150,6 +153,7 @@ potato_patch = {
 	}
 	location_potential = {
 		mb_potato_trigger = yes
+		market_has_good = goods:potatoes
 	}
 	category = farming_building_category
 	possible_production_methods = {
@@ -172,6 +176,7 @@ sturdy_grains_field = {
 	}
 	location_potential = {
 		mb_millet_trigger = yes
+		market_has_good = goods:millet
 	}
 	category = farming_building_category
 	possible_production_methods = {
