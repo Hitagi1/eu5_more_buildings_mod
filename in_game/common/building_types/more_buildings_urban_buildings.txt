@@ -20,7 +20,7 @@
 		local_population_capacity = 10
 		local_population_capacity_modifier = 0.05
 		local_food_capacity = 50
-		local_disease_resistance = -0.0325
+		local_disease_resistance = -0.025
 	}
 }
 
@@ -44,7 +44,7 @@ urban_infrastucture_expansion = {
 	modifier = {
 		free_building_levels = 10
 		local_monthly_development_modifier = 0.015
-		local_disease_resistance = -0.0325
+		local_disease_resistance = -0.025
 	}
 }
 
@@ -67,7 +67,7 @@ urban_sewage_system = {
 	construction_demand = urban_expansion_construction
 	build_time = infrastructure_build_time
 	modifier = {
-		local_disease_resistance = 0.075
+		local_disease_resistance = 0.05
 		local_population_growth = 0.00015
 		local_migration_attraction = -0.01
 	}
