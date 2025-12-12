@@ -161,6 +161,17 @@ native_extermination_advance = {
 	requires = send_people_to_the_colonies_advance
 }
 
+slave_auction_advance = {
+	age = age_3_discovery
+	potential = {
+		hidden_trigger = {
+			has_game_rule = colonial_buildings_enabled_true
+		}
+	}
+	unlock_building = slave_auction_house
+	requires = plantation_buildings_advance
+}
+
 urban_housing_expansion_advance = {
 	age = age_2_renaissance
 	potential = {
