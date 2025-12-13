@@ -21,7 +21,7 @@
 	lumber = 0.25
 	tools = 0.05
 	category = building_maintenance
-	debug_max_profit = 0.45
+	debug_max_profit = 0.55
 }
 
 livestock_ranch_maintenance_chicken = {
@@ -39,8 +39,7 @@ livestock_ranch_maintenance_chicken = {
 			NOT = {
 				vegetation = desert
 			}
-			NOR = {
-				topography = hills
+			NOT = {
 				topography = mountains
 			}
 		}
@@ -52,6 +51,7 @@ livestock_ranch_maintenance_chicken = {
 	lumber = 0.25
 	tools = 0.05
 	category = building_maintenance
+	debug_max_profit = 0.45
 }
 
 livestock_ranch_maintenance_pig = {
@@ -81,6 +81,7 @@ livestock_ranch_maintenance_pig = {
 	lumber = 0.25
 	tools = 0.05
 	category = building_maintenance
+	debug_max_profit = 0.45
 }
 
 livestock_ranch_maintenance_goat = {
@@ -115,6 +116,7 @@ livestock_ranch_maintenance_goat = {
 	lumber = 0.2
 	tools = 0.05
 	category = building_maintenance
+	debug_max_profit = 0.45
 }
 
 livestock_ranch_maintenance_ducks = {
@@ -146,6 +148,7 @@ livestock_ranch_maintenance_ducks = {
 	lumber = 0.2
 	tools = 0.05
 	category = building_maintenance
+	debug_max_profit = 0.45
 }
 
 livestock_ranch_maintenance_yak = {
@@ -175,6 +178,7 @@ livestock_ranch_maintenance_yak = {
 	lumber = 0.1
 	tools = 0.05
 	category = building_maintenance
+	debug_max_profit = 0.45
 }
 
 livestock_ranch_maintenance_alpaca = {
@@ -203,6 +207,7 @@ livestock_ranch_maintenance_alpaca = {
 	lumber = 0.15
 	tools = 0.05
 	category = building_maintenance
+	debug_max_profit = 0.45
 }
 
 livestock_ranch_maintenance_turkey = {
@@ -229,4 +234,5 @@ livestock_ranch_maintenance_turkey = {
 	lumber = 0.15
 	tools = 0.05
 	category = building_maintenance
+	debug_max_profit = 0.45
 }

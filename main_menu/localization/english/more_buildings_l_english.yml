@@ -101,6 +101,10 @@
   corn_plantation_maintenance: "Corn Plantations"
   corn_plantation_desc: "A large farm dedicated to the cultivation of corn"
 
+  vegetable_garden: "Vegetable Garden"
+  vegetable_garden_maintenance: "Vegetable Gardens"
+  vegetable_garden_desc: "A garden where various vegetables are grown, providing fresh produce for local consumption."
+
   livestock_ranch: "Livestock Ranch"
   livestock_ranch_desc: "A ranch where various types of livestock can be raised, providing meat, milk or other animal products."
   livestock_ranch_maintenance_cattle: "Cattle"

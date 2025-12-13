@@ -196,6 +196,37 @@ sturdy_grains_field = {
 	construction_demand = farm_constructions
 }
 
+vegetable_garden = {
+	is_foreign = no
+	max_levels = rural_farming_cap
+	pop_type = laborers
+	employment_size = rural_peasant_produce_employment
+	rural_settlement = yes
+	town = yes
+	city = yes
+	allow = {
+		has_game_rule = food_buildings_enabled_true
+	}
+	location_potential = {
+		OR = {
+			climate = continental
+			climate = oceanic
+			climate = mediterranean
+			climate = subtropical
+			climate = tropical
+		}
+		NOT = {
+			vegetation = desert
+		}
+	}
+	category = farming_building_category
+	possible_production_methods = {
+		vegetable_garden_maintenance
+	}
+	build_time = rural_build_time
+	construction_demand = farm_constructions
+}
+
 livestock_ranch = {
 	is_foreign = no
 	max_levels = rural_building_cap
