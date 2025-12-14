@@ -26,7 +26,7 @@
 
 livestock_ranch_maintenance_chicken = {
 	produced = livestock
-	output = 0.8
+	output = 0.9
 	allow = {
 		scope:target ?= {
 			OR = {
@@ -183,7 +183,7 @@ livestock_ranch_maintenance_yak = {
 
 livestock_ranch_maintenance_alpaca = {
 	produced = livestock
-	output = 0.65
+	output = 0.7
 	allow = {
 		scope:target ?= {
 			OR = {
@@ -203,7 +203,7 @@ livestock_ranch_maintenance_alpaca = {
 	potential = {
 		new_world_crops_building_trigger = yes
 	}
-	millet = 0.45
+	millet = 0.4
 	lumber = 0.15
 	tools = 0.05
 	category = building_maintenance

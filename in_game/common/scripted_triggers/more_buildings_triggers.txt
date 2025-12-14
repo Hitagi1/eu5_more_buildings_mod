@@ -5,8 +5,8 @@
 				is_culture_native_american = yes
 			}
 		}
-		has_variable = is_in_columbian_exchange
 		current_age_or_later = {
+			age = age_5_absolutism
 			age = age_6_revolutions
 		}
 	}
@@ -17,8 +17,8 @@ new_world_crops_building_trigger = {
 		culture = {
 			is_culture_native_american = yes
 		}
-		has_variable = is_in_columbian_exchange
 		current_age_or_later = {
+			age = age_5_absolutism
 			age = age_6_revolutions
 		}
 	}
