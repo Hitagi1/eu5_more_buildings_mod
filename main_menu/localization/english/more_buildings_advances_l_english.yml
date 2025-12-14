@@ -42,6 +42,9 @@
   native_extermination_advance: "Native Displacement"
   native_extermination_advance_desc: "Colonial powers developed systematic methods for the displacement and extermination of indigenous populations. These brutal tactics included forced relocations, violent confrontations, and the spread of diseases, all aimed at clearing land for settlers and resource exploitation."
 
+  slave_auction_advance: "Slave Auction Houses"
+  slave_auction_advance_desc: "As the transatlantic slave trade expanded, colonial powers established dedicated auction houses to facilitate the sale of enslaved individuals."
+
   urban_housing_expansion_advance: "Urban Housing Development"
   urban_housing_expansion_advance_desc: "As towns swelled with merchants, artisans, and migrant laborers, city planners began experimenting with denser housing blocks, standardized street fronts, and multi-story dwellings. These new building practices reflected the growing pressures of commerce and population, marking the transition from medieval townscapes to more deliberately organized urban neighborhoods."
 

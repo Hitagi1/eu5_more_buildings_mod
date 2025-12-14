@@ -65,3 +65,12 @@ sturdy_grains_field_maintenance = {
 	category = building_maintenance
 	debug_max_profit = 0.34
 }
+
+vegetable_garden_maintenance = {
+	produced = legumes
+	output = 1
+	lumber = 0.4
+	tools = 0.05
+	category = building_maintenance
+	debug_max_profit = 0.34
+}

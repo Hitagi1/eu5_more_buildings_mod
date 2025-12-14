@@ -1,0 +1,25 @@
+﻿l_spanish:
+
+  rule_resource_buildings_enabled: "Activar Edificios de Recursos"
+  setting_resource_buildings_enabled_true: "Edificios de Recursos Activados"
+  setting_resource_buildings_enabled_true_desc: "Los edificios de recursos están activados. Nuevos edificios para extracción y procesamiento de recursos están disponibles."
+  setting_resource_buildings_enabled_false: "Edificios de Recursos Desactivados"
+  setting_resource_buildings_enabled_false_desc: "Los edificios de recursos están desactivados. No hay nuevos edificios de extracción de recursos disponibles."
+
+  rule_urban_buildings_enabled: "Activar Edificios Urbanos"
+  setting_urban_buildings_enabled_true: "Edificios Urbanos Activados"
+  setting_urban_buildings_enabled_true_desc: "Los edificios urbanos están activados. Nuevos edificios para desarrollo urbano e infraestructura están disponibles."
+  setting_urban_buildings_enabled_false: "Edificios Urbanos Desactivados"
+  setting_urban_buildings_enabled_false_desc: "Los edificios urbanos están desactivados. No hay nuevos edificios de desarrollo urbano disponibles."
+
+  rule_food_buildings_enabled: "Activar Edificios de Alimentos"
+  setting_food_buildings_enabled_true: "Edificios de Alimentos Activados"
+  setting_food_buildings_enabled_true_desc: "Los edificios de alimentos están activados. Nuevos edificios para producción de alimentos están disponibles."
+  setting_food_buildings_enabled_false: "Edificios de Alimentos Desactivados"
+  setting_food_buildings_enabled_false_desc: "Los edificios de alimentos están desactivados. No hay nuevos edificios de producción de alimentos disponibles."
+
+  rule_colonial_buildings_enabled: "Activar Edificios Coloniales"
+  setting_colonial_buildings_enabled_true: "Edificios Coloniales Activados"
+  setting_colonial_buildings_enabled_true_desc: "Los edificios coloniales están activados. Nuevos edificios para expansión colonial están disponibles."
+  setting_colonial_buildings_enabled_false: "Edificios Coloniales Desactivados"
+  setting_colonial_buildings_enabled_false_desc: "Los edificios coloniales están desactivados. No hay nuevos edificios de expansión colonial disponibles."

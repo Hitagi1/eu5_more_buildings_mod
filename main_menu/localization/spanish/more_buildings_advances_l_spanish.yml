@@ -1,0 +1,52 @@
+﻿l_spanish:
+
+  shallow_tin_mine_advance: "Técnicas de Minería Superficial de Estaño"
+  shallow_tin_mine_advance_desc: "Los primeros metalúrgicos aprendieron a recolectar casiterita directamente de los lechos de los ríos, donde las corrientes concentraban naturalmente los granos pesados que contenían estaño. Las técnicas simples de excavación y lavado proporcionaban suficiente mineral para sustentar las primeras herramientas y ornamentos de bronce."
+
+  hydrothermal_copper_mine_advance: "Minería Hidrotermal de Cobre"
+  hydrothermal_copper_mine_advance_desc: "Los mineros antiguos descubrieron que el mineral de cobre se podía encontrar en vetas formadas por aguas calientes y ricas en minerales que circulaban a través de rocas fracturadas. Siguiendo estas vetas y extrayendo el mineral, los primeros metalurgistas accedieron a depósitos de cobre de mayor calidad, esenciales para la fabricación de herramientas y el comercio."
+
+  hydrothermal_copper_shaft_mine_advance: "Minería Hidrotermal de Cobre Avanzada"
+  hydrothermal_copper_shaft_mine_advance_desc: "Con los avances en la tecnología minera, los trabajadores desarrollaron técnicas de minería de pozos para acceder a vetas hidrotermales de cobre más profundas. Esto permitió una extracción más eficiente del mineral de cobre de mayor pureza."
+
+  brine_well_advance: "Técnicas de Extracción de Salmuera"
+  brine_well_advance_desc: "Los primeros productores de sal descubrieron que los depósitos subterráneos de salmuera podían aprovecharse mediante pozos. Sacando el agua salada e hirviéndola, podían extraer sal de manera eficiente, un conservante y condimento vital."
+
+  galenite_extraction_advance: "Procesamiento Mejorado de Galena"
+  galenite_extraction_advance_desc: "Los primeros fundidores descubrieron que la galena, un mineral común de plomo, a menudo contenía valiosas trazas de plata. Calentando el mineral y separando las capas fundidas, los metalurgistas podían extraer el plomo como un subproducto útil mientras concentraban el metal precioso para un refinado posterior. Esta técnica ayudó a expandir la producción temprana de plata e introdujo algunos de los primeros métodos especializados de procesamiento de minerales."
+
+  cinnabar_refinement_advance: "Extracción de Mercurio del Cinabrio"
+  cinnabar_refinement_advance_desc: "Los primeros metalurgistas aprendieron que calentar cinabrio en recipientes cerrados que vaporizaban el mercurio, que luego podía condensarse en forma líquida. Este metal volátil se volvió esencial para el dorado por agotamiento y la amalgamación de metales preciosos, haciendo de su extracción un oficio valioso, aunque peligroso."
+
+  potash_works_advance: "Técnicas de Producción de Potasa"
+  potash_works_advance_desc: "Los artesanos descubrieron que la quema controlada y el lixiviado de tierras ricas en minerales podían producir potasa y alumbre, mordientes clave para fijar tintes y preparar pieles. Estos compuestos estabilizaban los colores y suavizaban el cuero, haciéndolos indispensables para las primeras industrias textiles y de curtido."
+
+  laterite_bloomery_advance: "Fundición de Hierro en Laterita"
+  laterite_bloomery_advance_desc: "En regiones tropicales, los primeros herreros aprendieron a explotar suelos lateríticos ricos en óxidos de hierro. Tostando el mineral y construyendo hornos de forja catalana usando carbón vegetal como combustible, podían reducir el mineral de hierro a masas trabajables, proporcionando una fuente local de hierro para herramientas y armas."
+
+  laterite_bloomery_african_soils_advance: "Fundición Africana de Hierro en Laterita"
+  laterite_bloomery_african_soils_advance_desc: "Los metalurgistas indígenas en África desarrollaron técnicas especializadas para fundir minerales de laterita abundantes en sus regiones. Adaptando los diseños de los hornos de forja catalana a las condiciones locales y utilizando fuentes nativas de carbón vegetal, produjeron eficientemente masas de hierro que impulsaron el crecimiento de las primeras civilizaciones africanas."
+
+  agricultural_residue_collector_advance: "Utilización de Residuos Agrícolas"
+  agricultural_residue_collector_advance_desc: "Con los recursos de combustible volviéndose más escasos, las sociedades agrarias innovaron recolectando y reutilizando residuos agrícolas como paja, cáscaras y tallos. Estos materiales se procesaban para convertirlos en una fuente de combustible sostenible, complementando los suministros tradicionales de leña y carbón vegetal para calefacción y metalurgia."
+
+  improved_masonry_advance: "Técnicas Avanzadas de Albañilería"
+  improved_masonry_advance_desc: "Los artesanos perfeccionaron sus habilidades en albañilería desarrollando formas estandarizadas de ladrillos, mezclas de mortero mejoradas y diseños de hornos más eficientes. Estas innovaciones permitieron la construcción de estructuras más fuertes y duraderas, acelerando los proyectos de construcción en los asentamientos en crecimiento."
+
+  beekeepers_hut_advance: "Prácticas de Apicultura"
+  beekeepers_hut_advance_desc: "Los primeros agricultores aprendieron a domesticar abejas silvestres proporcionándoles colmenas simples hechas de troncos ahuecados o paja tejida. Gestionando estas colonias, podían cosechar miel y cera de abejas, productos esenciales para la alimentación, la medicina y la fabricación de velas."
+
+  hunting_camp_advance: "Técnicas de Caza Organizada"
+  hunting_camp_advance_desc: "A medida que las comunidades refinaban los métodos de rastreo y el conocimiento estacional de la fauna, comenzaron a establecer campamentos de caza semipermanentes en rutas migratorias clave. Estos sitios apoyaban cacerías coordinadas, proporcionando carne, pieles y herramientas de hueso vitales para la supervivencia de los primeros asentamientos."
+
+  native_extermination_advance: "Desplazamiento de Nativos"
+  native_extermination_advance_desc: "Las potencias coloniales desarrollaron métodos sistemáticos para el desplazamiento y exterminio de poblaciones indígenas. Estas tácticas brutales incluían reubicaciones forzadas, confrontaciones violentas y la propagación de enfermedades, todo con el objetivo de despejar tierras para los colonos y la explotación de recursos."
+
+  urban_housing_expansion_advance: "Desarrollo de Vivienda Urbana"
+  urban_housing_expansion_advance_desc: "A medida que los pueblos se llenaban de mercaderes, artesanos y trabajadores migrantes, los planificadores urbanos comenzaron a experimentar con manzanas de viviendas más densas, fachadas de calles estandarizadas y viviendas de varios pisos. Estas nuevas prácticas de construcción reflejaban las crecientes presiones del comercio y la población, marcando la transición de los paisajes urbanos medievales a barrios urbanos más deliberadamente organizados."
+
+  urban_infrastucture_expansion_advance: "Mejoras en Infraestructura Urbana"
+  urban_infrastucture_expansion_advance_desc: "El crecimiento de los centros comerciales impulsó a las ciudades a mejorar su estructura física con calles más anchas, puentes reforzados, señalización estandarizada y una mejor iluminación nocturna. Estas mejoras facilitaban un movimiento más fluido de bienes y personas, reflejando un enfoque más maduro de la planificación cívica y la coordinación urbana."
+
+  urban_sewage_system_advance: "Desarrollo de Sistemas de Alcantarillado Urbano"
+  urban_sewage_system_advance_desc: "A medida que las poblaciones urbanas se volvían más densas, la necesidad de una gestión efectiva de residuos se volvió crítica. Los primeros ingenieros diseñaron sistemas de alcantarillado rudimentarios utilizando tuberías de plomo o bronce y canales de piedra para desviar los desechos lejos de las áreas habitadas, mejorando significativamente la salud pública y el saneamiento en las ciudades en crecimiento."

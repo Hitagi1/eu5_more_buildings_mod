@@ -1,0 +1,109 @@
+﻿l_spanish:
+
+  urban_expansion_construction: "Construcción de Expansión Urbana"
+  BUILDING_LEVEL_FAVORABLE_CLIMATE: "Clima Favorable"
+  BUILDING_LEVEL_HAS_IRRIGATION: "Tiene Fuente de Riego"
+  advanced_construction_needs: "Necesidades de Construcción Avanzada"
+
+  beekeepers_hut: "Cabaña de Apicultor"
+  beekeepers_hut_desc: "Una pequeña cabaña donde los apicultores cuidan sus colmenas, produciendo miel y cera de abejas para el mercado local."
+  beekeepers_hut_maintenance: "Colmenas"
+
+  shallow_tin_mine: "Mina Superficial de Estaño"
+  shallow_tin_mine_desc: "Una mina que extrae mineral de estaño de depósitos fluviales superficiales, suministrando materia prima para la metalurgia y el comercio."
+  shallow_tin_mine_maintenance: "Extracción de Mineral de Estaño"
+
+  galenite_extraction: "Refinamiento de Galena"
+  galenite_extraction_desc: "Una instalación que procesa mineral de galena para extraer plomo adicional y recuperar otros minerales útiles."
+  galenite_extraction_maintenance: "Extracción de Mineral de Galena"
+
+  cinnabar_refinement: "Extracción de Cinabrio"
+  cinnabar_refinement_desc: "Una instalación que procesa mineral de cinabrio para extraer mercurio para su uso en diversas artesanías y el comercio."
+  cinnabar_refinement_maintenance: "Extracción de Mineral de Mercurio"
+
+  hydrothermal_copper_mine: "Mina Hidrotermal de Cobre"
+  hydrothermal_copper_mine_desc: "Una mina que extrae mineral de cobre de depósitos de vetas hidrotermales, encontradas en áreas con actividad geotérmica."
+  hydrothermal_copper_mine_maintenance: "Extracción de Mineral de Cobre"
+
+  hydrothermal_copper_shaft_mine: "Mina de Pozo Hidrotermal de Cobre"
+  hydrothermal_copper_shaft_mine_desc: "Una mina avanzada que utiliza técnicas de minería de pozos para acceder a vetas hidrotermales de cobre más profundas, aumentando el rendimiento del mineral."
+  hydrothermal_copper_shaft_mine_maintenance: "Extracción de Mineral de Cobre"
+
+  brine_well: "Salina de Evaporación"
+  brine_well_desc: "Una instalación que extrae sal del agua salmuera, encontrada en depósitos subterráneos, mediante ebullición."
+  brine_well_maintenance: "Extracción de Sal"
+
+  potash_works: "Fábrica de Potasa"
+  potash_works_desc: "Una instalación que produce potasa a partir de ceniza de madera y arcilla."
+  potash_works_maintenance: "Producción de Potasa"
+
+  laterite_bloomery: "Forja Catalana de Laterita"
+  laterite_bloomery_desc: "Una forja catalana que procesa mineral de laterita comúnmente encontrado en regiones tropicales para producir masas de hierro para herrería."
+  laterite_bloomery_maintenance: "Extracción de Mineral de Laterita"
+  laterite_bloomery_african_soils: "Extracción Africana de Laterita"
+
+  agricultural_residue_collector: "Recolector de Residuos Agrícolas"
+  agricultural_residue_collector_desc: "Una instalación que recolecta y procesa residuos agrícolas como paja, cáscaras y desechos animales para producir combustible para calefacción y metalurgia."
+  agricultural_residue_collector_maintenance: "Combustible de Residuos Agrícolas"
+
+  improved_mason: "Albañilería Mejorada"
+  improved_mason_desc: "Un taller de albañilería avanzado que produce ladrillos de mayor calidad utilizando técnicas y materiales mejorados."
+  improved_stone_bricks: "Ladrillos de Piedra"
+  improved_clay_bricks: "Ladrillos de Arcilla"
+
+  hunting_camp: "Campamento de Caza"
+  hunting_camp_desc: "Un campamento donde los cazadores se reúnen para atrapar y cazar animales salvajes, suministrando carne y pieles a los asentamientos cercanos."
+  hunting_camp_maintenance: "Suministros de Caza"
+
+  urban_housing_expansion: "Vivienda Urbana"
+  urban_housing_expansion_desc: "Una expansión de vivienda urbana diseñada para acomodar una población en crecimiento y reducir el hacinamiento."
+  urban_housing_expansion_maintenance: "Viviendas Estándar"
+  urban_housing_expansion_maintenance_brick_homes: "Viviendas de Ladrillo"
+
+  urban_sewage_system: "Sistema de Alcantarillado Urbano"
+  urban_sewage_system_desc: "Un sistema de alcantarillado que mejora el saneamiento y la salud pública en áreas urbanas desviando los desechos lejos de las viviendas."
+  urban_sewage_system_maintenance_lead_pipes: "Tuberías de Plomo"
+  urban_sewage_system_maintenance_copper_pipes: "Tuberías de Cobre"
+
+  urban_infrastucture_expansion: "Expansión de Infraestructura Urbana"
+  urban_infrastucture_expansion_desc: "Una expansión de la infraestructura urbana para apoyar el aumento de la actividad económica, incluyendo caminos, mercados y servicios públicos."
+  urban_infrastucture_expansion_maintenance: "Mantenimiento de Infraestructura"
+
+  native_extermination: "Desplazamiento de Nativos"
+  native_extermination_desc: "Una campaña destinada a desplazar a las poblaciones indígenas para dar paso a asentamientos coloniales y la extracción de recursos."
+  native_extermination_maintenance: "Suministros Militares"
+
+  slave_auction_house: "Casa de Subastas de Esclavos"
+  slave_auction_house_desc: "Un mercado donde se compran y venden individuos esclavizados, alimentando las demandas de mano de obra de las empresas coloniales."
+  slave_auction_house_maintenance: "Operaciones de Comercio de Esclavos"
+
+  wheat_enclosure: "Cerco de Trigo"
+  wheat_enclosure_maintenance: "Cercos de Trigo"
+  wheat_enclosure_desc: "Un área cercada dedicada al cultivo de trigo, proporcionando un ambiente controlado para un crecimiento y rendimiento óptimos."
+
+  potato_patch: "Parcela de Patatas"
+  potato_patch_maintenance: "Parcelas de Patatas"
+  potato_patch_desc: "Una pequeña parcela de tierra utilizada para cultivar patatas."
+
+  sturdy_grains_field: "Campo de Cereales Robustos"
+  sturdy_grains_field_maintenance: "Campos de Cereales Robustos"
+  sturdy_grains_field_desc: "Un campo dedicado al cultivo de cereales resistentes como el mijo y el sorgo, que prosperan en climas desafiantes."
+
+  rice_paddy: "Arrozal"
+  rice_paddy_maintenance: "Arrozales"
+  rice_paddy_desc: "Un campo inundado utilizado para cultivar arroz, proporcionando las condiciones de agua necesarias para un crecimiento y rendimiento óptimos."
+
+  corn_plantation: "Plantación de Maíz"
+  corn_plantation_maintenance: "Plantaciones de Maíz"
+  corn_plantation_desc: "Una gran finca dedicada al cultivo de maíz."
+
+  livestock_ranch: "Rancho Ganadero"
+  livestock_ranch_desc: "Un rancho donde se pueden criar varios tipos de ganado, proporcionando carne, leche u otros productos animales."
+  livestock_ranch_maintenance_cattle: "Ganado Vacuno"
+  livestock_ranch_maintenance_chicken: "Pollos"
+  livestock_ranch_maintenance_pig: "Cerdos"
+  livestock_ranch_maintenance_goat: "Cabras"
+  livestock_ranch_maintenance_ducks: "Patos"
+  livestock_ranch_maintenance_yak: "Yaks"
+  livestock_ranch_maintenance_alpaca: "Alpacas"
+  livestock_ranch_maintenance_turkey: "Pavos"

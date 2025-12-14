@@ -1,65 +1,4 @@
-﻿beekeepers_hut = {
-	is_foreign = no
-	max_levels = rural_building_cap
-	pop_type = laborers
-	employment_size = rural_peasant_produce_employment
-	rural_settlement = yes
-	town = yes
-	city = yes
-	allow = {
-		OR = {
-			has_game_rule = resource_buildings_enabled_true
-			has_game_rule = food_buildings_enabled_true
-		}
-	}
-	location_potential = {
-		OR = {
-			vegetation = farmland
-			vegetation = grasslands
-			vegetation = woods
-		}
-	}
-	category = farming_building_category
-	possible_production_methods = {
-		beekeepers_hut_maintenance
-	}
-	modifier = {
-		local_monthly_food_modifier = 0.01
-	}
-	build_time = rural_build_time
-	construction_demand = farm_constructions
-}
-
-hunting_camp = {
-	is_foreign = no
-	max_levels = rural_building_cap
-	pop_type = laborers
-	employment_size = rural_peasant_produce_employment
-	rural_settlement = yes
-	town = no
-	city = no
-	allow = {
-		OR = {
-			has_game_rule = resource_buildings_enabled_true
-			has_game_rule = food_buildings_enabled_true
-		}
-	}
-	location_potential = {
-		OR = {
-			vegetation = forest
-			vegetation = woods
-			vegetation = jungle
-		}
-	}
-	category = rgo_building_category
-	possible_production_methods = {
-		hunting_camp_maintenance
-	}
-	build_time = rural_build_time
-	construction_demand = basic_construction_needs
-}
-
-wheat_enclosure = {
+﻿tobacco_farmstead = {
 	is_foreign = no
 	max_levels = rural_farming_cap
 	pop_type = laborers
@@ -68,82 +7,26 @@ wheat_enclosure = {
 	town = yes
 	city = yes
 	allow = {
-		has_game_rule = food_buildings_enabled_true
-	}
-	country_potential = {
-		old_world_crops_building_trigger = yes
-	}
-	location_potential = {
-		mb_wheat_trigger = yes
-		market_has_good = {
-			good = goods:wheat
-		}
-	}
-	category = farming_building_category
-	possible_production_methods = {
-		wheat_enclosure_maintenance
-	}
-	build_time = rural_build_time
-	construction_demand = farm_constructions
-}
-
-rice_paddy = {
-	is_foreign = no
-	max_levels = rural_farming_cap
-	pop_type = laborers
-	employment_size = rice_paddy_employment_size
-	rural_settlement = yes
-	town = yes
-	city = yes
-	allow = {
-		has_game_rule = food_buildings_enabled_true
-	}
-	country_potential = {
-		old_world_crops_building_trigger = yes
-	}
-	location_potential = {
-		mb_rice_trigger = yes
-		market_has_good = {
-			good = goods:rice
-		}
-	}
-	category = farming_building_category
-	possible_production_methods = {
-		rice_paddy_maintenance
-	}
-	build_time = rural_build_time
-	construction_demand = farm_constructions
-}
-
-corn_plantation = {
-	is_foreign = no
-	max_levels = rural_farming_cap
-	pop_type = laborers
-	employment_size = rural_peasant_produce_employment
-	rural_settlement = yes
-	town = yes
-	city = yes
-	allow = {
-		has_game_rule = food_buildings_enabled_true
+		has_game_rule = resource_buildings_enabled_true
 	}
 	country_potential = {
 		new_world_crops_building_trigger = yes
 	}
 	location_potential = {
-		mb_maize_trigger = yes
+		mb_tobacco_trigger = yes
 		market_has_good = {
-			good = goods:maize
+			good = goods:tobacco
 		}
 	}
 	category = farming_building_category
 	possible_production_methods = {
-		corn_plantation_maintenance
+		tobacco_farmstead_maintenance
 	}
 	build_time = rural_build_time
 	construction_demand = farm_constructions
 }
 
-potato_patch = {
+cocoa_plantation = {
 	is_foreign = no
 	max_levels = rural_farming_cap
 	pop_type = laborers
@@ -152,26 +35,26 @@ potato_patch = {
 	town = yes
 	city = yes
 	allow = {
-		has_game_rule = food_buildings_enabled_true
+		has_game_rule = resource_buildings_enabled_true
 	}
 	country_potential = {
 		new_world_crops_building_trigger = yes
 	}
 	location_potential = {
-		mb_potato_trigger = yes
+		mb_cocoa_trigger = yes
 		market_has_good = {
-			good = goods:potato
+			good = goods:cocoa
 		}
 	}
 	category = farming_building_category
 	possible_production_methods = {
-		potato_patch_maintenance
+		cocoa_plantation_maintenance
 	}
 	build_time = rural_build_time
 	construction_demand = farm_constructions
 }
 
-sturdy_grains_field = {
+cotton_estate = {
 	is_foreign = no
 	max_levels = rural_farming_cap
 	pop_type = laborers
@@ -180,23 +63,23 @@ sturdy_grains_field = {
 	town = yes
 	city = yes
 	allow = {
-		has_game_rule = food_buildings_enabled_true
+		has_game_rule = resource_buildings_enabled_true
 	}
 	location_potential = {
-		mb_millet_trigger = yes
+		mb_cotton_trigger = yes
 		market_has_good = {
-			good = goods:millet
+			good = goods:cotton
 		}
 	}
 	category = farming_building_category
 	possible_production_methods = {
-		sturdy_grains_field_maintenance
+		cotton_estate_maintenance
 	}
 	build_time = rural_build_time
 	construction_demand = farm_constructions
 }
 
-vegetable_garden = {
+coffee_plantation = {
 	is_foreign = no
 	max_levels = rural_farming_cap
 	pop_type = laborers
@@ -205,56 +88,216 @@ vegetable_garden = {
 	town = yes
 	city = yes
 	allow = {
-		has_game_rule = food_buildings_enabled_true
+		has_game_rule = resource_buildings_enabled_true
+	}
+	country_potential = {
+		old_world_crops_building_trigger = yes
 	}
 	location_potential = {
-		OR = {
-			climate = continental
-			climate = oceanic
-			climate = mediterranean
-			climate = subtropical
-			climate = tropical
-		}
-		NOT = {
-			vegetation = desert
+		mb_coffee_trigger = yes
+		market_has_good = {
+			good = goods:coffee
 		}
 	}
 	category = farming_building_category
 	possible_production_methods = {
-		vegetable_garden_maintenance
+		coffee_plantation_maintenance
 	}
 	build_time = rural_build_time
 	construction_demand = farm_constructions
 }
 
-livestock_ranch = {
+sugar_mill = {
 	is_foreign = no
-	max_levels = rural_building_cap
+	max_levels = rural_farming_cap
 	pop_type = laborers
 	employment_size = rural_peasant_produce_employment
 	rural_settlement = yes
 	town = yes
 	city = yes
 	allow = {
-		has_game_rule = food_buildings_enabled_true
+		has_game_rule = resource_buildings_enabled_true
+	}
+	country_potential = {
+		old_world_crops_building_trigger = yes
 	}
 	location_potential = {
-		#currently technically possible to build without any valid production methods. This alleviates this maybe?
-		NOR = {
-			climate = arctic
-			vegetation = desert
+		mb_sugar_trigger = yes
+		market_has_good = {
+			good = goods:sugar
 		}
 	}
 	category = farming_building_category
 	possible_production_methods = {
-		livestock_ranch_maintenance_cattle
-		livestock_ranch_maintenance_chicken
-		livestock_ranch_maintenance_pig
-		livestock_ranch_maintenance_goat
-		livestock_ranch_maintenance_ducks
-		livestock_ranch_maintenance_yak
-		livestock_ranch_maintenance_alpaca
-		livestock_ranch_maintenance_turkey
+		sugar_mill_maintenance
+	}
+	build_time = rural_build_time
+	construction_demand = farm_constructions
+}
+
+vineyard = {
+	is_foreign = no
+	max_levels = rural_farming_cap
+	pop_type = laborers
+	employment_size = rural_peasant_produce_employment
+	rural_settlement = yes
+	town = yes
+	city = yes
+	allow = {
+		has_game_rule = resource_buildings_enabled_true
+	}
+	country_potential = {
+		old_world_crops_building_trigger = yes
+	}
+	location_potential = {
+		mb_wine_trigger = yes
+		market_has_good = {
+			good = goods:wine
+		}
+	}
+	category = farming_building_category
+	possible_production_methods = {
+		vineyard_maintenance
+	}
+	build_time = rural_build_time
+	construction_demand = farm_constructions
+}
+
+olive_grove = {
+	is_foreign = no
+	max_levels = rural_farming_cap
+	pop_type = laborers
+	employment_size = rural_peasant_produce_employment
+	rural_settlement = yes
+	town = yes
+	city = yes
+	allow = {
+		has_game_rule = resource_buildings_enabled_true
+	}
+	country_potential = {
+		old_world_crops_building_trigger = yes
+	}
+	location_potential = {
+		mb_olives_trigger = yes
+		market_has_good = {
+			good = goods:olives
+		}
+	}
+	category = farming_building_category
+	possible_production_methods = {
+		olive_grove_maintenance
+	}
+	build_time = rural_build_time
+	construction_demand = farm_constructions
+}
+
+saffron_farm = {
+	is_foreign = no
+	max_levels = rural_farming_cap
+	pop_type = laborers
+	employment_size = rural_peasant_produce_employment
+	rural_settlement = yes
+	town = yes
+	city = yes
+	allow = {
+		has_game_rule = resource_buildings_enabled_true
+	}
+	location_potential = {
+		mb_saffron_trigger = yes
+		market_has_good = {
+			good = goods:saffron
+		}
+	}
+	country_potential = {
+		old_world_crops_building_trigger = yes
+	}
+	category = farming_building_category
+	possible_production_methods = {
+		saffron_farm_maintenance
+	}
+	build_time = rural_build_time
+	construction_demand = farm_constructions
+}
+
+pepper_plantation = {
+	is_foreign = no
+	max_levels = rural_farming_cap
+	pop_type = laborers
+	employment_size = rural_peasant_produce_employment
+	rural_settlement = yes
+	town = yes
+	city = yes
+	allow = {
+		has_game_rule = resource_buildings_enabled_true
+	}
+	location_potential = {
+		mb_pepper_trigger = yes
+		market_has_good = {
+			good = goods:pepper
+		}
+	}
+	country_potential = {
+		old_world_crops_building_trigger = yes
+	}
+	category = farming_building_category
+	possible_production_methods = {
+		pepper_plantation_maintenance
+	}
+	build_time = rural_build_time
+	construction_demand = farm_constructions
+}
+
+clove_plantation = {
+	is_foreign = no
+	max_levels = rural_farming_cap
+	pop_type = laborers
+	employment_size = rural_peasant_produce_employment
+	rural_settlement = yes
+	town = yes
+	city = yes
+	allow = {
+		has_game_rule = resource_buildings_enabled_true
+	}
+	location_potential = {
+		mb_cloves_trigger = yes
+		market_has_good = {
+			good = goods:cloves
+		}
+	}
+	country_potential = {
+		old_world_crops_building_trigger = yes
+	}
+	category = farming_building_category
+	possible_production_methods = {
+		clove_plantation_maintenance
+	}
+	build_time = rural_build_time
+	construction_demand = farm_constructions
+}
+
+chili_farm = {
+	is_foreign = no
+	max_levels = rural_farming_cap
+	pop_type = laborers
+	employment_size = rural_peasant_produce_employment
+	rural_settlement = yes
+	town = yes
+	city = yes
+	allow = {
+		has_game_rule = resource_buildings_enabled_true
+	}
+	location_potential = {
+		mb_chili_trigger = yes
+		market_has_good = {
+			good = goods:chili
+		}
+	}
+	country_potential = {
+		new_world_crops_building_trigger = yes
+	}
+	category = farming_building_category
+	possible_production_methods = {
+		chili_farm_maintenance
 	}
 	build_time = rural_build_time
 	construction_demand = farm_constructions

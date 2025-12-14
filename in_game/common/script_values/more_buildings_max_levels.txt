@@ -1,4 +1,16 @@
-﻿rural_farming_cap = {
+﻿no_of_farming_buildings = {
+	desc = "BUILDING_LEVEL_NO_OF_FARMING_BUILDINGS"
+	location = {
+		every_buildings_in_location = {
+			limit = {
+				building_category = farming_building_category
+			}
+			add = 1
+		}
+	}
+}
+
+rural_farming_cap = {
 	add = {
 		desc = "BUILDING_LEVEL_BASE"
 		value = 1
@@ -6,56 +18,52 @@
 	add = {
 		desc = "BUILDING_LEVEL_DEVELOPMENT"
 		value = development
-		multiply = 0.1
+		multiply = 0.15
 	}
-	if = {
-		# Open vegetation bonus
-		limit = {
-			OR = {
+	add = {
+		desc = "BUILDING_LEVEL_RGO_MAX"
+		value = max_rgo_workers
+		if = {
+			limit = {
 				vegetation = grasslands
-				vegetation = farmland
 				vegetation = sparse
+				vegetation = farmland
 			}
-		}
-		add = {
-			desc = "BUILDING_LEVEL_RGO_MAX"
-			value = max_rgo_workers
-			multiply = 0.35
-		}
-	}
-	else = {
-		add = {
-			desc = "BUILDING_LEVEL_RGO_MAX"
-			value = max_rgo_workers
 			multiply = 0.2
 		}
+		else = {
+			multiply = 0.1
+		}
 	}
-	if = {
-		limit = {
-			OR = {
-				climate = mediterranean
-				climate = oceanic
-				climate = continental
-				climate = subtropical
+	multiply = {
+		desc = "BUILDING_LEVEL_FAVORABLE_CLIMATE"
+		value = 1
+		if = {
+			limit = {
+				OR = {
+					climate = mediterranean
+					climate = oceanic
+					climate = continental
+					climate = subtropical
+				}
 			}
-		}
-		multiply = {
-			desc = "BUILDING_LEVEL_FAVORABLE_CLIMATE"
-			value = 1.4
+			add = 0.2
 		}
 	}
-	if = {
-		limit = {
-			OR = {
-				has_river = yes
-				is_adjacent_to_lake = yes
+	multiply = {
+		desc = "BUILDING_LEVEL_HAS_IRRIGATION"
+		value = 1
+		if = {
+			limit = {
+				OR = {
+					has_river = yes
+					is_adjacent_to_lake = yes
+				}
 			}
-		}
-		multiply = {
-			desc = "BUILDING_LEVEL_HAS_IRRIGATION"
-			value = 1.4
+			add = 0.4
 		}
 	}
+	#subtract = no_of_farming_buildings
 }
 
 rice_paddy_employment_size = 1.25

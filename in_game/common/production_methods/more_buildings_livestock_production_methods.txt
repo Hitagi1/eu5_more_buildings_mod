@@ -21,12 +21,12 @@
 	lumber = 0.25
 	tools = 0.05
 	category = building_maintenance
-	debug_max_profit = 0.45
+	debug_max_profit = 0.55
 }
 
 livestock_ranch_maintenance_chicken = {
 	produced = livestock
-	output = 0.8
+	output = 0.9
 	allow = {
 		scope:target ?= {
 			OR = {
@@ -39,8 +39,7 @@ livestock_ranch_maintenance_chicken = {
 			NOT = {
 				vegetation = desert
 			}
-			NOR = {
-				topography = hills
+			NOT = {
 				topography = mountains
 			}
 		}
@@ -52,6 +51,7 @@ livestock_ranch_maintenance_chicken = {
 	lumber = 0.25
 	tools = 0.05
 	category = building_maintenance
+	debug_max_profit = 0.45
 }
 
 livestock_ranch_maintenance_pig = {
@@ -81,6 +81,7 @@ livestock_ranch_maintenance_pig = {
 	lumber = 0.25
 	tools = 0.05
 	category = building_maintenance
+	debug_max_profit = 0.45
 }
 
 livestock_ranch_maintenance_goat = {
@@ -115,6 +116,7 @@ livestock_ranch_maintenance_goat = {
 	lumber = 0.2
 	tools = 0.05
 	category = building_maintenance
+	debug_max_profit = 0.45
 }
 
 livestock_ranch_maintenance_ducks = {
@@ -146,6 +148,7 @@ livestock_ranch_maintenance_ducks = {
 	lumber = 0.2
 	tools = 0.05
 	category = building_maintenance
+	debug_max_profit = 0.45
 }
 
 livestock_ranch_maintenance_yak = {
@@ -175,11 +178,12 @@ livestock_ranch_maintenance_yak = {
 	lumber = 0.1
 	tools = 0.05
 	category = building_maintenance
+	debug_max_profit = 0.45
 }
 
 livestock_ranch_maintenance_alpaca = {
 	produced = livestock
-	output = 0.65
+	output = 0.7
 	allow = {
 		scope:target ?= {
 			OR = {
@@ -199,10 +203,11 @@ livestock_ranch_maintenance_alpaca = {
 	potential = {
 		new_world_crops_building_trigger = yes
 	}
-	millet = 0.45
+	millet = 0.4
 	lumber = 0.15
 	tools = 0.05
 	category = building_maintenance
+	debug_max_profit = 0.45
 }
 
 livestock_ranch_maintenance_turkey = {
@@ -229,4 +234,5 @@ livestock_ranch_maintenance_turkey = {
 	lumber = 0.15
 	tools = 0.05
 	category = building_maintenance
+	debug_max_profit = 0.45
 }

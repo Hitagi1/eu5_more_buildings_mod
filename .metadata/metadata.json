@@ -1,7 +1,7 @@
 ﻿{
 	"name": "More Buildings",
 	"id": "hitagi.more_buildings",
-	"version": "1.0.6",
+	"version": "1.0.7",
 	"supported_game_version": "1.0.*",
 	"short_description": "adds more buildings",
 	"tags": [
@@ -9,5 +9,9 @@
 		"Trade and Economics"
 	],
 	"relationships": [],
-	"game_custom_data": {}
+	"game_custom_data": {
+		"replace_paths": [
+			"common/building_categories"
+		]
+	}
 }
