@@ -107,3 +107,51 @@
   livestock_ranch_maintenance_yak: "Yaks"
   livestock_ranch_maintenance_alpaca: "Alpacas"
   livestock_ranch_maintenance_turkey: "Pavos"
+  
+  tobacco_farmstead: "Hacienda de Tabaco"
+  tobacco_farmstead_desc: "Una finca dedicada al cultivo de tabaco, que proporciona materia prima para fumar y comerciar."
+  tobacco_farmstead_maintenance: "Cultivo de Tabaco"
+
+  cocoa_plantation: "Plantación de Cacao"
+  cocoa_plantation_desc: "Una plantación donde se cultivan árboles de cacao para producir granos de cacao para chocolate y comercio."
+  cocoa_plantation_maintenance: "Cultivo de Cacao"
+
+  cotton_estate: "Hacienda de Algodón"
+  cotton_estate_desc: "Una gran finca dedicada al cultivo de algodón, que suministra materia prima para la producción textil."
+  cotton_estate_maintenance: "Cultivo de Algodón"
+
+  coffee_plantation: "Plantación de Café"
+  coffee_plantation_desc: "Una plantación donde se cultivan plantas de café, produciendo granos de café para consumo local y exportación."
+  coffee_plantation_maintenance: "Cultivo de Café"
+
+  sugar_mill: "Ingenio Azucarero"
+  sugar_mill_desc: "Una instalación que cultiva y procesa caña de azúcar en azúcar refinada para comercio y consumo."
+  sugar_mill_maintenance: "Producción de Azúcar"
+
+  vineyard: "Viñedo"
+  vineyard_desc: "Una finca donde se cultivan vides para producir uvas para la elaboración de vino y el comercio."
+  vineyard_maintenance: "Cultivo del Viñedo"
+
+  olive_grove: "Olivar"
+  olive_grove_desc: "Un bosquecillo donde se cultivan olivos para producir aceitunas y aceite de oliva para cocinar y comerciar."
+  olive_grove_maintenance: "Cultivo de Olivos"
+
+  saffron_farm: "Granja de Azafrán"
+  saffron_farm_desc: "Una granja especializada dedicada al cultivo de azafrán, una de las especias más valiosas del mundo."
+  saffron_farm_maintenance: "Cultivo de Azafrán"
+
+  pepper_plantation: "Plantación de Pimienta"
+  pepper_plantation_desc: "Una plantación donde se cultivan plantas de pimienta, produciendo una de las especias más codiciadas para el comercio."
+  pepper_plantation_maintenance: "Cultivo de Pimienta"
+
+  clove_plantation: "Plantación de Clavo"
+  clove_plantation_desc: "Una plantación dedicada al cultivo de árboles de clavo, produciendo capullos aromáticos utilizados como especia."
+  clove_plantation_maintenance: "Cultivo de Clavo"
+
+  chili_farm: "Granja de Chile"
+  chili_farm_desc: "Una granja donde se cultivan chiles, proporcionando ingredientes picantes para cocinar y comerciar."
+  chili_farm_maintenance: "Cultivo de Chile"
+  
+  vegetable_garden: "Huerto de Verduras"
+  vegetable_garden_maintenance: "Huertos de Verduras"
+  vegetable_garden_desc: "Un jardín donde se cultivan diversas verduras, proporcionando productos frescos para el consumo local."
