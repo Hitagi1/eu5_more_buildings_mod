@@ -42,6 +42,9 @@
   native_extermination_advance: "Vertreibung der Ureinwohner"
   native_extermination_advance_desc: "Die Kolonialmächte entwickelten systematische Methoden zur Vertreibung und Ausrottung der indigenen Bevölkerung. Zu diesen brutalen Taktiken gehörten Zwangsumsiedlungen, gewaltsame Auseinandersetzungen und die Verbreitung von Krankheiten, die alle darauf abzielten, Land für Siedler und die Ausbeutung von Ressourcen freizumachen."
 
+  slave_auction_advance: "Sklaven-Auktionshäuser"
+  slave_auction_advance_desc: "Mit der Ausweitung des transatlantischen Sklavenhandels errichteten die Kolonialmächte spezielle Auktionshäuser, um den Verkauf versklavter Personen zu erleichtern."
+
   urban_housing_expansion_advance: "Städtische Wohnbebauung"
   urban_housing_expansion_advance_desc: "Als die Städte mit Händlern, Handwerkern und Wanderarbeitern überquollen, begannen Stadtplaner mit dichteren Wohnblocks, standardisierten Straßenfronten und mehrstöckigen Wohnhäusern zu experimentieren. Diese neuen Baupraktiken spiegelten den wachsenden Druck durch Handel und Bevölkerung wider und markierten den Übergang von mittelalterlichen Stadtbildern zu bewusst organisierten Stadtvierteln."
 
