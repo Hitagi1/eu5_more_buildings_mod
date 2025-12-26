@@ -7,8 +7,7 @@
 }
 
 advanced_construction_needs = {
-	masonry = 1
-	lumber = 0.3
+	lumber = 1.5
 	tools = 0.25
 	category = building_construction
 }

@@ -1,0 +1,161 @@
+﻿l_turkish:
+
+  urban_expansion_construction: "Kentsel Genişleme İnşaatı"
+  BUILDING_LEVEL_FAVORABLE_CLIMATE: "Elverişli İklim"
+  BUILDING_LEVEL_HAS_IRRIGATION: "Sulama Kaynağı Var"
+  BUILDING_LEVEL_NO_OF_FARMING_BUILDINGS: "Tarımsal Bina Sayısı"
+  advanced_construction_needs: "Gelişmiş İnşaat İhtiyaçları"
+
+  farming_building_category: "Tarımsal Binalar"
+  farming_building_category_desc: "Bu binalar ekin yetiştirmeye ve hayvancılığa adanmıştır, nüfusu beslemeye ve ticaret ile sanayi için hammadde sağlamaya yardımcı olur."
+
+  beekeepers_hut: "Arıcılık Kulübesi"
+  beekeepers_hut_desc: "Arıcıların kovanlarına baktığı, yerel pazar için bal ve balmumu ürettiği küçük bir kulübe."
+  beekeepers_hut_maintenance: "Arı Kovanları"
+
+  shallow_tin_mine: "Sığ Kalay Madeni"
+  shallow_tin_mine_desc: "Sığ nehir yataklarından kalay cevheri çıkaran, metal işçiliği ve ticaret için hammadde sağlayan bir maden."
+  shallow_tin_mine_maintenance: "Kalay Cevheri Çıkarımı"
+
+  galenite_extraction: "Galenit Ayrışımı"
+  galenite_extraction_desc: "Galen cevherini işleyerek ek kurşun elde eden ve diğer yararlı mineralleri geri kazanan bir tesis."
+  galenite_extraction_maintenance: "Galen Cevheri Çıkarımı"
+
+  cinnabar_refinement: "Zincifre Çıkarımı"
+  cinnabar_refinement_desc: "Çeşitli el sanatlarında ve ticarette kullanılmak üzere zincifre cevherini işleyip cıva elde eden bir tesis."
+  cinnabar_refinement_maintenance: "Cıva Cevheri Çıkarımı"
+
+  hydrothermal_copper_mine: "Hidrotermal Bakır Madeni"
+  hydrothermal_copper_mine_desc: "Jeotermal aktivite olan bölgelerde bulunan hidrotermal damar yataklarından bakır cevheri çıkaran bir maden."
+  hydrothermal_copper_mine_maintenance: "Bakır Cevheri Çıkarımı"
+
+  hydrothermal_copper_shaft_mine: "Hidrotermal Bakır Kuyu Madeni"
+  hydrothermal_copper_shaft_mine_desc: "Daha derin hidrotermal bakır damarlarına ulaşmak için kuyu madenciliği tekniklerini kullanan, cevher verimini artıran gelişmiş bir maden."
+  hydrothermal_copper_shaft_mine_maintenance: "Bakır Cevheri Çıkarımı"
+
+  brine_well: "Tuzlu Su Kazanı"
+  brine_well_desc: "Yeraltı yataklarında bulunan tuzlu suyu kaynatarak tuz elde eden bir tesis."
+  brine_well_maintenance: "Tuz Çıkarımı"
+
+  potash_works: "Potas İşliği"
+  potash_works_desc: "Odun külü ve kilden potas üreten bir tesis."
+  potash_works_maintenance: "Potas Üretimi"
+
+  laterite_bloomery: "Laterit Dökümhanesi"
+  laterite_bloomery_desc: "Tropikal bölgelerde yaygın olarak bulunan laterit cevherini işleyerek demircilik için demir kütükleri üreten bir dökümhane."
+  laterite_bloomery_maintenance: "Laterit Cevheri Çıkarımı"
+  laterite_bloomery_african_soils: "Afrika Laterit Çıkarımı"
+
+  agricultural_residue_collector: "Tarımsal Atık Toplayıcısı"
+  agricultural_residue_collector_desc: "Saman, kabuk ve hayvan atığı gibi tarımsal kalıntıları toplayıp işleyerek ısınma ve metal işçiliği için yakıt üreten bir tesis."
+  agricultural_residue_collector_maintenance: "Tarımsal Atık Yakıtı"
+
+  improved_mason: "Gelişmiş Taşçılık"
+  improved_mason_desc: "Gelişmiş teknikler ve malzemeler kullanarak daha kaliteli tuğlalar üreten gelişmiş bir taş işleme atölyesi."
+  improved_stone_bricks: "Taş Tuğlalar"
+  improved_clay_bricks: "Kil Tuğlalar"
+
+  hunting_camp: "Avcı Kampı"
+  hunting_camp_desc: "Avcıların yabani hayvanları tuzağa düşürüp avlamak için toplandığı, yakın yerleşimlere et ve post sağlayan bir kamp."
+  hunting_camp_maintenance: "Av Malzemeleri"
+
+  urban_housing_expansion: "Kentsel Konut"
+  urban_housing_expansion_desc: "Artan nüfusu barındırmak ve aşırı kalabalığı azaltmak için tasarlanmış kentsel konut genişlemesi."
+  urban_housing_expansion_maintenance: "Standart Evler"
+  urban_housing_expansion_maintenance_brick_homes: "Tuğla Evler"
+
+  urban_sewage_system: "Kentsel Kanalizasyon Sistemi"
+  urban_sewage_system_desc: "Atıkları yaşam alanlarından uzaklaştırarak kentsel alanlarda sanitasyonu ve halk sağlığını iyileştiren bir kanalizasyon sistemi."
+  urban_sewage_system_maintenance_lead_pipes: "Kurşun Borular"
+  urban_sewage_system_maintenance_copper_pipes: "Bakır Borular"
+
+  urban_infrastucture_expansion: "Kentsel Altyapı Genişlemesi"
+  urban_infrastucture_expansion_desc: "Yollar, pazar yerleri ve kamu hizmetleri dahil olmak üzere artan ekonomik faaliyeti desteklemek için kentsel altyapının genişletilmesi."
+  urban_infrastucture_expansion_maintenance: "Altyapı Bakımı"
+
+  native_extermination: "Yerli Sürgünü" 
+  native_extermination_desc: "Sömürge yerleşimlerine ve kaynak çıkarımına yer açmak için yerli nüfusun yerinden edilmesini amaçlayan bir kampanya."
+  native_extermination_maintenance: "Askeri Malzemeler"
+
+  slave_auction_house: "Köle Müzayede Evi"
+  slave_auction_house_desc: "Köleleştirilmiş bireylerin alınıp satıldığı, sömürge girişimlerinin işgücü taleplerini karşılayan bir pazar yeri."
+  slave_auction_house_maintenance: "Köle Ticareti Operasyonları"
+
+  wheat_enclosure: "Buğday Çitleri"
+  wheat_enclosure_maintenance: "Buğday Çitleri"
+  wheat_enclosure_desc: "Buğday ekimine ayrılmış, optimum büyüme ve verim için kontrollü bir ortam sağlayan çitle çevrili alan."
+
+  potato_patch: "Patates Tarlası"
+  potato_patch_maintenance: "Patates Tarlaları"
+  potato_patch_desc: "Patates yetiştirmek için kullanılan küçük bir arazi parçası."
+
+  sturdy_grains_field: "Dayanıklı Tahıl Tarlası"
+  sturdy_grains_field_maintenance: "Dayanıklı Tahıl Tarlaları"
+  sturdy_grains_field_desc: "Zorlu iklimlerde gelişen darı ve süpürge darısı gibi dayanıklı tahılların ekimine ayrılmış bir tarla."
+
+  rice_paddy: "Pirinç Tarlası"
+  rice_paddy_maintenance: "Pirinç Tarlaları"
+  rice_paddy_desc: "Optimum büyüme ve verim için gerekli su koşullarını sağlayan, pirinç yetiştirilen su basmış bir tarla."
+
+  corn_plantation: "Mısır Plantasyonu"
+  corn_plantation_maintenance: "Mısır Plantasyonları"
+  corn_plantation_desc: "Mısır ekimine ayrılmış büyük bir çiftlik."
+
+  vegetable_garden: "Sebze Bahçesi"
+  vegetable_garden_maintenance: "Sebze Bahçeleri"
+  vegetable_garden_desc: "Çeşitli sebzelerin yetiştirildiği, yerel tüketim için taze ürün sağlayan bir bahçe."
+
+  livestock_ranch: "Hayvan Çiftliği"
+  livestock_ranch_desc: "Et, süt veya diğer hayvansal ürünler sağlayan çeşitli hayvan türlerinin yetiştirildiği bir çiftlik."
+  livestock_ranch_maintenance_cattle: "Sığır"
+  livestock_ranch_maintenance_chicken: "Tavuk"
+  livestock_ranch_maintenance_pig: "Domuz"
+  livestock_ranch_maintenance_goat: "Keçi"
+  livestock_ranch_maintenance_ducks: "Ördek"
+  livestock_ranch_maintenance_yak: "Yak"
+  livestock_ranch_maintenance_alpaca: "Alpaka"
+  livestock_ranch_maintenance_turkey: "Hindi"
+
+  tobacco_farmstead: "Tütün Çiftliği"
+  tobacco_farmstead_desc: "Tütün ekimine adanmış, tütün içmek ve ticaret için hammadde sağlayan bir çiftlik."
+  tobacco_farmstead_maintenance: "Tütün Yetiştiriciliği"
+
+  cocoa_plantation: "Kakao Plantasyonu"
+  cocoa_plantation_desc: "Çikolata ve ticaret için kakao çekirdekleri üretmek üzere kakao ağaçlarının yetiştirildiği bir plantasyon."
+  cocoa_plantation_maintenance: "Kakao Yetiştiriciliği"
+
+  cotton_estate: "Pamuk Arazisi"
+  cotton_estate_desc: "Pamuk yetiştirmeye ayrılmış, tekstil üretimi için hammadde sağlayan büyük bir arazi."
+  cotton_estate_maintenance: "Pamuk Yetiştiriciliği"
+
+  coffee_plantation: "Kahve Plantasyonu"
+  coffee_plantation_desc: "Kahve bitkilerinin yetiştirildiği, yerel tüketim ve ihracat için kahve çekirdekleri üreten bir plantasyon."
+  coffee_plantation_maintenance: "Kahve Yetiştiriciliği"
+
+  sugar_mill: "Şeker Değirmeni"
+  sugar_mill_desc: "Şeker kamışını yetiştiren ve ticaret ile tüketim için rafine şekere işleyen bir tesis."
+  sugar_mill_maintenance: "Şeker Üretimi"
+
+  vineyard: "Bağ"
+  vineyard_desc: "Şarap yapımı ve ticaret için üzüm üretmek üzere asmaların yetiştirildiği bir çiftlik."
+  vineyard_maintenance: "Bağcılık"
+
+  olive_grove: "Zeytinlik"
+  olive_grove_desc: "Yemeklik ve ticaret için zeytin ve zeytinyağı üretmek üzere zeytin ağaçlarının yetiştirildiği bir koru."
+  olive_grove_maintenance: "Zeytin Yetiştiriciliği"
+
+  saffron_farm: "Safran Tarlası"
+  saffron_farm_desc: "Dünyanın en değerli baharatlarından biri olan safranı yetiştirmeye adanmış özel bir çiftlik."
+  saffron_farm_maintenance: "Safran Yetiştiriciliği"
+
+  pepper_plantation: "Karabiber Plantasyonu"
+  pepper_plantation_desc: "Ticaret için en çok aranan baharatlardan biri olan karabiber bitkilerinin yetiştirildiği bir plantasyon."
+  pepper_plantation_maintenance: "Karabiber Yetiştiriciliği"
+
+  clove_plantation: "Karanfil Plantasyonu"
+  clove_plantation_desc: "Baharat olarak kullanılan aromatik çiçek tomurcukları üreten karanfil ağaçlarını yetiştirmeye adanmış bir plantasyon."
+  clove_plantation_maintenance: "Karanfil Yetiştiriciliği"
+
+  chili_farm: "Acı Biber Çiftliği"
+  chili_farm_desc: "Acı biberlerin yetiştirildiği, yemek pişirme ve ticaret için baharatlı malzemeler sağlayan bir çiftlik."
+  chili_farm_maintenance: "Acı Biber Yetiştiriciliği"

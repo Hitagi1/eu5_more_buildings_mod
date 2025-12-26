@@ -1,0 +1,25 @@
+﻿l_turkish:
+
+  rule_resource_buildings_enabled: "Kaynak Binalarını Etkinleştir"
+  setting_resource_buildings_enabled_true: "Kaynak Binaları Etkin"
+  setting_resource_buildings_enabled_true_desc: "Kaynak binaları etkinleştirildi. Kaynak çıkarma ve işleme için yeni binalar mevcuttur."
+  setting_resource_buildings_enabled_false: "Kaynak Binaları Devre Dışı"
+  setting_resource_buildings_enabled_false_desc: "Kaynak binaları devre dışı bırakıldı. Kaynak çıkarma için yeni binalar mevcut değil."
+
+  rule_urban_buildings_enabled: "Kentsel Binaları Etkinleştir"
+  setting_urban_buildings_enabled_true: "Kentsel Binalar Etkin"
+  setting_urban_buildings_enabled_true_desc: "Kentsel binalar etkinleştirildi. Kentsel gelişim ve altyapı için yeni binalar mevcuttur."
+  setting_urban_buildings_enabled_false: "Kentsel Binalar Devre Dışı"
+  setting_urban_buildings_enabled_false_desc: "Kentsel binalar devre dışı bırakıldı. Kentsel gelişim için yeni binalar mevcut değil."
+
+  rule_food_buildings_enabled: "Gıda Binalarını Etkinleştir"
+  setting_food_buildings_enabled_true: "Gıda Binaları Etkin"
+  setting_food_buildings_enabled_true_desc: "Gıda binaları etkinleştirildi. Gıda üretimi için yeni binalar mevcuttur."
+  setting_food_buildings_enabled_false: "Gıda Binaları Devre Dışı"
+  setting_food_buildings_enabled_false_desc: "Gıda binaları devre dışı bırakıldı. Gıda üretimi için yeni binalar mevcut değil."
+
+  rule_colonial_buildings_enabled: "Sömürge Binalarını Etkinleştir"
+  setting_colonial_buildings_enabled_true: "Sömürge Binaları Etkin"
+  setting_colonial_buildings_enabled_true_desc: "Sömürge binaları etkinleştirildi. Sömürge genişlemesi için yeni binalar mevcuttur."
+  setting_colonial_buildings_enabled_false: "Sömürge Binaları Devre Dışı"
+  setting_colonial_buildings_enabled_false_desc: "Sömürge binaları devre dışı bırakıldı. Sömürge genişlemesi için yeni binalar mevcut değil."

@@ -3,7 +3,11 @@
   urban_expansion_construction: "Städtische Expansion und Bauwesen"
   BUILDING_LEVEL_FAVORABLE_CLIMATE: "Günstiges Klima"
   BUILDING_LEVEL_HAS_IRRIGATION: "Verfügt über Bewässerungsquelle"
+  BUILDING_LEVEL_NO_OF_FARMING_BUILDINGS: "Anzahl landwirtschaftlicher Gebäude"
   advanced_construction_needs: "Fortgeschrittene Baukosten"
+
+  farming_building_category: "Landwirtschaftliche Gebäude"
+  farming_building_category_desc: "Diese Gebäude dienen dem Anbau von Feldfrüchten und der Viehzucht und tragen zur Versorgung der Bevölkerung sowie zur Bereitstellung von Rohstoffen für Handel und Industrie bei."
 
   beekeepers_hut: "Imkerhütte"
   beekeepers_hut_desc: "Eine kleine Hütte, in der Imker ihre Bienenstöcke pflegen und Honig und Bienenwachs für den lokalen Markt produzieren."
@@ -97,6 +101,10 @@
   corn_plantation_maintenance: "Maisplantagen"
   corn_plantation_desc: "Ein großer Bauernhof, der sich dem Anbau von Mais widmet"
 
+  vegetable_garden: "Gemüsegarten"
+  vegetable_garden_maintenance: "Gemüsegärten"
+  vegetable_garden_desc: "Ein Garten, in dem verschiedene Gemüsesorten angebaut werden, um frische Produkte für den lokalen Verbrauch zu liefern."
+
   livestock_ranch: "Viehzucht"
   livestock_ranch_desc: "Eine Ranch, auf der verschiedene Arten von Vieh gehalten werden können, um Fleisch, Milch oder andere tierische Produkte zu liefern."
   livestock_ranch_maintenance_cattle: "Rinder"
@@ -107,3 +115,47 @@
   livestock_ranch_maintenance_yak: "Yaks"
   livestock_ranch_maintenance_alpaca: "Alpakas"
   livestock_ranch_maintenance_turkey: "Truthähne"
+
+  tobacco_farmstead: "Tabakfarm"
+  tobacco_farmstead_desc: "Ein Bauernhof, der sich dem Anbau von Tabak widmet und Rohmaterial für den Rauchgenuss und den Handel liefert."
+  tobacco_farmstead_maintenance: "Tabakanbau"
+
+  cocoa_plantation: "Kakaoplantage"
+  cocoa_plantation_desc: "Eine Plantage, auf der Kakaobäume kultiviert werden, um Kakaobohnen für Schokolade und Handel zu produzieren."
+  cocoa_plantation_maintenance: "Kakaoanbau"
+
+  cotton_estate: "Baumwollgut"
+  cotton_estate_desc: "Ein großes Gut, das sich dem Anbau von Baumwolle widmet und Rohmaterial für die Textilproduktion liefert."
+  cotton_estate_maintenance: "Baumwollanbau"
+
+  coffee_plantation: "Kaffeeplantage"
+  coffee_plantation_desc: "Eine Plantage, auf der Kaffeepflanzen angebaut werden, um Kaffeebohnen für den lokalen Verbrauch und Export zu produzieren."
+  coffee_plantation_maintenance: "Kaffeeanbau"
+
+  sugar_mill: "Zuckermühle"
+  sugar_mill_desc: "Eine Anlage, die Zuckerrohr anbaut und zu raffiniertem Zucker für Handel und Verbrauch verarbeitet."
+  sugar_mill_maintenance: "Zuckerproduktion"
+
+  vineyard: "Weinberg"
+  vineyard_desc: "Ein Bauernhof, auf dem Weinreben kultiviert werden, um Trauben für die Weinherstellung und den Handel zu produzieren."
+  vineyard_maintenance: "Weinberganbau"
+
+  olive_grove: "Olivenhain"
+  olive_grove_desc: "Ein Hain, in dem Olivenbäume angebaut werden, um Oliven und Olivenöl für die Küche und den Handel zu produzieren."
+  olive_grove_maintenance: "Olivenanbau"
+
+  saffron_farm: "Safranfarm"
+  saffron_farm_desc: "Eine spezialisierte Farm, die sich dem Anbau von Safran widmet, einem der wertvollsten Gewürze der Welt."
+  saffron_farm_maintenance: "Safrananbau"
+
+  pepper_plantation: "Pfefferplantage"
+  pepper_plantation_desc: "Eine Plantage, auf der Pfefferpflanzen kultiviert werden, um eines der begehrtesten Gewürze für den Handel zu produzieren."
+  pepper_plantation_maintenance: "Pfefferanbau"
+
+  clove_plantation: "Gewürznelkenplantage"
+  clove_plantation_desc: "Eine Plantage, die sich dem Anbau von Gewürznelkenbäumen widmet und aromatische Blütenknospen produziert, die als Gewürz verwendet werden."
+  clove_plantation_maintenance: "Gewürznelkenanbau"
+
+  chili_farm: "Chilifarm"
+  chili_farm_desc: "Ein Bauernhof, auf dem Chilischoten angebaut werden, um scharfe Zutaten für die Küche und den Handel zu liefern."
+  chili_farm_maintenance: "Chilianbau"
