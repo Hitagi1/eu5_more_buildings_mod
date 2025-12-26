@@ -1,0 +1,55 @@
+﻿l_turkish:
+
+  shallow_tin_mine_advance: "Sığ Kalay Madenciliği Teknikleri"
+  shallow_tin_mine_advance_desc: "Eski metal işçileri, akıntıların ağır kalay tanelerini doğal olarak yoğunlaştırdığı nehir yataklarından doğrudan kasetit toplamayı öğrendiler. Basit kazma ve eleme teknikleri, ilk bronz aletleri ve süs eşyalarını destekleyecek kadar cevher sağladı."
+
+  hydrothermal_copper_mine_advance: "Hidrotermal Bakır Madenciliği"
+  hydrothermal_copper_mine_advance_desc: "Eski madenciler, çatlak kayaların arasından dolaşan sıcak, mineral bakımından zengin suların oluşturduğu damarlarda bakır cevherinin bulunabileceğini keşfettiler. Bu damarları takip ederek ve cevheri çıkararak, erken dönem metalurjistleri alet yapımı ve ticaret için gerekli olan daha kaliteli bakır yataklarına erişim sağladılar."
+
+  hydrothermal_copper_shaft_mine_advance: "Gelişmiş Hidrotermal Bakır Madenciliği"
+  hydrothermal_copper_shaft_mine_advance_desc: "Madencilik teknolojisindeki ilerlemelerle işçiler, daha derin hidrotermal bakır damarlarına ulaşmak için kuyu madenciliği teknikleri geliştirdiler. Bu, yüksek tenörlü bakır cevherinin daha verimli bir şekilde çıkarılmasını sağladı."
+
+  brine_well_advance: "Tuzlu Su Çıkarma Teknikleri"
+  brine_well_advance_desc: "Eski tuz üreticileri, yeraltı tuzlu su yataklarının kuyular kullanılarak açılabileceğini keşfettiler. Tuzlu suyu yukarı çekip kaynatarak, hayati bir koruyucu ve çeşni olan tuzu verimli bir şekilde çıkarabildiler."
+
+  galenite_extraction_advance: "Gelişmiş Galenit İşleme"
+  galenite_extraction_advance_desc: "Eski izabeciler, yaygın bir kurşun cevheri olan galenitin genellikle değerli gümüş izleri taşıdığını keşfettiler. Metalurjistler cevheri ısıtarak ve erimiş katmanlarını ayırarak, değerli metali daha fazla arıtmak üzere yoğunlaştırırken kurşunu yararlı bir yan ürün olarak çekebildiler. Bu teknik, erken gümüş üretimini genişletmeye yardımcı oldu ve ilk özel cevher işleme yöntemlerinden bazılarını tanıttı."
+
+  cinnabar_refinement_advance: "Zincifre Cıva Çıkarımı"
+  cinnabar_refinement_advance_desc: "Erken dönem metalurjistleri, zincifreyi kapalı kaplarda ısıtmanın cıvasını buharlaştırdığını ve bunun daha sonra sıvı forma yoğunlaştırılabileceğini öğrendiler. Bu uçucu metal, değerli metalleri yaldızlamak ve birleştirmek için gerekli hale geldi ve çıkarılmasını değerli - ama tehlikeli - bir zanaat haline getirdi."
+
+  potash_works_advance: "Potas Üretim Teknikleri"
+  potash_works_advance_desc: "Zanaatkarlar, mineral bakımından zengin toprakların kontrollü yakılması ve filtrelenmesinin, boyaları sabitlemek ve postları hazırlamak için kilit mordanlar olan potas ve alünit verebileceğini keşfettiler. Bu bileşikler renkleri stabilize etti ve deriyi yumuşatarak onları erken tekstil ve tabaklama endüstrileri için vazgeçilmez kıldı."
+
+  laterite_bloomery_advance: "Laterit Demir Eritme"
+  laterite_bloomery_advance_desc: "Tropikal bölgelerde, erken dönem demircileri demir oksitler bakımından zengin laterit topraklarını kullanmayı öğrendiler. Cevheri kavurarak ve yakıt olarak odun kömürü kullanan dökümhane fırınları inşa ederek, demir cevherini işlenebilir kütüklere indirgeyebildiler ve aletler ve silahlar için yerel bir demir kaynağı sağladılar."
+
+  laterite_bloomery_african_soils_advance: "Afrika Laterit Demir Eritme"
+  laterite_bloomery_african_soils_advance_desc: "Afrika'daki yerli metalurjistler, bölgelerinde bol miktarda bulunan laterit cevherlerini eritmek için özel teknikler geliştirdiler. Dökümhane fırını tasarımlarını yerel koşullara uyarlayarak ve yerel odun kömürü kaynaklarını kullanarak, erken Afrika medeniyetlerinin büyümesini körükleyen demir kütükleri verimli bir şekilde ürettiler."
+
+  agricultural_residue_collector_advance: "Tarımsal Atık Kullanımı"
+  agricultural_residue_collector_advance_desc: "Yakıt kaynaklarının azalmasıyla birlikte, tarım toplumları saman, kabuk ve sap gibi tarımsal kalıntıları toplayıp yeniden kullanarak yenilik yaptılar. Bu malzemeler, ısınma ve metal işçiliği için geleneksel odun ve odun kömürü kaynaklarını tamamlayan sürdürülebilir bir yakıt kaynağına dönüştürüldü."
+
+  improved_masonry_advance: "Gelişmiş Taşçılık Teknikleri"
+  improved_masonry_advance_desc: "Zanaatkarlar standartlaştırılmış tuğla şekilleri, geliştirilmiş harç karışımları ve daha verimli fırın tasarımları geliştirerek taşçılık becerilerini geliştirdiler. Bu yenilikler daha güçlü, daha dayanıklı yapıların inşasını sağladı ve büyüyen yerleşimlerdeki inşaat projelerini hızlandırdı."
+
+  beekeepers_hut_advance: "Arıcılık Uygulamaları"
+  beekeepers_hut_advance_desc: "Erken dönem tarımcıları, içi oyulmuş kütüklerden veya dokuma samandan yapılmış basit kovanlar sağlayarak yabani arıları evcilleştirmeyi öğrendiler. Bu kolonileri yöneterek, gıda, ilaç ve mum yapımı için temel mallar olan bal ve balmumunu hasat edebildiler."
+
+  hunting_camp_advance: "Organize Avcılık Teknikleri"
+  hunting_camp_advance_desc: "Topluluklar iz sürme yöntemlerini ve yaban hayatının mevsimsel bilgisini geliştirdikçe, kilit göç yollarında yarı kalıcı av kampları kurmaya başladılar. Bu alanlar koordineli avları destekleyerek, erken yerleşimlerin hayatta kalması için hayati önem taşıyan et, post ve kemik aletler sağladı."
+
+  native_extermination_advance: "Yerli Sürgünü"
+  native_extermination_advance_desc: "Sömürgeci güçler, yerli nüfusun yerinden edilmesi ve yok edilmesi için sistematik yöntemler geliştirdiler. Bu acımasız taktikler, yerleşimciler ve kaynak sömürüsü için arazi açmayı amaçlayan zorunlu yer değiştirmeleri, şiddetli çatışmaları ve hastalıkların yayılmasını içeriyordu."
+
+  slave_auction_advance: "Köle Mezat Evleri"
+  slave_auction_advance_desc: "Transatlantik köle ticareti genişledikçe, sömürgeci güçler köleleştirilmiş bireylerin satışını kolaylaştırmak için özel mezat evleri kurdular."
+
+  urban_housing_expansion_advance: "Kentsel Konut Gelişimi"
+  urban_housing_expansion_advance_desc: "Kasabalar tüccarlar, zanaatkarlar ve göçmen işçilerle dolup taşarken, şehir planlamacıları daha yoğun konut blokları, standartlaştırılmış sokak cepheleri ve çok katlı konutlar denemeye başladılar. Bu yeni bina uygulamaları, ticaretin ve nüfusun artan baskılarını yansıtarak, ortaçağ kasaba manzaralarından daha bilinçli organize edilmiş kentsel mahallelere geçişi işaret ediyordu."
+
+  urban_infrastucture_expansion_advance: "Kentsel Altyapı İyileştirmeleri"
+  urban_infrastucture_expansion_advance_desc: "Ticaret merkezlerinin büyümesi, şehirleri daha geniş caddeler, güçlendirilmiş köprüler, standartlaştırılmış tabelalar ve geliştirilmiş gece aydınlatması ile fiziksel çerçevelerini yükseltmeye itti. Bu iyileştirmeler, sivil planlama ve kentsel koordinasyona yönelik olgunlaşan bir yaklaşımı yansıtarak, malların ve insanların daha sorunsuz hareketini destekledi."
+
+  urban_sewage_system_advance: "Kentsel Kanalizasyon Sistemi Gelişimi"
+  urban_sewage_system_advance_desc: "Kentsel nüfus yoğunlaştıkça, etkili atık yönetimi ihtiyacı kritik hale geldi. İlk mühendisler, atıkları yaşam alanlarından uzaklaştırmak için kurşun veya bronz borular ve taş kanallar kullanarak ilkel kanalizasyon sistemleri tasarladılar ve gelişen şehirlerde halk sağlığını ve sanitasyonu önemli ölçüde iyileştirdiler."
