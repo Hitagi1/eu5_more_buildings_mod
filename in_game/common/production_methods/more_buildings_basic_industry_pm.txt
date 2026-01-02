@@ -15,3 +15,9 @@ improved_clay_bricks = {
 	tools = 0.1
 	debug_max_profit = 0.75
 }
+
+improved_grain_storage = {
+	category = building_maintenance
+	masonry = 0.4
+	tools = 0.05
+}

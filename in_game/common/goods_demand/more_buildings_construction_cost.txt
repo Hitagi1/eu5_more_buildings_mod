@@ -6,8 +6,15 @@
 	category = building_construction
 }
 
-advanced_construction_needs = {
+advanced_masonry_construction_needs = {
 	lumber = 1.5
 	tools = 0.25
+	category = building_construction
+}
+
+advanced_general_construction = {
+	masonry = 1
+	lumber = 1
+	tools = 0.5
 	category = building_construction
 }

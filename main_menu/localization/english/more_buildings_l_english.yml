@@ -55,6 +55,10 @@
   improved_stone_bricks: "Stone Bricks"
   improved_clay_bricks: "Clay Bricks"
 
+  improved_granary: "Improved Granary"
+  improved_granary_desc: "A granary with enhanced storage features to better preserve grain and reduce spoilage."
+  improved_grain_storage: "Enhanced Grain Storage"
+
   hunting_camp: "Hunting Camp"
   hunting_camp_desc: "A camp where hunters gather to trap and hunt wild game, supplying meat and pelts to nearby settlements."
   hunting_camp_maintenance: "Hunting Supplies"
