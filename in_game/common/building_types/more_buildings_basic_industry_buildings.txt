@@ -48,7 +48,7 @@ improved_granary = {
 
 extensive_lumber_works = {
 	is_foreign = no
-	max_levels = basic_industry_building_cap
+	max_levels = rural_building_cap
 	pop_type = laborers
 	obsolete = lumber_mill
 	category = rgo_building_category
@@ -77,7 +77,7 @@ extensive_lumber_works = {
 
 deep_sand_pit = {
 	is_foreign = no
-	max_levels = basic_industry_building_cap
+	max_levels = rural_building_cap
 	pop_type = laborers
 	obsolete = sand_pit
 	category = rgo_building_category
@@ -98,7 +98,7 @@ deep_sand_pit = {
 
 deep_clay_pit = {
 	is_foreign = no
-	max_levels = basic_industry_building_cap
+	max_levels = rural_building_cap
 	pop_type = laborers
 	obsolete = clay_pit
 	category = rgo_building_category

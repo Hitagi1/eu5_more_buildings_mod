@@ -20,3 +20,8 @@
   setting_colonial_buildings_enabled_true_desc: "Colonial buildings are enabled. New buildings for colonial expansion are available."
   setting_colonial_buildings_enabled_false: "Colonial Buildings Disabled"
   setting_colonial_buildings_enabled_false_desc: "Colonial buildings are disabled. No new buildings for colonial expansion are available."
+  rule_building_upgrades_enabled: "Enable Building Upgrades"
+  setting_building_upgrades_enabled_true: "Building Upgrades Enabled"
+  setting_building_upgrades_enabled_true_desc: "Building upgrades are enabled. Advanced versions of existing buildings can be unlocked and constructed."
+  setting_building_upgrades_enabled_false: "Building Upgrades Disabled"
+  setting_building_upgrades_enabled_false_desc: "Building upgrades are disabled. Only basic building versions are available."

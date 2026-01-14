@@ -92,5 +92,6 @@ urban_buildings_cap = {
 	}
 }
 
+basic_industry_building_build_time = 180
 rice_paddy_employment_size = 1.25
 rural_raw_goods_production_employment_size = 0.75

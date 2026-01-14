@@ -5,6 +5,8 @@
   BUILDING_LEVEL_HAS_IRRIGATION: "Has Irrigation Source"
   BUILDING_LEVEL_NO_OF_FARMING_BUILDINGS: "Number of Farming Buildings"
   advanced_construction_needs: "Advanced Construction Needs"
+  advanced_general_construction: "Advanced General Construction Needs"
+  advanced_masonry_construction_needs: "Advanced Masonry Construction Needs"
 
   farming_building_category: "Agricultural Buildings"
   farming_building_category_desc: "These buildings are dedicated to growing crops and raising livestock, helping to sustain the population and provide raw materials for trade and industry."
@@ -58,6 +60,18 @@
   improved_granary: "Improved Granary"
   improved_granary_desc: "A granary with enhanced storage features to better preserve grain and reduce spoilage."
   improved_grain_storage: "Enhanced Grain Storage"
+
+  extensive_lumber_works: "Extensive Lumber Works"
+  extensive_lumber_works_desc: "An advanced lumber mill facility that uses improved cutting and processing techniques to maximize timber production from local forests."
+  extensive_lumber_production: "Extensive Lumber Production"
+
+  deep_sand_pit: "Deep Sand Pit"
+  deep_sand_pit_desc: "An advanced sand extraction facility that digs deeper into sand deposits to access higher quality sand for construction and glass-making."
+  deep_sand_extraction: "Deep Sand digging"
+
+  deep_clay_pit: "Deep Clay Pit"
+  deep_clay_pit_desc: "An advanced clay extraction facility that mines deeper clay deposits near water sources, providing better quality clay for brick-making and ceramics."
+  deep_clay_extraction: "Deep Clay digging"
 
   hunting_camp: "Hunting Camp"
   hunting_camp_desc: "A camp where hunters gather to trap and hunt wild game, supplying meat and pelts to nearby settlements."
