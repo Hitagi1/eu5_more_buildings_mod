@@ -187,7 +187,17 @@ laterite_bloomery = {
 	town = yes
 	city = yes
 	location_potential = {
-		climate = tropical
+		OR = {
+			climate = tropical
+			AND = {
+				climate = subtropical
+				OR = {
+					topography = hills
+					topography = mountains
+					topography = plateau
+				}
+			}
+		}
 		NOT = {
 			raw_material = goods:iron
 		}

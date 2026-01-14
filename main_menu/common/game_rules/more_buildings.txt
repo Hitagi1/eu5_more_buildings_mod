@@ -37,3 +37,13 @@ food_buildings_enabled = {
 		flag = general_rule
 	}
 }
+
+building_upgrades_enabled = {
+	default = building_upgrades_enabled_true
+	building_upgrades_enabled_true = {
+		flag = general_rule
+	}
+	building_upgrades_enabled_false = {
+		flag = general_rule
+	}
+}

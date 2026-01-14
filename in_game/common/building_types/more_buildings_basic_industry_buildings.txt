@@ -10,6 +10,7 @@
 	city = yes
 	allow = {
 		has_game_rule = resource_buildings_enabled_true
+		has_game_rule = building_upgrades_enabled_true
 	}
 	possible_production_methods = {
 		improved_stone_bricks
@@ -23,10 +24,10 @@ improved_granary = {
 	is_foreign = no
 	max_levels = guild_max_level
 	pop_type = laborers
-	obsolete = granary
 	employment_size = granary_employment
 	category = infrastructure_category
 	rural_settlement = no
+	obsolete = granary
 	town = yes
 	city = yes
 	build_time = government_build_time
@@ -35,6 +36,7 @@ improved_granary = {
 	}
 	allow = {
 		has_game_rule = urban_buildings_enabled_true
+		has_game_rule = building_upgrades_enabled_true
 	}
 	construction_demand = advanced_general_construction
 	modifier = {
@@ -42,4 +44,82 @@ improved_granary = {
 		local_population_growth = 0.00005
 	}
 	ai_forbid_shutdown = yes
+}
+
+extensive_lumber_works = {
+	is_foreign = no
+	max_levels = basic_industry_building_cap
+	pop_type = laborers
+	obsolete = lumber_mill
+	category = rgo_building_category
+	employment_size = rural_peasant_produce_employment
+	rural_settlement = yes
+	town = yes
+	city = yes
+	location_potential = {
+		OR = {
+			vegetation = woods
+			vegetation = forest
+			vegetation = farmland
+			vegetation = jungle
+		}
+	}
+	allow = {
+		has_game_rule = building_upgrades_enabled_true
+		has_game_rule = resource_buildings_enabled_true
+	}
+	possible_production_methods = {
+		extensive_lumber_production
+	}
+	build_time = basic_industry_building_build_time
+	construction_demand = advanced_general_construction
+}
+
+deep_sand_pit = {
+	is_foreign = no
+	max_levels = basic_industry_building_cap
+	pop_type = laborers
+	obsolete = sand_pit
+	category = rgo_building_category
+	employment_size = rural_peasant_produce_employment
+	rural_settlement = yes
+	town = yes
+	city = yes
+	allow = {
+		has_game_rule = building_upgrades_enabled_true
+		has_game_rule = resource_buildings_enabled_true
+	}
+	possible_production_methods = {
+		deep_sand_extraction
+	}
+	build_time = basic_industry_building_build_time
+	construction_demand = advanced_general_construction
+}
+
+deep_clay_pit = {
+	is_foreign = no
+	max_levels = basic_industry_building_cap
+	pop_type = laborers
+	obsolete = clay_pit
+	category = rgo_building_category
+	employment_size = rural_peasant_produce_employment
+	rural_settlement = yes
+	town = yes
+	city = yes
+	location_potential = {
+		OR = {
+			is_coastal = yes
+			has_river = yes
+			is_adjacent_to_lake = yes
+		}
+	}
+	allow = {
+		has_game_rule = building_upgrades_enabled_true
+		has_game_rule = resource_buildings_enabled_true
+	}
+	possible_production_methods = {
+		deep_clay_extraction
+	}
+	build_time = basic_industry_building_build_time
+	construction_demand = advanced_general_construction
 }

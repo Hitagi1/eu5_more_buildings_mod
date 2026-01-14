@@ -133,6 +133,42 @@ improved_granary_advance = {
 	requires = improved_masonry_advance
 }
 
+extensive_lumber_works_advance = {
+	age = age_4_reformation
+	potential = {
+		hidden_trigger = {
+			has_game_rule = resource_buildings_enabled_true
+			has_game_rule = building_upgrades_enabled_true
+		}
+	}
+	unlock_building = extensive_lumber_works
+	requires = lumber_improvements_reformation
+}
+
+deep_sand_extraction_advance = {
+	age = age_4_reformation
+	potential = {
+		hidden_trigger = {
+			has_game_rule = resource_buildings_enabled_true
+			has_game_rule = building_upgrades_enabled_true
+		}
+	}
+	unlock_building = deep_sand_pit
+	requires = improved_masonry_advance
+}
+
+deep_clay_extraction_advance = {
+	age = age_4_reformation
+	potential = {
+		hidden_trigger = {
+			has_game_rule = resource_buildings_enabled_true
+			has_game_rule = building_upgrades_enabled_true
+		}
+	}
+	unlock_building = deep_clay_pit
+	requires = improved_masonry_advance
+}
+
 beekeepers_hut_advance = {
 	age = age_1_traditions
 	potential = {
