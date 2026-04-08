@@ -1,8 +1,8 @@
 ﻿{
 	"name": "More Buildings",
 	"id": "hitagi.more_buildings",
-	"version": "1.0.8",
-	"supported_game_version": "1.0.*",
+	"version": "1.0.9",
+	"supported_game_version": "1.1.*",
 	"short_description": "adds more buildings",
 	"tags": [
 		"Balance",

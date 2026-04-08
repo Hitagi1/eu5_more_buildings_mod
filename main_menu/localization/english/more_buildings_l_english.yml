@@ -177,3 +177,7 @@
   chili_farm: "Chili Farm"
   chili_farm_desc: "A farm where chili peppers are grown, providing spicy ingredients for cooking and trade."
   chili_farm_maintenance: "Chili Cultivation"
+
+  tea_plantation: "Tea Plantation"
+  tea_plantation_desc: "A plantation where tea plants are cultivated, producing leaves for brewing and trade."
+  tea_plantation_maintenance: "Tea Cultivation"

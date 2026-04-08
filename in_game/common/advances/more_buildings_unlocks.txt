@@ -122,16 +122,16 @@ improved_masonry_advance = {
 	requires = foreign_mining_techniques
 }
 
-improved_granary_advance = {
-	age = age_4_reformation
-	potential = {
-		hidden_trigger = {
-			has_game_rule = urban_buildings_enabled_true
-		}
-	}
-	unlock_building = improved_granary
-	requires = improved_masonry_advance
-}
+# improved_granary_advance = {
+# 	age = age_4_reformation
+# 	potential = {
+# 		hidden_trigger = {
+# 			has_game_rule = urban_buildings_enabled_true
+# 		}
+# 	}
+# 	unlock_building = improved_granary
+# 	requires = improved_masonry_advance
+# }
 
 extensive_lumber_works_advance = {
 	age = age_4_reformation

@@ -56,3 +56,9 @@
 # - arid
 # - subtropical
 # - tropical
+# Topography types:
+# - flatland
+# - wetlands
+# - hills
+# - plateau
+# - mountains

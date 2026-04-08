@@ -302,3 +302,31 @@ chili_farm = {
 	build_time = rural_build_time
 	construction_demand = farm_constructions
 }
+
+tea_plantation = {
+	is_foreign = no
+	max_levels = rural_farming_cap
+	pop_type = laborers
+	employment_size = rural_peasant_produce_employment
+	rural_settlement = yes
+	town = yes
+	city = yes
+	allow = {
+		has_game_rule = resource_buildings_enabled_true
+	}
+	location_potential = {
+		mb_tea_trigger = yes
+		market_has_good = {
+			good = goods:tea
+		}
+	}
+	country_potential = {
+		old_world_crops_building_trigger = yes
+	}
+	category = farming_building_category
+	possible_production_methods = {
+		tea_plantation_maintenance
+	}
+	build_time = rural_build_time
+	construction_demand = farm_constructions
+}

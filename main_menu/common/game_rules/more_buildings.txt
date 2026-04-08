@@ -1,5 +1,6 @@
 ﻿resource_buildings_enabled = {
 	default = resource_buildings_enabled_true
+	#
 	resource_buildings_enabled_true = {
 		flag = general_rule
 	}
@@ -10,6 +11,7 @@
 
 urban_buildings_enabled = {
 	default = urban_buildings_enabled_true
+	#
 	urban_buildings_enabled_true = {
 		flag = general_rule
 	}
@@ -20,6 +22,7 @@ urban_buildings_enabled = {
 
 colonial_buildings_enabled = {
 	default = colonial_buildings_enabled_false
+	#
 	colonial_buildings_enabled_true = {
 		flag = general_rule
 	}
@@ -30,6 +33,7 @@ colonial_buildings_enabled = {
 
 food_buildings_enabled = {
 	default = food_buildings_enabled_true
+	#
 	food_buildings_enabled_true = {
 		flag = general_rule
 	}
@@ -40,6 +44,7 @@ food_buildings_enabled = {
 
 building_upgrades_enabled = {
 	default = building_upgrades_enabled_true
+	#
 	building_upgrades_enabled_true = {
 		flag = general_rule
 	}

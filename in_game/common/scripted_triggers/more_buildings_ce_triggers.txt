@@ -461,3 +461,26 @@ mb_cloves_trigger = {
 	}
 	climate = tropical
 }
+
+mb_tea_trigger = {
+	NOT = {
+		raw_material ?= goods:tea
+	}
+	OR = {
+		vegetation = jungle
+		vegetation = woods
+		vegetation = forest
+		vegetation = grasslands
+		vegetation = farmland
+	}
+	OR = {
+		topography = plateau
+		topography = hills
+		topography = mountains
+		topography = wetlands
+	}
+	OR = {
+		climate = tropical
+		climate = subtropical
+	}
+}
