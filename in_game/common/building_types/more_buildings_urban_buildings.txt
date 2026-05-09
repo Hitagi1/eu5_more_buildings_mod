@@ -7,6 +7,7 @@
 	rural_settlement = no
 	town = yes
 	city = yes
+	megalopolis = yes
 	allow = {
 		has_game_rule = urban_buildings_enabled_true
 	}
@@ -33,6 +34,7 @@ urban_infrastucture_expansion = {
 	rural_settlement = no
 	town = yes
 	city = yes
+	megalopolis = yes
 	allow = {
 		has_game_rule = urban_buildings_enabled_true
 	}
@@ -58,6 +60,7 @@ urban_sewage_system = {
 	rural_settlement = no
 	town = yes
 	city = yes
+	megalopolis = yes
 	allow = {
 		has_game_rule = urban_buildings_enabled_true
 	}

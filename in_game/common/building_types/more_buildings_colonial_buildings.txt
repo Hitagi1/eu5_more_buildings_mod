@@ -38,6 +38,7 @@ slave_auction_house = {
 	rural_settlement = yes
 	town = yes
 	city = yes
+	megalopolis = yes
 	allow = {
 		has_game_rule = colonial_buildings_enabled_true
 	}
@@ -66,6 +67,7 @@ REPLACE:slave_center = {
 	rural_settlement = yes
 	town = yes
 	city = yes
+	megalopolis = yes
 	location_potential = {
 		NOT = {
 			dominant_religion.group = scope:actor.religion.group

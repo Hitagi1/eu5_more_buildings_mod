@@ -6,6 +6,7 @@
 	rural_settlement = yes
 	town = yes
 	city = yes
+	megalopolis = yes
 	allow = {
 		has_game_rule = resource_buildings_enabled_true
 	}
@@ -34,6 +35,7 @@ cocoa_plantation = {
 	rural_settlement = yes
 	town = yes
 	city = yes
+	megalopolis = yes
 	allow = {
 		has_game_rule = resource_buildings_enabled_true
 	}
@@ -62,6 +64,7 @@ cotton_estate = {
 	rural_settlement = yes
 	town = yes
 	city = yes
+	megalopolis = yes
 	allow = {
 		has_game_rule = resource_buildings_enabled_true
 	}
@@ -87,6 +90,7 @@ coffee_plantation = {
 	rural_settlement = yes
 	town = yes
 	city = yes
+	megalopolis = yes
 	allow = {
 		has_game_rule = resource_buildings_enabled_true
 	}
@@ -115,6 +119,7 @@ sugar_mill = {
 	rural_settlement = yes
 	town = yes
 	city = yes
+	megalopolis = yes
 	allow = {
 		has_game_rule = resource_buildings_enabled_true
 	}
@@ -143,6 +148,7 @@ vineyard = {
 	rural_settlement = yes
 	town = yes
 	city = yes
+	megalopolis = yes
 	allow = {
 		has_game_rule = resource_buildings_enabled_true
 	}
@@ -171,6 +177,7 @@ olive_grove = {
 	rural_settlement = yes
 	town = yes
 	city = yes
+	megalopolis = yes
 	allow = {
 		has_game_rule = resource_buildings_enabled_true
 	}
@@ -199,6 +206,7 @@ saffron_farm = {
 	rural_settlement = yes
 	town = yes
 	city = yes
+	megalopolis = yes
 	allow = {
 		has_game_rule = resource_buildings_enabled_true
 	}
@@ -227,6 +235,7 @@ pepper_plantation = {
 	rural_settlement = yes
 	town = yes
 	city = yes
+	megalopolis = yes
 	allow = {
 		has_game_rule = resource_buildings_enabled_true
 	}
@@ -255,6 +264,7 @@ clove_plantation = {
 	rural_settlement = yes
 	town = yes
 	city = yes
+	megalopolis = yes
 	allow = {
 		has_game_rule = resource_buildings_enabled_true
 	}
@@ -283,6 +293,7 @@ chili_farm = {
 	rural_settlement = yes
 	town = yes
 	city = yes
+	megalopolis = yes
 	allow = {
 		has_game_rule = resource_buildings_enabled_true
 	}
@@ -311,6 +322,7 @@ tea_plantation = {
 	rural_settlement = yes
 	town = yes
 	city = yes
+	megalopolis = yes
 	allow = {
 		has_game_rule = resource_buildings_enabled_true
 	}

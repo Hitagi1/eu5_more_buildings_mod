@@ -76,6 +76,7 @@
   hunting_camp: "Hunting Camp"
   hunting_camp_desc: "A camp where hunters gather to trap and hunt wild game, supplying meat and pelts to nearby settlements."
   hunting_camp_maintenance: "Hunting Supplies"
+  hunting_camp_pelters: "Pelters"
 
   urban_housing_expansion: "Urban Housing"
   urban_housing_expansion_desc: "An expansion of urban housing designed to accommodate a growing population and reduce overcrowding."

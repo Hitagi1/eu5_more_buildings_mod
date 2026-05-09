@@ -8,6 +8,7 @@
 	rural_settlement = yes
 	town = yes
 	city = yes
+	megalopolis = yes
 	allow = {
 		has_game_rule = resource_buildings_enabled_true
 		has_game_rule = building_upgrades_enabled_true
@@ -20,31 +21,6 @@
 	construction_demand = advanced_masonry_construction_needs
 }
 
-# improved_granary = {
-# 	is_foreign = no
-# 	max_levels = guild_max_level
-# 	pop_type = laborers
-# 	employment_size = granary_employment
-# 	category = infrastructure_category
-# 	rural_settlement = no
-# 	obsolete = granary
-# 	town = yes
-# 	city = yes
-# 	build_time = government_build_time
-# 	possible_production_methods = {
-# 		improved_grain_storage
-# 	}
-# 	allow = {
-# 		has_game_rule = urban_buildings_enabled_true
-# 		has_game_rule = building_upgrades_enabled_true
-# 	}
-# 	construction_demand = advanced_general_construction
-# 	modifier = {
-# 		local_food_capacity = 500
-# 		local_population_growth = 0.00005
-# 	}
-# 	ai_forbid_shutdown = yes
-# }
 extensive_lumber_works = {
 	is_foreign = no
 	max_levels = rural_building_cap
@@ -55,6 +31,7 @@ extensive_lumber_works = {
 	rural_settlement = yes
 	town = yes
 	city = yes
+	megalopolis = yes
 	location_potential = {
 		OR = {
 			vegetation = woods
@@ -84,6 +61,7 @@ deep_sand_pit = {
 	rural_settlement = yes
 	town = yes
 	city = yes
+	megalopolis = yes
 	allow = {
 		has_game_rule = building_upgrades_enabled_true
 		has_game_rule = resource_buildings_enabled_true
@@ -105,6 +83,7 @@ deep_clay_pit = {
 	rural_settlement = yes
 	town = yes
 	city = yes
+	megalopolis = yes
 	location_potential = {
 		OR = {
 			is_coastal = yes

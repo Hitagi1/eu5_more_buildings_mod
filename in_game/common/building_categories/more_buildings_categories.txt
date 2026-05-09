@@ -1,10 +1,10 @@
 ﻿rgo_building_category = {
 }
 
-farming_building_category = {
+basic_industry_category = {
 }
 
-basic_industry_category = {
+farming_building_category = {
 }
 
 weapons_industry_category = {

@@ -4,6 +4,7 @@
 	lumber = 0.3
 	tools = 0.05
 	category = building_maintenance
+	debug_max_profit = 0.33
 }
 
 hydrothermal_copper_mine_maintenance = {
@@ -13,6 +14,7 @@ hydrothermal_copper_mine_maintenance = {
 	tools = 0.1
 	coal = 0.2
 	category = building_maintenance
+	debug_max_profit = 0.33
 }
 
 hydrothermal_copper_shaft_mine_maintenance = {
@@ -23,7 +25,7 @@ hydrothermal_copper_shaft_mine_maintenance = {
 	tools = 0.25
 	coal = 0.3
 	category = building_maintenance
-	debug_max_profit = 1
+	debug_max_profit = 0.7
 }
 
 galenite_extraction_maintenance = {
